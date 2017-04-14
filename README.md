@@ -1,5 +1,6 @@
 # CONCEPTtaggingWFST
-Evaluation of the use of WFST method with Marcov model for tagging words that compose a sentence.
+Develop Spoken Language Understanding (SLU) Module for Movie Domain using NL-SPARQL Data Set
+using  WFST method with Marcov model for tagging words (and possible movie name) that compose a sentence.
 # Installation
 ## Requirement
 * gawk - GNU awk, a pattern scanning and processing language
