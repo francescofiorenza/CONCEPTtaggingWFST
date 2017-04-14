@@ -84,9 +84,9 @@ P1v1.1/script /...
 ------------/test
 
 #### Examples:
-cd /P1/Pv1.1/scripts
-./runTrain.sh
+`cd /P1/Pv1.1/scripts`
+`./runTrain.sh`
 
-./runTest.sh 
+`./runTest.sh`
 
-perl conlleval.pl -d '\t' < ../output/out.txt > ../output/accuracy.txt
+`perl conlleval.pl -d '\t' < ../output/out.txt > ../output/accuracy.txt`
