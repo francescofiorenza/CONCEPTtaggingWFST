@@ -70,7 +70,8 @@ in terminal go into testOPENFST directory and execute the following:
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
 ## TODO
-Order the file in folder as
+Order the file in folder as:
+
 P1v1.1/script /...
 
 --------------/-trainCONCEPT
