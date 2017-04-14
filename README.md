@@ -3,10 +3,11 @@ Develop Spoken Language Understanding (SLU) Module for Movie Domain using NL-SPA
 using  WFST method with Marcov model for tagging words (and possible movie name) that compose a sentence.
 # Installation
 ## Requirement
-* gawk - GNU awk, a pattern scanning and processing language
-* sed - The GNU sed stream editor
-* xdot - interactive viewer for Graphviz dot files
-* perl - Larry Wall's Practical Extraction and Report Language
+* **gnuplot** - Command-line driven interactive plotting program
+* **gawk** - GNU awk, a pattern scanning and processing language
+* **sed** - The GNU sed stream editor
+* **xdot** - interactive viewer for Graphviz dot files
+* **perl** - Larry Wall's Practical Extraction and Report Language
 * conlleval.pl - A evaluation tools https://github.com/tpeng/npchunker/blob/master/conlleval.pl
 * OpenFST from http://www.openfst.org/
 * OpenGRM from http://www.opengrm.org/
@@ -73,9 +74,10 @@ in terminal go into testOPENFST directory and execute the following:
 ## Version
  (1) P1v1.0 Initial project
  (2) P1v1.1 Optimized the structure of the project
-
+ (3) P1v1.2 Add some plot for the analyse of the different Language Model
+ 
 ## TODO
-* Insert requirement **gnuplot** - Command-line driven interactive plotting program
+* Insert requirement 
 * Generate the bar plot of the accuracy with different Language Model
 * Build a new lexicon with cutoff frequency 
 
