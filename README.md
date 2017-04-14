@@ -70,6 +70,10 @@ in terminal go into testOPENFST directory and execute the following:
 ## Evaluation info
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
+## Version
+ (1) P1v1.0 Initial project
+ (2) P1v1.1 Optimized the structure of the project
+
 ## TODO
 * Insert requirement **gnuplot** - Command-line driven interactive plotting program
 * Generate the bar plot of the accuracy with different Language Model
