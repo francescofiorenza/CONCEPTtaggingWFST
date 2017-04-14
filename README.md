@@ -70,30 +70,9 @@ in terminal go into testOPENFST directory and execute the following:
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
 ## TODO
-Order the file in folder as:
-
-P1v1.1/script /...
-
---------------/-trainCONCEPT
-
---------------/-testCONCEPT
-
---------------/-trainPOS
-
---------------/-testPOS
-
-------/output/...
-
--------------/temp/...
-
--------------------/test/...
-
-------/data/...
-
-------------/training
-
-------------/test
-
+* Insert requirement **gnuplot** - Command-line driven interactive plotting program
+* Generate the bar plot of the accuracy with different Language Model
+* Build a new lexicon with cutoff frequency 
 
 #### Examples:
 `cd /P1/Pv1.1/scripts`
