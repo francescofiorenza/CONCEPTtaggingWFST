@@ -1,0 +1,6604 @@
+0	1	star	O	7.31035042
+1	2	of	O	3.47148705
+2	3	thor	B-movie.name	9.43759155
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	in	O	3.80506921
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	the	B-movie.name	4.20114899
+6	7	campaign	I-movie.name	4.22798014
+7	0.858570755
+0	1	list	O	4.36591148
+1	2	the	O	2.84829855
+2	3	cast	O	6.14446831
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	the	B-movie.name	4.20114899
+7	8	campaign	I-movie.name	4.22798014
+8	0.858570755
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	in	O	3.80506921
+3	4	twilight	B-movie.name	7.03969574
+4	1.55078459
+0	1	actor	O	5.79622269
+1	2	from	O	5.10634184
+2	3	lost	B-movie.name	9.43759155
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	played	O	6.03258276
+2	3	in	O	3.80506921
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	rocky	B-movie.name	7.82815313
+6	1.55078459
+0	1	who	O	3.99781895
+1	2	played	O	6.03258276
+2	3	in	O	3.80506921
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	captain	B-movie.name	8.05129623
+6	7	america	I-movie.name	6.22946024
+7	0.858570755
+0	1	cast	O	5.83704472
+1	2	and	O	5.82964182
+2	3	crew	O	6.61447191
+3	4	for	O	3.87794209
+4	5	in	B-movie.name	5.52556801
+5	6	july	I-movie.name	4.10122824
+6	0.858570755
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	in	O	3.80506921
+3	4	movie	O	3.6823895
+4	5	in	B-movie.name	5.52556801
+5	6	july	I-movie.name	4.10122824
+6	0.858570755
+0	1	who	O	3.99781895
+1	2	's	O	5.40397406
+2	3	in	O	3.80506921
+3	4	star	B-movie.name	5.41223907
+4	5	wars	I-movie.name	3.81354642
+5	6	episode	I-movie.name	6.65181637
+6	7	four	I-movie.name	4.98210001
+7	1.04722989
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	in	O	3.80506921
+3	4	apollo	B-movie.name	6.54721928
+4	5	thirteen	I-movie.name	4.89445877
+5	0.858570755
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	apollo	B-movie.name	6.54721928
+3	4	thirteen	I-movie.name	4.89445877
+4	5	's	I-movie.name	5.95866966
+5	6	cast	O	7.69337654
+6	0.694736838
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	the	O	3.14250541
+5	6	cast	O	6.14446831
+6	7	and	O	6.12384892
+7	8	crew	O	6.61447191
+8	9	of	O	3.7656939
+9	10	appolo	B-movie.name	9.43759155
+10	11	thirteen	I-movie.name	4.89445877
+11	0.858570755
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	more	O	6.6483736
+6	7	about	O	4.6829505
+7	8	the	O	3.14250541
+8	9	cast	O	6.14446831
+9	10	and	O	6.12384892
+10	11	crew	O	6.61447191
+11	12	of	O	3.7656939
+12	13	the	O	3.14250541
+13	14	movie	O	3.6823895
+14	15	apollo	B-movie.name	6.54721928
+15	16	thirteen	I-movie.name	4.89445877
+16	0.858570755
+0	1	who	O	3.99781895
+1	2	starred	O	6.32026482
+2	3	in	O	3.80506921
+3	4	the	B-movie.name	4.20114899
+4	5	avengers	I-movie.name	5.00568438
+5	0.858570755
+0	1	cast	O	5.83704472
+1	2	for	O	3.58373523
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	dirty	B-movie.name	7.15878582
+1	2	dancing	I-movie.name	4.09244442
+2	3	actors	O	7.81955099
+3	0.694736838
+0	1	who	O	3.99781895
+1	2	are	O	4.66521645
+2	3	cast	O	6.14446831
+3	4	and	O	6.12384892
+4	5	crew	O	6.61447191
+5	6	of	O	3.7656939
+6	7	dirty	B-movie.name	5.58744335
+7	8	dancing	I-movie.name	4.03223562
+8	0.858570755
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	in	O	3.80506921
+3	4	hitch	B-movie.name	5.77402973
+4	1.55078459
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	in	O	3.80506921
+3	4	the	O	3.14250541
+4	5	cast	O	6.14446831
+5	6	of	O	3.7656939
+6	7	hitch	B-movie.name	5.77402973
+7	1.55078459
+0	1	star	B-movie.name	6.98358154
+1	2	of	I-movie.name	3.45645595
+2	3	facts	I-movie.name	8.44357586
+3	4	of	I-movie.name	3.71750236
+4	5	life	I-movie.name	6.55071592
+5	1.04722989
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movie	O	3.6823895
+3	4	credits	O	8.40623188
+4	2.70263886
+0	1	who	O	3.99781895
+1	2	does	O	6.16611433
+2	3	the	O	3.14250541
+3	4	voices	O	10.0156698
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	2.70263886
+0	1	find	O	3.96524286
+1	2	movie	O	3.38818264
+2	3	actors	O	6.54993343
+3	2.70263886
+0	1	show	O	3.50773692
+1	2	credits	O	8.11202431
+2	3	-	O	10.0156698
+3	4	forager	B-movie.name	8.33897877
+4	1.55078459
+0	1	star	O	7.31035042
+1	2	of	O	3.47148705
+2	3	modern	B-movie.name	9.43759155
+3	4	family	I-movie.name	7.83889771
+4	0.858570755
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	the	O	3.14250541
+5	6	cast	O	6.14446831
+6	7	crew	O	6.61447191
+7	8	of	O	3.7656939
+8	9	go	B-movie.name	7.82815313
+9	1.55078459
+0	1	find	O	3.96524286
+1	2	information	O	5.03011465
+2	3	about	O	4.6829505
+3	4	the	O	3.14250541
+4	5	cast	O	6.14446831
+5	6	and	O	6.12384892
+6	7	crew	O	6.61447191
+7	8	of	O	3.7656939
+8	9	go	B-movie.name	7.82815313
+9	1.55078459
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	in	O	3.80506921
+3	4	the	O	3.14250541
+4	5	cast	O	6.14446831
+5	6	of	O	3.7656939
+6	7	go	B-movie.name	7.82815313
+7	1.55078459
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	find	O	4.27266598
+3	4	the	O	3.14250541
+4	5	lead	O	7.45071983
+5	6	actor	O	6.10364628
+6	7	in	O	3.80506921
+7	8	pretty	B-movie.name	7.13500595
+8	9	women	I-movie.name	5.75945616
+9	0.858570755
+0	1	budget	O	5.35153675
+1	2	for	O	3.58373523
+2	3	dark	B-movie.name	8.05129623
+3	4	knight	I-movie.name	5.27394867
+4	0.858570755
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	the	B-movie.name	4.20114899
+6	7	godfather	I-movie.name	5.19984055
+7	0.858570755
+0	1	budget	O	5.35153675
+1	2	for	O	3.58373523
+2	3	twilight	B-movie.name	7.03969574
+3	1.55078459
+0	1	please	O	5.47413921
+1	2	look	O	5.40397406
+2	3	up	O	6.27799988
+3	4	the	O	3.14250541
+4	5	budget	O	5.65896034
+5	6	of	O	3.7656939
+6	7	step	B-movie.name	6.72954082
+7	8	up	I-movie.name	5.13084793
+8	0.858570755
+0	1	budget	O	5.35153675
+1	2	for	O	3.58373523
+2	3	titanic	B-movie.name	6.34654856
+3	4	the	I-movie.name	2.7954731
+4	5	movie	O	4.95200729
+5	0.694736838
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	titanic	B-movie.name	6.34654856
+8	1.55078459
+0	1	budget	O	5.35153675
+1	2	for	O	3.58373523
+2	3	iron	B-movie.name	7.35814953
+3	4	man	I-movie.name	5.13084793
+4	5	2	I-movie.name	6.24635124
+5	1.04722989
+0	1	please	O	5.47413921
+1	2	tell	O	5.82964182
+2	3	me	O	3.73527336
+3	4	how	O	4.99178886
+4	5	much	O	5.64622164
+5	6	was	O	4.59513426
+6	7	the	O	3.14250541
+7	8	budget	O	5.65896034
+8	9	for	O	3.87794209
+9	10	avatar	B-movie.name	5.23289871
+10	1.55078459
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	money	O	6.88017511
+3	4	did	O	4.92807293
+4	5	they	O	7.81844473
+5	6	spend	O	8.91705704
+6	7	to	O	4.49021626
+7	8	make	O	6.12384892
+8	9	avatar	B-movie.name	5.23289871
+9	1.55078459
+0	1	avatar	B-movie.name	6.80424023
+1	2	's	I-movie.name	5.41420078
+2	3	budget	O	6.9285779
+3	0.694736838
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	avatar	B-movie.name	5.23289871
+4	5	take	O	9.80085278
+5	6	in	O	4.21852064
+6	2.70263886
+0	1	please	O	5.47413921
+1	2	show	O	3.52095318
+2	3	me	O	3.73527336
+3	4	what	O	3.71671987
+4	5	the	O	3.14250541
+5	6	budget	O	5.65896034
+6	7	was	O	4.59513426
+7	8	for	O	3.87794209
+8	9	avatar	B-movie.name	5.23289871
+9	1.55078459
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	avatar	B-movie.name	5.23289871
+7	8	movie	O	5.66479778
+8	0.777909577
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	tell	O	6.12384892
+3	4	me	O	3.73527336
+4	5	the	O	3.14250541
+5	6	budget	O	5.65896034
+6	7	of	O	3.7656939
+7	8	the	O	3.14250541
+8	9	movie	O	3.6823895
+9	10	avatar	B-movie.name	5.23289871
+10	1.55078459
+0	1	total	O	7.91648626
+1	2	budget	O	5.36475325
+2	3	for	O	3.87794209
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	avatar	B-movie.name	5.23289871
+6	1.55078459
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	batman	B-movie.name	7.13500595
+6	7	begins	I-movie.name	7.14575052
+7	0.858570755
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	the	B-movie.name	4.20114899
+6	7	avengers	I-movie.name	5.00568438
+7	0.858570755
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	gone	B-movie.name	6.34654856
+6	7	with	I-movie.name	4.54306126
+7	8	the	I-movie.name	3.40015078
+8	9	wind	I-movie.name	5.06911135
+9	1.04722989
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	spent	O	10.0156698
+3	4	on	O	5.52703285
+4	5	my	B-movie.name	7.4916811
+5	6	big	I-movie.name	6.45260334
+6	7	fat	I-movie.name	7.05728149
+7	8	greek	I-movie.name	6.77385902
+8	9	wedding	I-movie.name	6.77385902
+9	1.04722989
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	pretty	B-movie.name	7.13500595
+3	4	woman	I-movie.name	6.74028587
+4	5	's	I-movie.name	5.95866966
+5	6	budget	O	7.20786858
+6	0.694736838
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	spaceballs	B-movie.name	9.43759155
+6	1.55078459
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	movies	O	2.98924232
+3	4	has	O	5.65896034
+4	5	kevin	B-actor.name	8.26341629
+5	6	bacon	I-actor.name	4.7133708
+6	7	been	O	6.83530807
+7	8	the	O	3.30230093
+8	9	lead	O	7.45071983
+9	10	actor	O	6.10364628
+10	11	in	O	3.80506921
+11	2.70263886
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	5	movies	O	4.25886011
+5	6	are	O	5.39773989
+6	7	there	O	6.83761549
+7	2.70263886
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	movies	O	2.98924232
+3	4	are	O	4.95942354
+4	5	rated	O	5.42054939
+5	6	g	B-rating.name	5.71439552
+6	1.15894651
+0	1	spain	B-country.name	8.84525776
+1	2	has	O	5.43207884
+2	3	how	O	5.78847122
+3	4	many	O	6.30209732
+4	5	movies	O	2.98924232
+5	2.70263886
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	movies	O	2.98924232
+3	4	has	O	5.65896034
+4	5	kristen	B-actor.name	7.45248604
+5	6	stewart	I-actor.name	3.10393333
+6	7	starred	O	6.65298653
+7	8	in	O	3.96486473
+8	2.70263886
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	movies	O	2.98924232
+3	4	has	O	5.65896034
+4	5	robert	B-director.name	6.78598118
+5	6	wise	I-director.name	2.76933098
+6	7	directed	O	5.16359377
+7	0.588822782
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	movies	O	2.98924232
+3	4	did	O	4.92807293
+4	5	alfred	B-director.name	6.91951275
+5	6	hitchcock	I-director.name	2.83832383
+6	7	direct	O	6.99765539
+7	0.588822782
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	movies	O	2.98924232
+3	4	has	O	5.65896034
+4	5	paramount	B-producer.name	6.76996517
+5	6	done	O	8.86356354
+6	0.565836787
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	the	O	3.14250541
+6	7	name	O	6.02668524
+7	8	of	O	3.7656939
+8	9	the	O	3.14250541
+9	10	country	O	6.20900679
+10	11	from	O	5.40054893
+11	12	where	O	6.23147964
+12	13	the	O	3.14250541
+13	14	movie	O	3.6823895
+14	15	kati	B-movie.name	8.05129623
+15	16	patang	I-movie.name	6.45260334
+16	17	comes	O	9.89899254
+17	0.694736838
+0	1	what	O	3.40929675
+1	2	country	O	5.91479969
+2	3	is	O	4.35618687
+3	4	bullhead	B-movie.name	9.43759155
+4	1.55078459
+0	1	what	O	3.40929675
+1	2	country	O	5.91479969
+2	3	made	O	5.38094044
+3	4	black	B-movie.name	6.00360394
+4	5	swan	I-movie.name	4.50669336
+5	0.858570755
+0	1	what	O	3.40929675
+1	2	country	O	5.91479969
+2	3	was	O	4.59513426
+3	4	black	B-movie.name	6.00360394
+4	5	swan	I-movie.name	4.50669336
+5	6	from	O	6.67016649
+6	0.694736838
+0	1	what	O	3.40929675
+1	2	country	O	5.91479969
+2	3	was	O	4.59513426
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	made	O	5.38094044
+6	2.70263886
+0	1	origin	O	8.32195187
+1	2	of	O	3.47148705
+2	3	titanic	B-movie.name	6.34654856
+3	1.55078459
+0	1	when	O	5.14389753
+1	2	will	O	6.22495461
+2	3	top	B-movie.name	7.24036646
+3	4	gun	I-movie.name	5.64167356
+4	5	be	I-movie.name	8.44357586
+5	6	released	O	7.00022936
+6	0.694736838
+0	1	release	O	5.81642532
+1	2	year	O	7.013412
+2	3	and	O	6.12384892
+3	4	date	O	6.00833607
+4	5	for	O	3.87794209
+5	6	casino	B-movie.name	9.43759155
+6	1.55078459
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	when	O	5.45132113
+3	4	24	B-movie.name	8.05129623
+4	5	will	O	8.50156975
+5	6	be	O	6.96338463
+6	7	released	O	5.45132113
+7	2.70263886
+0	1	can	O	4.93756104
+1	2	i	O	4.0481391
+2	3	have	O	5.90479565
+3	4	release	O	6.12384892
+4	5	date	O	6.00833607
+5	6	of	O	3.7656939
+6	7	movie	O	3.6823895
+7	2.70263886
+0	1	movie	O	3.37496638
+1	2	's	O	5.40397406
+2	3	release	O	6.12384892
+3	4	date	O	6.00833607
+4	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	when	O	5.45132113
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	was	O	4.59513426
+6	7	made	O	5.38094044
+7	2.70263886
+0	1	when	O	5.14389753
+1	2	the	O	2.84829855
+2	3	movie	O	3.6823895
+3	4	titanic	B-movie.name	6.34654856
+4	5	was	O	6.5775423
+5	6	released	O	5.86477232
+6	2.70263886
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	please	O	5.78156281
+3	4	search	O	5.30613899
+4	5	for	O	3.87794209
+5	6	release	O	6.12384892
+6	7	date	O	6.00833607
+7	8	for	O	3.87794209
+8	9	karate	B-movie.name	8.33897877
+9	10	kid	I-movie.name	6.74028587
+10	0.858570755
+0	1	karate	B-movie.name	9.91032028
+1	2	kid	I-movie.name	6.80049515
+2	3	release	O	7.39346647
+3	4	date	O	6.44665241
+4	5	please	O	5.78156281
+5	2.70263886
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	dirty	B-movie.name	5.58744335
+3	4	dancing	I-movie.name	4.03223562
+4	5	released	O	6.72093868
+5	0.694736838
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	spaceballs	B-movie.name	9.43759155
+3	4	released	O	7.43372917
+4	0.777909577
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	batman	B-movie.name	7.13500595
+3	4	released	O	7.43372917
+4	0.777909577
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	pretty	B-movie.name	7.13500595
+3	4	woman	I-movie.name	6.74028587
+4	5	released	O	6.72093868
+5	0.694736838
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	men	B-movie.name	7.64583158
+3	4	in	I-movie.name	4.40491056
+4	5	black	I-movie.name	6.65181637
+5	6	released	O	7.00022936
+6	0.694736838
+0	1	when	O	5.14389753
+1	2	did	O	4.63386583
+2	3	kristen	B-actor.name	7.45248604
+3	4	stewart	I-actor.name	3.10393333
+4	5	start	O	8.95557117
+5	6	acting	O	10.1754656
+6	2.70263886
+0	1	when	O	5.14389753
+1	2	is	O	4.06198025
+2	3	possessed	B-movie.name	9.43759155
+3	4	going	O	11.3049297
+4	5	to	O	4.90366745
+5	6	be	O	6.54993343
+6	7	released	O	5.45132113
+7	2.70263886
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	resident	B-movie.name	6.79853392
+3	4	evil	I-movie.name	5.19984055
+4	5	released	O	6.72093868
+5	0.694736838
+0	1	release	O	5.81642532
+1	2	date	O	5.71412897
+2	3	for	O	3.87794209
+3	4	finding	B-movie.name	5.03087187
+4	5	nemo	I-movie.name	3.43217897
+5	0.858570755
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	5	released	O	6.72093868
+5	0.694736838
+0	1	release	O	5.81642532
+1	2	date	O	5.71412897
+2	3	of	O	3.7656939
+3	4	hum	B-movie.name	7.35814953
+4	5	tum	I-movie.name	5.75945616
+5	0.858570755
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	freedom	B-movie.name	7.35814953
+3	4	writers	I-movie.name	5.75945616
+4	5	released	O	6.72093868
+5	0.694736838
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	avatar	B-movie.name	5.23289871
+3	4	released	O	7.43372917
+4	0.777909577
+0	1	when	O	5.14389753
+1	2	did	O	4.63386583
+2	3	avatar	B-movie.name	5.23289871
+3	4	released	O	7.43372917
+4	0.777909577
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	the	O	3.14250541
+6	7	release	O	6.12384892
+7	8	date	O	6.00833607
+8	9	of	O	3.7656939
+9	10	the	O	3.14250541
+10	11	movie	O	3.6823895
+11	12	avatar	B-movie.name	5.23289871
+12	1.55078459
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	tell	O	6.12384892
+3	4	me	O	3.73527336
+4	5	when	O	5.45132113
+5	6	was	O	4.59513426
+6	7	the	O	3.14250541
+7	8	movie	O	3.6823895
+8	9	avatar	B-movie.name	5.23289871
+9	10	released	O	7.43372917
+10	0.777909577
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	date	O	6.00833607
+3	4	night	I-movie.name	11.3766184
+4	5	released	O	7.83772993
+5	0.694736838
+0	1	when	O	5.14389753
+1	2	did	O	4.63386583
+2	3	black	B-movie.name	6.00360394
+3	4	swan	I-movie.name	4.50669336
+4	5	come	O	8.19424438
+5	6	out	O	6.66979599
+6	2.70263886
+0	1	when	O	5.14389753
+1	2	did	O	4.63386583
+2	3	avergers	I-movie.name	13.7745132
+3	4	come	O	9.31103516
+4	5	out	O	6.66979599
+5	2.70263886
+0	1	what	O	3.40929675
+1	2	date	O	5.71412897
+2	3	did	O	4.92807293
+3	4	the	O	3.14250541
+4	5	amazing	B-movie.name	8.05129623
+5	6	spiderman	I-movie.name	5.89298773
+6	7	show	O	5.08477783
+7	8	for	O	4.31625891
+8	9	the	O	3.14250541
+9	10	1st	O	9.32252216
+10	11	time	B-movie.subject	6.65151405
+11	0.840985358
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	release	O	6.12384892
+4	5	date	O	6.00833607
+5	6	of	O	3.7656939
+6	7	vulgaria	B-movie.name	7.35814953
+7	1.55078459
+0	1	when	O	5.14389753
+1	2	the	O	2.84829855
+2	3	movie	O	3.6823895
+3	4	the	B-movie.name	4.20114899
+4	5	godfather	I-movie.name	5.19984055
+5	6	was	O	5.86475182
+6	7	released	O	5.88963747
+7	2.70263886
+0	1	when	O	5.14389753
+1	2	does	O	6.16611433
+2	3	looper	B-movie.name	6.49315214
+3	4	come	O	8.90703487
+4	5	out	O	6.64493084
+5	2.70263886
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	tell	O	6.12384892
+3	4	me	O	3.73527336
+4	5	the	O	3.14250541
+5	6	release	O	6.12384892
+6	7	date	O	6.00833607
+7	8	of	O	3.7656939
+8	9	the	O	3.14250541
+9	10	movie	O	3.6823895
+10	11	barfi	B-movie.name	7.35814953
+11	1.55078459
+0	1	what	O	3.40929675
+1	2	date	O	5.71412897
+2	3	did	O	4.92807293
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	heroine	B-movie.name	6.9526844
+6	7	come	O	8.90703487
+7	8	out	O	6.64493084
+8	2.70263886
+0	1	what	O	3.40929675
+1	2	day	O	8.33516884
+2	3	is	O	4.35618687
+3	4	fun	O	9.32252216
+4	5	size	O	10.0156698
+5	6	coming	O	8.91705704
+6	7	out	O	6.23147964
+7	2.70263886
+0	1	on	O	5.21960926
+1	2	what	O	3.42251301
+2	3	date	O	6.00833607
+3	4	will	O	6.5191617
+4	5	iron	B-movie.name	7.35814953
+5	6	man	I-movie.name	5.13084793
+6	7	3	I-movie.name	6.14099121
+7	8	be	I-movie.name	8.16015339
+8	9	released	O	7.00022936
+9	0.694736838
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	gone	B-movie.name	6.34654856
+3	4	with	I-movie.name	4.54306126
+4	5	the	I-movie.name	3.40015078
+5	6	wind	I-movie.name	5.06911135
+6	1.04722989
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	for	O	3.87794209
+5	6	black	B-movie.name	6.00360394
+6	7	swan	I-movie.name	4.50669336
+7	0.858570755
+0	1	tell	O	5.81642532
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	directed	O	4.8857708
+4	5	of	O	3.7656939
+5	6	black	B-movie.name	6.00360394
+6	7	swan	I-movie.name	4.50669336
+7	0.858570755
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	sleepless	B-movie.name	8.74444389
+6	7	in	I-movie.name	4.40491056
+7	8	seattle	I-movie.name	7.7504282
+8	1.04722989
+0	1	find	O	3.96524286
+1	2	who	O	4.01103497
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	was	O	4.59513426
+5	6	in	O	3.80506921
+6	7	men	B-movie.name	7.64583158
+7	8	in	I-movie.name	4.40491056
+8	9	black	I-movie.name	6.65181637
+9	10	3	I-movie.name	5.85756874
+10	1.04722989
+0	1	locate	O	8.32195187
+1	2	the	O	2.84829855
+2	3	director	O	5.27073717
+3	4	who	O	4.30524206
+4	5	created	O	8.22390938
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	men	B-movie.name	7.64583158
+8	9	in	I-movie.name	4.40491056
+9	10	black	I-movie.name	6.65181637
+10	11	3	I-movie.name	5.85756874
+11	1.04722989
+0	1	director	O	4.96331358
+1	2	of	O	3.47148705
+2	3	titanic	B-movie.name	6.34654856
+3	1.55078459
+0	1	titanic	B-movie.name	7.91789055
+1	2	director	O	6.09514427
+2	0.777909577
+0	1	avengers	B-movie.name	9.39949512
+1	2	movie	O	4.50679684
+2	3	director	O	5.68418837
+3	2.70263886
+0	1	director	O	4.96331358
+1	2	for	O	3.58373523
+2	3	big	B-movie.name	8.74444389
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	welcome	B-movie.name	9.43759155
+6	7	to	I-movie.name	5.06630945
+7	8	the	I-movie.name	3.40015078
+8	9	dollhouse	I-movie.name	8.16015339
+9	1.04722989
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	house	B-movie.name	5.74871159
+5	6	at	I-movie.name	4.22798014
+6	7	the	I-movie.name	3.40015078
+7	8	end	I-movie.name	4.52256775
+8	9	of	I-movie.name	3.71750236
+9	10	the	I-movie.name	3.11672854
+10	11	at	I-movie.name	4.54923582
+11	12	the	I-movie.name	3.11672854
+12	13	street	I-movie.name	4.47127438
+13	1.04722989
+0	1	who	O	3.99781895
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	toy	B-movie.name	8.05129623
+8	9	story	I-movie.name	6.45260334
+9	0.858570755
+0	1	list	O	4.36591148
+1	2	director	O	4.97653008
+2	3	gilda	B-movie.name	6.79853392
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	field	B-movie.name	8.05129623
+3	4	of	I-movie.name	3.39624691
+4	5	dreams	I-movie.name	7.05728149
+5	1.04722989
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	second	O	9.32252216
+4	5	director	O	5.27073717
+5	6	on	O	5.52703285
+6	7	finding	B-movie.name	5.03087187
+7	8	nemo	I-movie.name	3.43217897
+8	0.858570755
+0	1	find	O	3.96524286
+1	2	director	O	4.97653008
+2	3	of	O	3.7656939
+3	4	finding	B-movie.name	5.03087187
+4	5	nemo	I-movie.name	3.43217897
+5	0.858570755
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	finding	B-movie.name	6.60221386
+1	2	nemo	I-movie.name	3.49238801
+2	3	directed	O	6.15538836
+3	4	by	O	5.05582285
+4	5	who	O	4.30524206
+5	2.70263886
+0	1	director	O	4.96331358
+1	2	of	O	3.47148705
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	hitch	B-movie.name	5.77402973
+3	1.55078459
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	who	O	4.30524206
+5	6	is	O	4.35618687
+6	7	the	O	3.14250541
+7	8	director	O	5.27073717
+8	9	of	O	3.7656939
+9	10	the	O	3.14250541
+10	11	movie	O	3.6823895
+11	12	batman	B-movie.name	7.13500595
+12	1.55078459
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	director	O	5.27073717
+3	4	of	O	3.7656939
+4	5	the	B-movie.name	4.20114899
+5	6	words	I-movie.name	7.14575052
+6	0.858570755
+0	1	who	O	3.99781895
+1	2	did	O	4.63386583
+2	3	twilight	B-movie.name	7.03969574
+3	1.55078459
+0	1	twilight	B-movie.name	8.61103821
+1	2	director	O	6.09514427
+2	0.777909577
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	twilight	B-movie.name	7.03969574
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	twilight	B-movie.name	7.03969574
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	hum	B-movie.name	7.35814953
+6	7	tum	I-movie.name	5.75945616
+7	0.858570755
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	step	B-movie.name	6.72954082
+6	7	up	I-movie.name	5.13084793
+7	0.858570755
+0	1	please	O	5.47413921
+1	2	find	O	3.97845912
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	freedom	B-movie.name	7.35814953
+6	7	writers	I-movie.name	5.75945616
+7	0.858570755
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	director	O	5.27073717
+3	4	of	O	3.7656939
+4	5	freedom	B-movie.name	7.35814953
+5	6	writers	I-movie.name	5.75945616
+6	0.858570755
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	5	of	O	3.7656939
+5	6	freedom	B-movie.name	7.35814953
+6	7	writers	I-movie.name	5.75945616
+7	0.858570755
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	director	O	5.27073717
+3	4	of	O	3.7656939
+4	5	freedom	B-movie.name	7.35814953
+5	6	writers	I-movie.name	5.75945616
+6	0.858570755
+0	1	godfather	B-movie.name	11.0089331
+1	2	director	O	6.09514427
+2	0.777909577
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	who	O	4.30524206
+3	4	directed	O	4.8857708
+4	5	the	B-movie.name	4.20114899
+5	6	sound	I-movie.name	5.75945616
+6	7	of	I-movie.name	4.00092459
+7	8	music	I-movie.name	5.67524719
+8	1.04722989
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	the	B-movie.name	4.20114899
+3	4	sound	I-movie.name	5.75945616
+4	5	of	I-movie.name	4.00092459
+5	6	music	I-movie.name	5.67524719
+6	1.04722989
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	the	B-movie.name	4.20114899
+3	4	sound	I-movie.name	5.75945616
+4	5	of	I-movie.name	4.00092459
+5	6	music	I-movie.name	5.67524719
+6	1.04722989
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	name	O	6.02668524
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	director	O	5.27073717
+6	7	of	O	3.7656939
+7	8	return	B-movie.name	7.4916811
+8	1.55078459
+0	1	show	O	3.50773692
+1	2	movie	O	3.38818264
+2	3	avengers	B-movie.name	7.82815313
+3	4	director	O	7.25314522
+4	5	name	O	6.44013643
+5	2.70263886
+0	1	name	O	5.71926165
+1	2	the	O	2.84829855
+2	3	director	O	5.27073717
+3	4	in	O	3.80506921
+4	5	sleepless	B-movie.name	8.74444389
+5	6	in	I-movie.name	4.40491056
+6	7	seattle	I-movie.name	7.7504282
+7	1.04722989
+0	1	what	O	3.40929675
+1	2	's	O	5.40397406
+2	3	the	O	3.14250541
+3	4	genre	O	6.23147964
+4	5	for	O	3.87794209
+5	6	black	B-movie.name	6.00360394
+6	7	swan	I-movie.name	4.50669336
+7	0.858570755
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	black	B-movie.name	6.00360394
+3	4	swan	I-movie.name	4.50669336
+4	5	's	I-movie.name	5.95866966
+5	6	genre	O	7.78038788
+6	0.694736838
+0	1	what	O	3.40929675
+1	2	genre	O	5.93727255
+2	3	is	O	4.35618687
+3	4	parenthood	B-movie.name	8.74444389
+4	1.55078459
+0	1	what	O	3.40929675
+1	2	kind	O	8.33516884
+2	3	of	O	3.7656939
+3	4	movie	O	3.6823895
+4	5	is	O	4.35618687
+5	6	parenthood	B-movie.name	8.74444389
+6	1.55078459
+0	1	genre	O	5.92405605
+1	2	for	O	3.58373523
+2	3	pride	B-movie.name	9.43759155
+3	4	and	I-movie.name	5.06630945
+4	5	prejudice	I-movie.name	8.44357586
+5	1.04722989
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	tell	O	6.12384892
+3	4	me	O	3.73527336
+4	5	the	O	3.14250541
+5	6	genre	O	6.23147964
+6	7	of	O	3.7656939
+7	8	the	O	3.14250541
+8	9	movie	O	3.6823895
+9	10	lawless	B-movie.name	8.05129623
+10	1.55078459
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	what	O	3.71671987
+3	4	genre	O	6.23147964
+4	5	does	O	6.46032143
+5	6	movie	O	3.6823895
+6	7	lawless	B-movie.name	8.05129623
+7	8	belongs	O	10.8994656
+8	9	to	O	4.90366745
+9	2.70263886
+0	1	genre	O	5.92405605
+1	2	for	O	3.58373523
+2	3	snow	B-movie.name	8.33897877
+3	4	white	I-movie.name	6.74028587
+4	5	and	I-movie.name	5.67098713
+5	6	the	I-movie.name	3.11672854
+6	7	huntsman	I-movie.name	7.06154156
+7	1.04722989
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	type	O	7.81844473
+5	2.70263886
+0	1	get	O	5.64780283
+1	2	the	O	2.84829855
+2	3	genre	O	6.23147964
+3	4	of	O	3.7656939
+4	5	welcome	B-movie.name	9.43759155
+5	6	to	I-movie.name	5.06630945
+6	7	the	I-movie.name	3.40015078
+7	8	dollhouse	I-movie.name	8.16015339
+8	1.04722989
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	find	O	4.27266598
+4	5	the	O	3.14250541
+5	6	genre	O	6.23147964
+6	7	freedom	B-movie.name	7.35814953
+7	8	writers	I-movie.name	5.75945616
+8	9	is	I-movie.name	4.57237482
+9	10	in	I-movie.name	4.72616625
+10	1.04722989
+0	1	what	O	3.40929675
+1	2	genre	O	5.93727255
+2	3	is	O	4.35618687
+3	4	freedom	B-movie.name	7.35814953
+4	5	writers	I-movie.name	5.75945616
+5	6	in	O	5.074687
+6	0.694736838
+0	1	genre	O	5.92405605
+1	2	for	O	3.58373523
+2	3	batman	B-movie.name	7.13500595
+3	1.55078459
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	genre	O	6.23147964
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	avatar	B-movie.name	5.23289871
+8	1.55078459
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	the	O	3.14250541
+6	7	genre	O	6.23147964
+7	8	of	O	3.7656939
+8	9	the	O	3.14250541
+9	10	movie	O	3.6823895
+10	11	avatar	B-movie.name	5.23289871
+11	1.55078459
+0	1	genre	O	5.92405605
+1	2	for	O	3.58373523
+2	3	bad	I-character.name	13.1714191
+3	4	teacher	I-character.name	4.24759579
+4	2.81501913
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	tell	O	6.12384892
+3	4	me	O	3.73527336
+4	5	pretty	B-movie.name	7.13500595
+5	6	girl	I-movie.name	6.22946024
+6	7	the	O	4.4121232
+7	8	movie	O	4.12070608
+8	9	's	O	5.69818115
+9	10	genre	O	6.23147964
+10	2.70263886
+0	1	what	O	3.40929675
+1	2	genre	O	5.93727255
+2	3	is	O	4.35618687
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	pitch	B-movie.name	9.43759155
+6	7	perfect	I-movie.name	7.14575052
+7	0.858570755
+0	1	in	O	3.49764609
+1	2	what	O	3.42251301
+2	3	language	O	6.14446831
+3	4	is	O	4.35618687
+4	5	this	O	6.18702793
+5	6	movie	O	3.6823895
+6	2.70263886
+0	1	what	O	3.40929675
+1	2	language	O	5.85026121
+2	3	is	O	4.35618687
+3	4	this	O	6.18702793
+4	5	movie	O	3.6823895
+5	2.70263886
+0	1	what	O	3.40929675
+1	2	language	O	5.85026121
+2	3	is	O	4.35618687
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	hero	B-movie.name	8.33897877
+6	7	in	I-movie.name	4.40491056
+7	0.858570755
+0	1	language	O	5.83704472
+1	2	of	O	3.47148705
+2	3	casa	B-movie.name	9.43759155
+3	4	blanca	I-movie.name	7.83889771
+4	0.858570755
+0	1	language	O	5.83704472
+1	2	of	O	3.47148705
+2	3	spanglish	B-movie.name	9.43759155
+3	1.55078459
+0	1	find	O	3.96524286
+1	2	out	O	5.93727255
+2	3	what	O	3.71671987
+3	4	language	O	6.14446831
+4	5	the	B-movie.name	4.20114899
+5	6	father	I-movie.name	7.83889771
+6	7	of	I-movie.name	4.00092459
+7	8	my	I-movie.name	6.55071592
+8	9	children	I-movie.name	8.16015339
+9	10	is	I-movie.name	4.28895283
+10	11	in	I-movie.name	4.72616625
+11	1.04722989
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	find	O	4.27266598
+4	5	out	O	6.23147964
+5	6	about	O	4.6829505
+6	7	names	O	6.5191617
+7	8	of	O	3.7656939
+8	9	some	O	5.65896034
+9	10	japanese	B-country.name	6.98085594
+10	11	movies	O	3.44505525
+11	0.465665758
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	tell	O	6.12384892
+3	4	me	O	3.73527336
+4	5	names	O	6.5191617
+5	6	of	O	3.7656939
+6	7	some	O	5.65896034
+7	8	japanese	B-country.name	6.98085594
+8	9	movies	O	3.44505525
+9	0.465665758
+0	1	ron	B-director.name	8.55447292
+1	2	howard	I-director.name	3.5911355
+2	3	name	O	6.30450821
+3	4	some	O	6.17054319
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	movies	O	2.98924232
+7	8	he	O	7.45071983
+8	9	produce	O	7.24308062
+9	2.70263886
+0	1	tell	O	5.81642532
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	names	O	6.5191617
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	movies	O	2.98924232
+7	8	produced	O	4.87400579
+8	9	by	O	4.6175065
+9	10	william	B-producer.name	8.8494072
+10	11	packer	I-producer.name	4.67895746
+11	0.586683631
+0	1	about	O	4.37552691
+1	2	life	B-movie.name	7.4538641
+2	3	is	I-movie.name	3.96769714
+3	4	beautiful	I-movie.name	4.6369133
+4	1.04722989
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	info	O	6.04537725
+3	4	on	O	5.52703285
+4	5	life	B-movie.name	5.58744335
+5	6	is	I-movie.name	3.96769714
+6	7	beautiful	I-movie.name	4.6369133
+7	1.04722989
+0	1	find	O	3.96524286
+1	2	old	O	7.15651274
+2	3	movies	O	2.98924232
+3	2.70263886
+0	1	find	O	3.96524286
+1	2	movie	O	3.38818264
+2	3	ratings	O	7.18245602
+3	2.70263886
+0	1	was	O	4.28771067
+1	2	bill	B-actor.name	10.2917089
+2	3	paxton	I-actor.name	5.40651798
+3	4	in	O	3.84358406
+4	5	the	O	3.30230093
+5	6	movie	O	3.6823895
+6	7	apollo	B-movie.name	6.54721928
+7	8	thirteen	I-movie.name	4.89445877
+8	0.858570755
+0	1	was	O	4.28771067
+1	2	kevin	B-actor.name	8.90541458
+2	3	bacon	I-actor.name	4.7133708
+3	4	in	O	3.84358406
+4	5	the	O	3.30230093
+5	6	movie	O	3.6823895
+6	7	apollo	B-movie.name	6.54721928
+7	8	thirteen	I-movie.name	4.89445877
+8	0.858570755
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	about	O	4.6829505
+3	4	dancing	B-movie.subject	8.09843254
+4	0.840985358
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	dancing	B-movie.subject	8.09843254
+5	0.840985358
+0	1	show	O	3.50773692
+1	2	will	B-person.name	7.02314234
+2	3	ferrell	I-person.name	1.43041551
+3	4	films	O	6.20258856
+4	0.680353224
+0	1	will	B-person.name	6.40209532
+1	2	ferrell	I-person.name	1.60092497
+2	3	movies	O	3.76112938
+3	0.680353224
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	will	B-person.name	5.94359159
+4	5	ferrell	I-person.name	1.43041551
+5	6	appeared	O	10.094409
+6	7	in	O	4.21289206
+7	2.70263886
+0	1	find	O	3.96524286
+1	2	russian	B-movie.language	8.57740211
+2	3	movies	O	4.14682341
+3	0.212632611
+0	1	<unk>	O	3.78027987
+1	5.03627825
+0	1	the	O	2.83508229
+1	2	movie	O	3.38818264
+2	3	is	O	4.35618687
+3	4	called	O	9.32252216
+4	5	big	B-movie.name	8.74444389
+5	1.55078459
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	tim	B-director.name	9.55856991
+3	4	burton	I-director.name	5.47738123
+4	5	movies	O	3.26706553
+5	6	in	O	4.3166523
+6	7	french	B-movie.language	6.25151443
+7	0.501109123
+0	1	exhibit	O	9.01509857
+1	2	all	O	4.80148125
+2	3	details	O	6.75757265
+3	4	of	O	3.7656939
+4	5	original	O	8.22390938
+5	6	finding	B-movie.name	5.03087187
+6	7	nemo	I-movie.name	3.43217897
+7	8	movie	O	4.95200729
+8	0.694736838
+0	1	finding	B-movie.name	6.60221386
+1	2	nemo	I-movie.name	3.49238801
+2	3	movie	O	4.95200729
+3	0.694736838
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	movie	O	3.6823895
+3	4	finding	B-movie.name	5.03087187
+4	5	nemo	I-movie.name	3.43217897
+5	0.858570755
+0	1	i	O	4.0349226
+1	2	am	O	7.013412
+2	3	looking	O	7.07123041
+3	4	for	O	3.87794209
+4	5	information	O	5.32432175
+5	6	on	O	5.52703285
+6	7	the	O	3.14250541
+7	8	movie	O	3.6823895
+8	9	finding	B-movie.name	5.03087187
+9	10	nemo	I-movie.name	3.43217897
+10	0.858570755
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	details	O	6.75757265
+3	4	for	O	3.87794209
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	finding	B-movie.name	5.03087187
+7	8	nemo	I-movie.name	3.43217897
+8	0.858570755
+0	1	what	O	3.40929675
+1	2	did	O	4.63386583
+2	3	andrew	B-director.name	8.8654232
+3	4	stanton	I-director.name	4.78423405
+4	5	direct	O	6.99765539
+5	0.588822782
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	some	O	5.65896034
+3	4	other	O	7.18245602
+4	5	movies	O	2.98924232
+5	6	directed	O	4.8857708
+6	7	by	O	4.6175065
+7	8	andrew	B-person.name	8.88803101
+8	9	stanton	I-person.name	4.29261637
+9	0.382662475
+0	1	display	O	6.45014906
+1	2	albert	B-actor.name	9.59856224
+2	3	brooks	I-actor.name	4.7133708
+3	4	movie	O	3.72090435
+4	0.985451758
+0	1	show	O	3.50773692
+1	2	a	O	4.36487627
+2	3	movie	O	3.6823895
+3	4	with	O	5.43070173
+4	5	albert	B-actor.name	8.95656395
+5	6	brooks	I-actor.name	4.7133708
+6	7	in	O	3.84358406
+7	8	the	O	3.30230093
+8	9	cast	O	6.14446831
+9	2.70263886
+0	1	what	O	3.40929675
+1	2	other	O	6.88824892
+2	3	films	O	5.43070173
+3	4	has	O	5.65896034
+4	5	sergio	B-director.name	8.17227554
+5	6	leone	I-director.name	4.09108686
+6	7	directed	O	5.16359377
+7	0.588822782
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	george	B-actor.name	8.95656395
+4	5	harrison	B-actor.name	9.99721527
+5	6	produced	O	5.14450645
+6	0.96546936
+0	1	what	O	3.40929675
+1	2	has	O	5.36475325
+2	3	charlie	B-actor.name	9.64971066
+3	4	sheen	I-actor.name	5.40651798
+4	5	starred	O	6.65298653
+5	6	in	O	3.96486473
+6	2.70263886
+0	1	please	O	5.47413921
+1	2	find	O	3.97845912
+2	3	the	O	3.14250541
+3	4	movies	O	2.98924232
+4	5	in	O	3.80506921
+5	6	which	O	6.16552162
+6	7	clive	B-actor.name	8.55109787
+7	8	owen	I-actor.name	4.30790567
+8	9	has	O	5.69747496
+9	10	appeared	O	9.48231792
+10	2.70263886
+0	1	in	O	3.49764609
+1	2	which	O	5.87131453
+2	3	movies	O	2.98924232
+3	4	has	O	5.65896034
+4	5	clive	B-actor.name	8.55109787
+5	6	owen	I-actor.name	4.30790567
+6	7	appear	O	10.054184
+7	0.985451758
+0	1	spike	B-producer.name	9.79765892
+1	2	lee	I-producer.name	3.96404266
+2	3	directed	O	5.59420872
+3	4	what	O	4.53789997
+4	5	movie	O	3.6823895
+5	2.70263886
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	directed	O	4.8857708
+4	5	by	O	4.6175065
+5	6	spike	B-producer.name	8.44394207
+6	7	lee	I-producer.name	3.58034515
+7	0.586683631
+0	1	movie	O	3.37496638
+1	2	release	O	5.82964182
+2	3	dates	O	10.0156698
+3	2.70263886
+0	1	director	O	4.96331358
+1	2	information	O	5.03011465
+2	3	for	O	3.87794209
+3	4	movies	O	2.98924232
+4	2.70263886
+0	1	movies	O	2.6818192
+1	2	by	O	4.32329941
+2	3	director	O	5.27073717
+3	2.70263886
+0	1	please	O	5.47413921
+1	2	list	O	4.37912798
+2	3	all	O	5.09568834
+3	4	movies	O	2.98924232
+4	5	not	O	9.32252216
+5	6	rated	O	5.42054939
+6	7	pg	B-rating.name	5.32419777
+7	1.15894651
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	english	B-movie.language	6.94466162
+6	7	speaking	I-movie.language	4.27325439
+7	8	movies	O	3.28340292
+8	0.180756956
+0	1	a	O	4.35165977
+1	2	list	O	4.37912798
+2	3	of	O	3.7656939
+3	4	movies	O	2.98924232
+4	5	made	O	5.38094044
+5	6	in	B-movie.name	5.52556801
+6	7	america	I-movie.name	6.22946024
+7	0.858570755
+0	1	are	O	4.65199995
+1	2	there	O	6.54340839
+2	3	any	O	6.4047513
+3	4	movies	O	2.98924232
+4	5	produced	O	4.87400579
+5	6	in	O	3.80506921
+6	7	the	B-country.name	7.268538
+7	8	united	I-country.name	4.11096764
+8	9	states	I-country.name	2.50014687
+9	0.0478686839
+0	1	show	O	3.50773692
+1	2	english	B-movie.language	7.73010492
+2	3	movies	O	4.14682341
+3	0.212632611
+0	1	search	O	4.9987154
+1	2	english	B-movie.language	7.73010492
+2	3	movies	O	4.14682341
+3	0.212632611
+0	1	comedy	B-movie.genre	8.55307961
+1	1.40873635
+0	1	find	O	3.96524286
+1	2	a	O	4.36487627
+2	3	comedy	B-movie.genre	6.97627163
+3	1.51725364
+0	1	watch	O	6.07065964
+1	2	comedy	B-movie.genre	7.48308086
+2	3	movies	O	3.02375102
+3	0.524204075
+0	1	get	O	5.64780283
+1	2	horror	B-movie.genre	7.88854599
+2	3	films	O	5.46520996
+3	0.524204075
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	horror	B-movie.genre	7.38173676
+3	4	movies	O	3.02375102
+4	0.524204075
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	a	O	4.65908337
+5	6	listing	O	8.62937546
+6	7	of	O	3.7656939
+7	8	horror	B-movie.genre	7.38173676
+8	9	movies	O	3.02375102
+9	0.524204075
+0	1	show	O	3.50773692
+1	2	actor	O	5.80943918
+2	3	bruce	B-actor.name	8.55109787
+3	4	willis	I-actor.name	4.30790567
+4	5	movies	O	3.02775717
+5	0.985451758
+0	1	which	O	5.85809803
+1	2	movies	O	2.69503546
+2	3	did	O	4.92807293
+3	4	bruce	B-actor.name	8.55109787
+4	5	willis	I-actor.name	4.30790567
+5	6	star	O	7.65628862
+6	7	in	O	3.96486473
+7	2.70263886
+0	1	list	O	4.36591148
+1	2	movies	O	2.69503546
+2	3	with	O	5.43070173
+3	4	bruce	B-actor.name	8.55109787
+4	5	willis	I-actor.name	4.30790567
+5	1.09873056
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	made	O	5.38094044
+4	5	in	O	3.80506921
+5	6	canada	B-country.name	7.38632107
+6	0.796538711
+0	1	can	O	4.93756104
+1	2	i	O	4.0481391
+2	3	watch	O	6.37808323
+3	4	a	O	4.65908337
+4	5	canadian	B-country.name	7.51985264
+5	6	film	O	6.75791025
+6	0.465665758
+0	1	see	O	5.13353491
+1	2	canadian	B-country.name	8.57042408
+2	3	movies	O	3.44505525
+3	0.465665758
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	canadian	B-country.name	7.51985264
+5	6	movies	O	3.44505525
+6	0.465665758
+0	1	I	O	9.01509857
+1	2	'd	O	7.92970276
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	see	O	5.4409585
+5	6	some	O	5.65896034
+6	7	italian	B-country.name	7.67400312
+7	8	films	O	5.88651466
+8	0.465665758
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	something	O	8.91705704
+3	4	italian	B-country.name	7.67400312
+4	5	-	O	10.4714823
+5	6	made	O	6.1776228
+6	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	a	O	4.65908337
+5	6	movie	O	3.6823895
+6	7	from	O	5.40054893
+7	8	spain	B-country.name	7.51985264
+8	0.796538711
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	from	O	5.40054893
+3	4	spain	B-country.name	7.51985264
+4	0.796538711
+0	1	spain	B-country.name	8.84525776
+1	2	country	O	5.98212528
+2	3	movies	O	3.78592491
+3	2.70263886
+0	1	display	O	6.45014906
+1	2	a	O	4.36487627
+2	3	list	O	4.67333508
+3	4	of	O	3.7656939
+4	5	spanish	B-movie.language	5.82251883
+5	6	films	O	6.58828259
+6	0.212632611
+0	1	spanish	B-movie.language	7.42351913
+1	2	movie	O	3.73500299
+2	3	listing	O	9.95323658
+3	2.70263886
+0	1	spanish	B-movie.language	7.42351913
+1	2	movies	O	3.04185581
+2	0.212632611
+0	1	find	O	3.96524286
+1	2	actors	O	6.25572634
+2	3	in	O	3.80506921
+3	4	movies	O	2.98924232
+4	2.70263886
+0	1	search	O	4.9987154
+1	2	by	O	4.32329941
+2	3	actors	O	6.54993343
+3	2.70263886
+0	1	find	O	3.96524286
+1	2	some	O	5.36475325
+2	3	romantic	B-movie.genre	7.7384119
+3	4	movies	O	3.02375102
+4	0.524204075
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	a	O	4.65908337
+5	6	movie	O	3.6823895
+6	7	in	O	3.80506921
+7	8	french	B-movie.language	6.25151443
+8	0.501109123
+0	1	england	B-country.name	8.84525776
+1	2	movies	O	2.76236129
+2	0.465665758
+0	1	england	B-country.name	8.84525776
+1	2	movies	O	2.76236129
+2	3	please	O	6.57824516
+3	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	what	O	3.71671987
+3	4	richard	B-director.name	8.45995712
+4	5	lester	I-director.name	4.37876892
+5	6	directed	O	5.16359377
+6	0.588822782
+0	1	get	O	5.64780283
+1	2	films	O	5.13649464
+2	3	in	O	3.80506921
+3	4	hindi	B-movie.language	7.50427723
+4	0.501109123
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	from	O	5.40054893
+4	5	india	B-country.name	7.85632467
+5	0.796538711
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	a	O	4.65908337
+3	4	british	B-movie.language	9.58371925
+4	5	horror	B-movie.genre	6.23833942
+5	6	movie	O	3.40336967
+6	0.524204075
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	watch	O	6.37808323
+4	5	an	O	7.53076267
+5	6	r	B-rating.name	5.58656216
+6	7	rated	O	5.65874338
+7	8	comedy	B-movie.genre	10.7669325
+8	1.51725364
+0	1	list	O	4.36591148
+1	2	of	O	3.47148705
+2	3	french	B-movie.language	6.25151443
+3	4	language	I-movie.language	2.23637247
+4	5	comedies	B-movie.genre	6.26371145
+5	2.13261175
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	dirty	B-movie.name	5.58744335
+3	4	dancing	I-movie.name	4.03223562
+4	5	movie	O	4.95200729
+5	6	with	O	5.86901808
+6	7	jennifer	B-actor.name	8.04027271
+7	8	grey	I-actor.name	4.7133708
+8	1.09873056
+0	1	tell	O	5.81642532
+1	2	me	O	3.4410665
+2	3	in	O	3.80506921
+3	4	detail	O	8.22390938
+4	5	about	O	4.6829505
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	dirty	B-movie.name	5.58744335
+8	9	dancing	I-movie.name	4.03223562
+9	0.858570755
+0	1	tell	O	5.81642532
+1	2	about	O	4.3887434
+2	3	movie	O	3.6823895
+3	4	dirty	B-movie.name	5.58744335
+4	5	dancing	I-movie.name	4.03223562
+5	0.858570755
+0	1	can	O	4.93756104
+1	2	i	O	4.0481391
+2	3	see	O	5.4409585
+3	4	a	O	4.65908337
+4	5	list	O	4.67333508
+5	6	of	O	3.7656939
+6	7	bette	B-actor.name	8.55109787
+7	8	midler	I-actor.name	4.30790567
+8	9	movies	O	3.02775717
+9	0.985451758
+0	1	list	O	4.36591148
+1	2	of	O	3.47148705
+2	3	movies	O	2.98924232
+3	4	starring	O	7.45071983
+4	5	bette	B-actor.name	8.55109787
+5	6	midler	I-actor.name	4.30790567
+6	1.09873056
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	all	O	5.09568834
+3	4	of	O	3.7656939
+4	5	anne	B-actor.name	8.95656395
+5	6	hathaway	I-actor.name	4.7133708
+6	7	's	O	5.73669577
+7	8	movies	O	3.14903784
+8	2.70263886
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	sandra	B-actor.name	8.26341629
+4	5	bullock	I-actor.name	4.02022409
+5	6	produced	O	4.91252041
+6	0.985451758
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	robert	B-director.name	6.78598118
+4	5	redford	I-director.name	5.47738123
+5	6	been	O	7.07461643
+6	7	in	O	4.3166523
+7	2.70263886
+0	1	dirty	B-movie.name	7.15878582
+1	2	dancing	I-movie.name	4.09244442
+2	3	info	O	7.31499481
+3	0.694736838
+0	1	dirty	B-movie.name	7.15878582
+1	2	dancing	I-movie.name	4.09244442
+2	0.858570755
+0	1	give	O	5.85809803
+1	2	a	O	4.36487627
+2	3	short	O	10.0156698
+3	4	bio	O	7.71308422
+4	5	for	O	3.87794209
+5	6	dirty	B-movie.name	5.58744335
+6	7	dancing	I-movie.name	4.03223562
+7	0.858570755
+0	1	about	O	4.37552691
+1	2	dirty	B-movie.name	7.4538641
+2	3	dancing	I-movie.name	4.03223562
+3	0.858570755
+0	1	movies	O	2.6818192
+1	2	from	O	5.10634184
+2	3	japan	B-country.name	6.75771236
+3	0.796538711
+0	1	show	O	3.50773692
+1	2	movies	O	2.69503546
+2	3	from	O	5.40054893
+3	4	japan	B-country.name	6.75771236
+4	0.796538711
+0	1	list	O	4.36591148
+1	2	japanese	B-country.name	8.03142738
+2	3	movies	O	3.44505525
+3	0.465665758
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	japanese	B-country.name	6.98085594
+3	4	movies	O	3.44505525
+4	0.465665758
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	some	O	5.65896034
+6	7	japanese	B-country.name	6.98085594
+7	8	movies	O	3.44505525
+8	0.465665758
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	japanese	B-country.name	6.98085594
+6	7	movies	O	3.44505525
+7	0.465665758
+0	1	japanese	B-country.name	8.30626106
+1	2	movies	O	2.76236129
+2	0.465665758
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	japanese	B-movie.language	7.97428083
+3	4	language	I-movie.language	2.23637247
+4	5	movies	O	3.28340292
+5	0.180756956
+0	1	which	O	5.85809803
+1	2	films	O	5.13649464
+2	3	are	O	4.95942354
+3	4	spoken	O	8.40623188
+4	5	in	O	3.80506921
+5	6	japanese	B-country.name	6.98085594
+6	0.796538711
+0	1	miramax	B-producer.name	9.50997639
+1	2	films	I-producer.name	3.96404266
+2	3	only	O	7.58861303
+3	0.406967849
+0	1	show	O	3.50773692
+1	2	movies	O	2.69503546
+2	3	by	O	4.6175065
+3	4	miramax	B-producer.name	8.15625954
+4	1.79282713
+0	1	search	O	4.9987154
+1	2	sandra	B-actor.name	8.90541458
+2	3	bullock	I-actor.name	4.02022409
+3	4	movies	O	3.02775717
+4	0.985451758
+0	1	watch	O	6.07065964
+1	2	sandra	B-actor.name	8.90541458
+2	3	bullock	I-actor.name	4.02022409
+3	4	movies	O	3.02775717
+4	0.985451758
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	about	O	4.6829505
+3	4	vampires	B-movie.subject	8.7915802
+4	0.840985358
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	having	O	9.32252216
+3	4	vampires	B-movie.subject	8.7915802
+4	0.840985358
+0	1	will	B-actor.name	6.87870502
+1	2	smith	I-actor.name	4.03142118
+2	3	movies	O	3.02775717
+3	0.985451758
+0	1	cars	B-movie.subject	9.44741058
+1	2	movie	O	4.25719452
+2	0.557442844
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	did	O	4.92807293
+3	4	darla	B-producer.name	8.44394207
+4	5	anderson	I-producer.name	4.27349234
+5	6	produce	O	7.95151854
+6	0.406967849
+0	1	what	O	3.40929675
+1	2	films	O	5.13649464
+2	3	are	O	4.95942354
+3	4	made	O	5.38094044
+4	5	by	O	4.6175065
+5	6	paramount	B-producer.name	6.76996517
+6	1.79282713
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	by	O	4.6175065
+4	5	paramount	B-producer.name	6.76996517
+5	1.79282713
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	paramount	B-producer.name	6.76996517
+4	5	released	O	6.86416531
+5	0.565836787
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	movies	O	2.98924232
+3	4	from	O	5.40054893
+4	5	turkey	B-country.name	8.77261543
+5	0.796538711
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	produced	O	4.87400579
+4	5	by	O	4.6175065
+5	6	bruce	B-producer.name	8.44394207
+6	7	lee	I-producer.name	3.58034515
+7	0.586683631
+0	1	is	O	4.04876375
+1	2	parenthood	B-movie.name	10.6108646
+2	3	a	O	6.64149141
+3	4	drama	B-movie.genre	7.94887018
+4	1.51725364
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	an	O	7.53076267
+5	6	kevin	B-actor.name	8.26341629
+6	7	james	I-actor.name	4.7133708
+7	8	film	O	6.34061193
+8	9	tonight	O	10.1754656
+9	2.70263886
+0	1	find	O	3.96524286
+1	2	films	O	5.13649464
+2	3	from	O	5.40054893
+3	4	china	B-country.name	8.77261543
+4	0.796538711
+0	1	get	O	5.64780283
+1	2	films	O	5.13649464
+2	3	from	O	5.40054893
+3	4	china	B-country.name	8.77261543
+4	0.796538711
+0	1	i	O	4.0349226
+1	2	'd	O	7.92970276
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	watch	O	6.37808323
+5	6	a	O	4.65908337
+6	7	movie	O	3.6823895
+7	8	made	O	5.38094044
+8	9	in	O	3.80506921
+9	10	china	B-country.name	8.77261543
+10	0.796538711
+0	1	list	O	4.36591148
+1	2	some	O	5.36475325
+2	3	movies	O	2.98924232
+3	4	from	O	5.40054893
+4	5	china	B-country.name	8.77261543
+5	0.796538711
+0	1	chinese	B-movie.language	9.39295959
+1	2	films	O	5.48331499
+2	0.212632611
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	other	O	7.18245602
+3	4	chinese	B-movie.language	7.79195929
+4	5	movies	O	4.14682341
+5	0.212632611
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	chinese	B-movie.language	7.79195929
+3	4	movies	O	4.14682341
+4	0.212632611
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	have	O	5.90479565
+3	4	a	O	4.65908337
+4	5	pg-13	B-rating.name	6.72599649
+5	6	rating	O	5.66889572
+6	0.59731108
+0	1	please	O	5.47413921
+1	2	list	O	4.37912798
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	are	O	4.95942354
+5	6	rated	O	5.42054939
+6	7	pg-13	B-rating.name	6.72599649
+7	1.15894651
+0	1	find	O	3.96524286
+1	2	a	O	4.36487627
+2	3	g	B-rating.name	5.71439552
+3	4	rated	O	5.65874338
+4	5	movie	O	4.17927456
+5	2.70263886
+0	1	find	O	3.96524286
+1	2	g	B-rating.name	7.24668264
+2	3	movies	O	3.22743654
+3	0.59731108
+0	1	find	O	3.96524286
+1	2	g	B-rating.name	7.24668264
+2	3	movies	O	3.22743654
+3	0.59731108
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	rated	O	5.42054939
+3	4	g	B-rating.name	5.71439552
+4	5	movies	O	3.22743654
+5	0.59731108
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	g	B-rating.name	5.71439552
+3	4	rated	O	5.65874338
+4	5	movies	O	3.48612738
+5	2.70263886
+0	1	i	O	4.0349226
+1	2	am	O	7.013412
+2	3	searching	O	8.91705704
+3	4	for	O	3.87794209
+4	5	any	O	6.4047513
+5	6	g	B-rating.name	5.71439552
+6	7	rated	O	5.65874338
+7	8	movies	O	3.48612738
+8	9	for	O	3.87794209
+9	10	my	B-movie.name	7.4916811
+10	11	children	I-movie.name	7.83889771
+11	12	to	I-movie.name	5.67098713
+12	13	view	O	9.48513603
+13	0.694736838
+0	1	rated	O	5.1131258
+1	2	g	B-rating.name	7.24668264
+2	3	movies	O	3.22743654
+3	4	for	B-rating.name	7.54665852
+4	5	family	I-rating.name	5.7938118
+5	6	watching	O	9.63445091
+6	0.357671082
+0	1	find	O	3.96524286
+1	2	g	B-rating.name	7.24668264
+2	3	rated	O	5.65874338
+3	4	movies	O	3.48612738
+4	2.70263886
+0	1	are	O	4.65199995
+1	2	there	O	6.54340839
+2	3	any	O	6.4047513
+3	4	movies	O	2.98924232
+4	5	rated	O	5.42054939
+5	6	g	B-rating.name	5.71439552
+6	7	playing	O	7.95127821
+7	0.59731108
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	movies	O	2.98924232
+5	6	rated	O	5.42054939
+6	7	g	B-rating.name	5.71439552
+7	1.15894651
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	rated	O	5.42054939
+3	4	g	B-rating.name	5.71439552
+4	1.15894651
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	with	O	5.43070173
+4	5	g	B-rating.name	5.71439552
+5	6	rating	O	5.66889572
+6	0.59731108
+0	1	did	O	4.62064934
+1	2	robert	B-director.name	7.44452381
+2	3	wise	I-director.name	2.76933098
+3	4	direct	O	6.99765539
+4	5	any	O	6.91633415
+5	6	other	O	7.18245602
+6	7	musicals	B-movie.genre	9.68432236
+7	1.51725364
+0	1	bruce	B-producer.name	9.79765892
+1	2	lee	I-producer.name	3.96404266
+2	3	produced	O	5.58244371
+3	4	movie	O	4.5035696
+4	5	listing	O	8.62937546
+5	2.70263886
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	last	O	8.40623188
+4	5	movie	O	3.6823895
+5	6	made	O	5.38094044
+6	7	by	O	4.6175065
+7	8	robert	B-director.name	6.78598118
+8	9	wise	I-director.name	2.76933098
+9	0.786501288
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	by	O	4.6175065
+4	5	mgm	B-producer.name	8.8494072
+5	1.79282713
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	british	B-country.name	8.36715031
+3	4	made	O	5.83675337
+4	5	movies	O	3.78592491
+5	2.70263886
+0	1	movies	O	2.6818192
+1	2	from	O	5.10634184
+2	3	the	B-movie.location	8.2017231
+3	4	uk	I-movie.location	2.85595465
+4	0.035227444
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	from	O	5.40054893
+4	5	the	B-movie.location	8.2017231
+5	6	uk	I-movie.location	2.85595465
+6	0.035227444
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	list	O	4.67333508
+3	4	ron	B-director.name	7.47912884
+4	5	howard	I-director.name	3.39793968
+5	6	movie	O	3.96021271
+6	7	production	O	7.69403887
+7	2.70263886
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	the	O	3.14250541
+5	6	movies	O	2.98924232
+6	7	produce	O	7.24308062
+7	8	by	O	4.6175065
+8	9	ron	B-director.name	7.47912884
+9	10	howard	I-director.name	3.39793968
+10	0.786501288
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	directed	O	4.8857708
+3	4	by	O	4.6175065
+4	5	clint	B-producer.name	7.59664392
+5	6	eastwood	I-producer.name	3.42619467
+6	0.586683631
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	have	O	5.90479565
+3	4	been	O	6.79679346
+4	5	directed	O	4.8857708
+5	6	by	O	4.6175065
+6	7	clint	B-producer.name	7.59664392
+7	8	eastwood	I-producer.name	3.42619467
+8	0.586683631
+0	1	list	O	4.36591148
+1	2	all	O	4.80148125
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	were	O	6.54993343
+5	6	directed	O	4.8857708
+6	7	by	O	4.6175065
+7	8	clint	B-producer.name	7.59664392
+8	9	eastwood	I-producer.name	3.42619467
+9	0.586683631
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	clint	B-director.name	7.47912884
+4	5	eastwood	I-director.name	3.39793968
+5	6	directed	O	5.16359377
+6	0.588822782
+0	1	show	O	3.50773692
+1	2	movies	O	2.69503546
+2	3	directed	O	4.8857708
+3	4	by	O	4.6175065
+4	5	clint	B-producer.name	7.59664392
+5	6	eastwood	I-producer.name	3.42619467
+6	0.586683631
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	select	O	8.40623188
+4	5	the	O	3.14250541
+5	6	option	O	8.91705704
+6	7	to	O	4.49021626
+7	8	search	O	5.30613899
+8	9	for	O	3.87794209
+9	10	movies	O	2.98924232
+10	11	produced	O	4.87400579
+11	12	by	O	4.6175065
+12	13	stephen	B-director.name	7.36134529
+13	14	spielberg	I-director.name	1.9808737
+14	0.786501288
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	search	O	5.30613899
+5	6	for	O	3.87794209
+6	7	movies	O	2.98924232
+7	8	produced	O	4.87400579
+8	9	by	O	4.6175065
+9	10	stephen	B-director.name	7.36134529
+10	11	speilberg	I-director.name	5.47738123
+11	0.786501288
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	japanese	B-movie.language	7.97428083
+3	4	horror	B-movie.genre	6.23833942
+4	5	movies	O	2.71022248
+5	0.524204075
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	see	O	5.4409585
+5	6	movies	O	2.98924232
+6	7	ron	B-director.name	7.47912884
+7	8	howard	I-director.name	3.39793968
+8	9	directed	O	5.16359377
+9	0.588822782
+0	1	movies	O	2.6818192
+1	2	by	O	4.32329941
+2	3	stephen	B-director.name	7.36134529
+3	4	spielberg	I-director.name	1.9808737
+4	0.786501288
+0	1	movies	O	2.6818192
+1	2	by	O	4.32329941
+2	3	stephen	B-director.name	7.36134529
+3	4	spielberg	I-director.name	1.9808737
+4	0.786501288
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	did	O	4.92807293
+3	4	stephen	B-director.name	7.36134529
+4	5	spielberg	I-director.name	1.9808737
+5	6	direct	O	6.99765539
+6	0.588822782
+0	1	list	O	4.36591148
+1	2	steven	B-director.name	6.92127609
+2	3	spielberg	I-director.name	1.9808737
+3	4	movies	O	3.26706553
+4	0.588822782
+0	1	steven	B-director.name	7.33807755
+1	2	spielberg	I-director.name	2.1740694
+2	3	movie	O	3.96021271
+3	0.588822782
+0	1	steven	B-person.name	6.99515915
+1	2	spielberg	I-person.name	2.02077866
+2	3	movies	O	3.76112938
+3	4	please	O	6.18938541
+4	2.70263886
+0	1	directed	O	4.57834721
+1	2	by	O	4.32329941
+2	3	steven	B-person.name	6.53665543
+3	4	spielberg	I-person.name	1.85026932
+4	0.382662475
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	steven	B-director.name	6.26273346
+3	4	spielberg	I-director.name	1.9808737
+4	5	movies	O	3.26706553
+5	0.588822782
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	from	O	5.40054893
+3	4	steven	B-person.name	6.53665543
+4	5	spielberg	I-person.name	1.85026932
+5	0.382662475
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	watch	O	6.37808323
+5	6	a	O	4.65908337
+6	7	movie	O	3.6823895
+7	8	directed	O	4.8857708
+8	9	by	O	4.6175065
+9	10	eddie	B-actor.name	8.95656395
+10	11	murphy	I-actor.name	4.7133708
+11	1.09873056
+0	1	the	B-movie.name	5.77249146
+1	2	camp	I-movie.name	7.89910698
+2	0.858570755
+0	1	watch	O	6.07065964
+1	2	sandra	B-actor.name	8.90541458
+2	3	bullock	I-actor.name	4.02022409
+3	4	the	O	3.18102026
+4	5	blind	I-movie.name	16.8502636
+5	6	side	I-movie.name	7.0478611
+6	1.04722989
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	movies	O	2.98924232
+5	6	with	O	5.43070173
+6	7	hugh	B-actor.name	9.64971066
+7	8	jackman	I-actor.name	5.40651798
+8	1.09873056
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	from	O	5.40054893
+4	5	france	B-country.name	6.9008131
+5	0.796538711
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	show	O	3.81516004
+3	4	me	O	3.73527336
+4	5	movies	O	2.98924232
+5	6	that	O	5.49388075
+6	7	were	O	6.54993343
+7	8	made	O	5.38094044
+8	9	in	O	3.80506921
+9	10	france	B-country.name	6.9008131
+10	0.796538711
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	any	O	6.4047513
+3	4	movies	O	2.98924232
+4	5	that	O	5.49388075
+5	6	were	O	6.54993343
+6	7	made	O	5.38094044
+7	8	in	O	3.80506921
+8	9	france	B-country.name	6.9008131
+9	0.796538711
+0	1	french	B-country.name	8.08311844
+1	2	movies	O	2.76236129
+2	3	please	O	6.57824516
+3	2.70263886
+0	1	french	B-movie.language	7.85251474
+1	2	movies	O	3.04185581
+2	0.212632611
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	by	O	4.6175065
+4	2.70263886
+0	1	movies	O	2.6818192
+1	2	by	O	4.32329941
+2	3	producers	O	7.61777401
+3	2.70263886
+0	1	display	O	6.45014906
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	by	O	4.6175065
+4	2.70263886
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	by	O	4.6175065
+4	5	mosfilm	B-producer.name	8.8494072
+5	1.79282713
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	kristen	B-actor.name	7.45248604
+3	4	stewart	I-actor.name	3.10393333
+4	5	's	O	5.73669577
+5	6	first	O	8.38370514
+6	7	movie	O	3.6823895
+7	2.70263886
+0	1	tom	B-actor.name	6.84096479
+1	2	hanks	I-actor.name	2.77865791
+2	3	movies	O	3.02775717
+3	0.985451758
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	with	O	5.43070173
+4	5	tom	B-actor.name	6.35387373
+5	6	hanks	I-actor.name	2.76746106
+6	1.09873056
+0	1	i	O	4.0349226
+1	2	am	O	7.013412
+2	3	trying	O	10.0156698
+3	4	to	O	4.49021626
+4	5	find	O	4.27266598
+5	6	a	O	4.65908337
+6	7	list	O	4.67333508
+7	8	of	O	3.7656939
+8	9	movies	O	2.98924232
+9	10	with	O	5.43070173
+10	11	tom	B-actor.name	6.35387373
+11	12	hanks	I-actor.name	2.76746106
+12	1.09873056
+0	1	provide	O	8.09880829
+1	2	movies	O	2.69503546
+2	3	directed	O	4.8857708
+3	4	by	O	4.6175065
+4	5	oliver	B-director.name	7.94913197
+5	6	stone	I-director.name	3.86794329
+6	7	please	O	6.05938578
+7	0.588822782
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	look	O	5.69818115
+4	5	for	O	3.87794209
+5	6	movies	O	2.98924232
+6	7	produced	O	4.87400579
+7	8	by	O	4.6175065
+8	9	albert	B-producer.name	7.46311283
+9	10	ruddy	I-producer.name	3.17488003
+10	0.586683631
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	all	O	5.09568834
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	movies	O	2.98924232
+6	7	produced	O	4.87400579
+7	8	by	O	4.6175065
+8	9	albert	B-producer.name	7.46311283
+9	10	ruddy	I-producer.name	3.17488003
+10	0.586683631
+0	1	movies	O	2.6818192
+1	2	produced	O	4.5797987
+2	3	by	O	4.6175065
+3	4	yash	B-director.name	8.8654232
+4	5	chopra	I-director.name	4.78423405
+5	0.786501288
+0	1	bring	O	7.31035042
+1	2	up	O	5.98379278
+2	3	all	O	5.09568834
+3	4	brad	B-actor.name	6.51421642
+4	5	pitt	I-actor.name	2.31547594
+5	6	produced	O	4.91252041
+6	7	movies	O	3.14903784
+7	2.70263886
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	all	O	5.09568834
+6	7	the	O	3.14250541
+7	8	movies	O	2.98924232
+8	9	directed	O	4.8857708
+9	10	by	O	4.6175065
+10	11	james	B-director.name	6.99362087
+11	12	cameron	I-director.name	2.99247456
+12	0.786501288
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	all	O	5.09568834
+6	7	the	O	3.14250541
+7	8	movies	O	2.98924232
+8	9	directed	O	4.8857708
+9	10	by	O	4.6175065
+10	11	james	B-director.name	6.99362087
+11	12	cameron	I-director.name	2.99247456
+12	0.786501288
+0	1	james	B-director.name	8.06896496
+1	2	cameron	I-director.name	3.18567038
+2	3	movies	O	3.26706553
+3	4	produced	O	5.38558865
+4	2.70263886
+0	1	movies	O	2.6818192
+1	2	produced	O	4.5797987
+2	3	by	O	4.6175065
+3	4	james	B-director.name	6.99362087
+4	5	cameron	I-director.name	2.99247456
+5	0.786501288
+0	1	what	O	3.40929675
+1	2	films	O	5.13649464
+2	3	have	O	5.90479565
+3	4	been	O	6.79679346
+4	5	produced	O	4.87400579
+5	6	by	O	4.6175065
+6	7	warner	B-producer.name	7.05764771
+7	8	bros.	I-producer.name	3.98581028
+8	0.586683631
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	by	O	4.6175065
+4	5	warner	B-producer.name	7.05764771
+5	6	bros.	I-producer.name	3.98581028
+6	0.586683631
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	have	O	5.90479565
+3	4	been	O	6.79679346
+4	5	produced	O	4.87400579
+5	6	by	O	4.6175065
+6	7	warner	B-producer.name	7.05764771
+7	8	bros.	I-producer.name	3.98581028
+8	0.586683631
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	by	O	4.6175065
+4	5	wb	B-producer.name	8.8494072
+5	1.79282713
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	finding	B-movie.name	5.03087187
+5	6	nemo	I-movie.name	3.43217897
+6	0.858570755
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	finding	B-movie.name	5.03087187
+5	6	nemo	I-movie.name	3.43217897
+6	0.858570755
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	finding	B-movie.name	6.60221386
+1	2	nemo	I-movie.name	3.49238801
+2	3	bing	O	11.2852869
+3	0.694736838
+0	1	search	O	4.9987154
+1	2	finding	B-movie.name	6.89729261
+2	3	nemo	I-movie.name	3.43217897
+3	0.858570755
+0	1	show	O	3.50773692
+1	2	information	O	5.03011465
+2	3	page	O	6.92462683
+3	4	for	O	3.87794209
+4	5	finding	B-movie.name	5.03087187
+5	6	nemo	I-movie.name	3.43217897
+6	0.858570755
+0	1	the	B-movie.name	5.77249146
+1	2	campaign	I-movie.name	4.28818941
+2	3	information	O	6.5939393
+3	0.694736838
+0	1	has	O	5.35153675
+1	2	kristen	B-actor.name	8.09448433
+2	3	stewart	I-actor.name	3.10393333
+3	4	starred	O	6.65298653
+4	5	in	O	3.96486473
+5	6	movies	O	2.98924232
+6	7	other	O	7.18245602
+7	8	than	O	10.0156698
+8	9	twilight	B-movie.name	7.03969574
+9	1.55078459
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	kristen	B-actor.name	7.45248604
+3	4	stewart	I-actor.name	3.10393333
+4	5	movies	O	3.02775717
+5	0.985451758
+0	1	lionsgate	B-producer.name	7.63817453
+1	2	movies	O	3.2517612
+2	0.565836787
+0	1	show	O	3.50773692
+1	2	lionsgate	B-producer.name	6.8416543
+2	3	movies	O	4.40208673
+3	0.565836787
+0	1	show	O	3.50773692
+1	2	movies	O	2.69503546
+2	3	made	O	5.38094044
+3	4	by	O	4.6175065
+4	5	production	O	7.18245602
+5	6	lionsgate	B-producer.name	6.28445768
+6	1.79282713
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	something	O	8.91705704
+3	4	by	O	4.6175065
+4	5	charles	B-person.name	7.97173977
+5	6	vidor	I-person.name	3.37632561
+6	0.382662475
+0	1	show	O	3.50773692
+1	2	charles	B-director.name	8.42535305
+2	3	vidor	I-director.name	3.39793968
+3	4	movie	O	3.96021271
+4	0.588822782
+0	1	what	O	3.40929675
+1	2	film	O	6.00789022
+2	3	did	O	4.92807293
+3	4	charles	B-director.name	7.76681042
+4	5	vidor	I-director.name	3.39793968
+5	6	direct	O	6.99765539
+6	0.588822782
+0	1	which	O	5.85809803
+1	2	movies	O	2.69503546
+2	3	have	O	5.90479565
+3	4	been	O	6.79679346
+4	5	made	O	5.38094044
+5	6	outside	B-country.name	9.46576309
+6	7	the	I-country.name	5.497262
+7	8	united	I-country.name	2.90561199
+8	9	states	I-country.name	4.65930367
+9	0.0478686839
+0	1	display	O	6.45014906
+1	2	7	B-producer.name	10.0997505
+2	3	arts	I-producer.name	4.67895746
+3	4	movies	O	3.69768047
+4	0.406967849
+0	1	korean	B-country.name	9.18173027
+1	2	movie	O	3.45550847
+2	0.465665758
+0	1	what	O	3.40929675
+1	2	other	O	6.88824892
+2	3	movies	O	2.98924232
+3	4	did	O	4.92807293
+4	5	roberto	B-actor.name	9.64971066
+5	6	benigni	I-actor.name	5.40651798
+6	7	star	O	7.65628862
+7	8	in	O	3.96486473
+8	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	movies	O	2.98924232
+5	6	starring	O	7.45071983
+6	7	denzel	B-actor.name	8.26341629
+7	8	washington	I-actor.name	4.02022409
+8	9	please	O	5.82007742
+9	0.985451758
+0	1	list	O	4.36591148
+1	2	the	O	2.84829855
+2	3	kareena	B-actor.name	8.26341629
+3	4	's	O	8.78289032
+4	5	movie	O	3.84668446
+5	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	watch	O	6.37808323
+4	5	a	O	4.65908337
+5	6	drama	B-movie.genre	8.07488441
+6	7	made	O	5.41544867
+7	8	in	O	4.75315714
+8	9	turkey	B-country.name	8.77261543
+9	0.796538711
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	all	O	5.09568834
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	movies	O	2.98924232
+6	7	directed	O	4.8857708
+7	8	by	O	4.6175065
+8	9	woody	B-director.name	7.36134529
+9	10	allen	I-director.name	3.39793968
+10	0.786501288
+0	1	show	O	3.50773692
+1	2	robert	B-director.name	7.44452381
+2	3	wise	I-director.name	2.76933098
+3	4	movies	O	3.26706553
+4	0.588822782
+0	1	want	O	4.92075396
+1	2	to	O	4.19600916
+2	3	see	O	5.4409585
+3	4	robert	B-director.name	6.78598118
+4	5	wise	I-director.name	2.76933098
+5	6	movies	O	3.26706553
+6	0.588822782
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	robert	B-director.name	6.78598118
+4	5	wise	I-director.name	2.76933098
+5	6	directed	O	5.16359377
+6	0.588822782
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	have	O	5.90479565
+3	4	robert	B-director.name	6.78598118
+4	5	wise	I-director.name	2.76933098
+5	6	directed	O	5.16359377
+6	0.588822782
+0	1	where	O	5.92405605
+1	2	can	O	4.95077753
+2	3	i	O	4.34234619
+3	4	find	O	4.27266598
+4	5	a	O	4.65908337
+5	6	list	O	4.67333508
+6	7	of	O	3.7656939
+7	8	movies	O	2.98924232
+8	9	produced	O	4.87400579
+9	10	by	O	4.6175065
+10	11	chris	B-producer.name	9.54255486
+11	12	nolan	I-producer.name	5.37210464
+12	0.586683631
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	brad	B-actor.name	6.51421642
+4	5	pitt	I-actor.name	2.31547594
+5	6	been	O	6.83530807
+6	7	in	O	3.96486473
+7	2.70263886
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	movies	O	2.98924232
+4	5	brad	B-actor.name	6.51421642
+5	6	pitt	I-actor.name	2.31547594
+6	7	had	O	10.054184
+7	8	been	O	6.95658875
+8	9	in	O	3.80506921
+9	2.70263886
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	some	O	5.65896034
+3	4	movies	O	2.98924232
+4	5	with	O	5.43070173
+5	6	brad	B-actor.name	6.51421642
+6	7	pitt	I-actor.name	2.31547594
+7	1.09873056
+0	1	find	O	3.96524286
+1	2	an	O	7.23655558
+2	3	r	B-rating.name	5.58656216
+3	4	rated	O	5.65874338
+4	5	movie	O	4.17927456
+5	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	r	B-rating.name	5.58656216
+3	4	rated	O	5.65874338
+4	5	movies	O	3.48612738
+5	2.70263886
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	r	B-rating.name	5.58656216
+6	7	rated	O	5.65874338
+7	8	movies	O	3.48612738
+8	2.70263886
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	r	B-rating.name	5.58656216
+3	4	rated	O	5.65874338
+4	5	movies	O	3.48612738
+5	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	only	O	6.88017511
+3	4	r	B-rating.name	5.58656216
+4	5	rated	O	5.65874338
+5	6	movies	O	3.48612738
+6	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	a	O	4.65908337
+5	6	list	O	4.67333508
+6	7	of	O	3.7656939
+7	8	rated	O	5.42054939
+8	9	r	B-rating.name	5.58656216
+9	10	movies	O	3.22743654
+10	0.59731108
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	only	O	6.88017511
+3	4	movies	O	2.98924232
+4	5	with	O	5.43070173
+5	6	a	O	4.65908337
+6	7	rating	O	5.43070173
+7	8	of	O	3.7656939
+8	9	r	B-rating.name	5.58656216
+9	1.15894651
+0	1	please	O	5.47413921
+1	2	look	O	5.40397406
+2	3	for	O	3.87794209
+3	4	movies	O	2.98924232
+4	5	with	O	5.43070173
+5	6	an	O	7.53076267
+6	7	r	B-rating.name	5.58656216
+7	8	rating	O	5.66889572
+8	0.59731108
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	rated	O	5.42054939
+4	5	r	B-rating.name	5.58656216
+5	1.15894651
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	with	O	5.43070173
+4	5	an	O	7.53076267
+5	6	r	B-rating.name	5.58656216
+6	7	rating	O	5.66889572
+7	0.59731108
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	all	O	5.09568834
+6	7	movies	O	2.98924232
+7	8	that	O	5.49388075
+8	9	are	O	4.95942354
+9	10	rated	O	5.42054939
+10	11	r	B-rating.name	5.58656216
+11	1.15894651
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	watch	O	6.37808323
+4	5	movies	O	2.98924232
+5	6	from	O	5.40054893
+6	7	norway	B-country.name	8.36715031
+7	0.796538711
+0	1	can	O	4.93756104
+1	2	i	O	4.0481391
+2	3	have	O	5.90479565
+3	4	a	O	4.65908337
+4	5	list	O	4.67333508
+5	6	of	O	3.7656939
+6	7	spanish	B-movie.language	5.82251883
+7	8	speaking	I-movie.language	4.27325439
+8	9	movies	O	3.28340292
+9	0.180756956
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	made	O	5.38094044
+4	5	in	O	3.80506921
+5	6	mexico	B-movie.release_region	9.55137253
+6	0.369617522
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	have	O	5.90479565
+3	4	zombies	B-movie.subject	6.91977787
+4	5	in	I-movie.subject	5.34528208
+5	6	them	O	8.9665575
+6	0.386756212
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	zombies	B-movie.subject	6.91977787
+5	0.840985358
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	zombies	B-movie.subject	6.91977787
+5	0.840985358
+0	1	show	O	3.50773692
+1	2	ridley	B-director.name	9.52396584
+2	3	scott	I-director.name	4.37876892
+3	4	's	O	5.97600412
+4	5	filmography	O	10.5272532
+5	2.70263886
+0	1	find	O	3.96524286
+1	2	ridley	B-director.name	9.52396584
+2	3	scott	I-director.name	4.37876892
+3	4	movies	O	3.26706553
+4	0.588822782
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	show	O	3.81516004
+3	4	me	O	3.73527336
+4	5	movies	O	2.98924232
+5	6	directed	O	4.8857708
+6	7	by	O	4.6175065
+7	8	ridley	B-director.name	8.8654232
+8	9	scott	I-director.name	4.37876892
+9	0.786501288
+0	1	list	O	4.36591148
+1	2	german	B-movie.language	8.06657696
+2	3	movies	O	4.14682341
+3	0.212632611
+0	1	german	B-movie.language	8.88213348
+1	2	movies	O	3.04185581
+2	0.212632611
+0	1	find	O	3.96524286
+1	2	action	B-movie.genre	8.58169365
+2	3	films	O	5.46520996
+3	0.524204075
+0	1	find	O	3.96524286
+1	2	some	O	5.36475325
+2	3	action	B-movie.genre	8.07488441
+3	4	movies	O	3.02375102
+4	0.524204075
+0	1	list	O	4.36591148
+1	2	dredd	B-movie.name	9.35810184
+2	3	movie	O	5.66479778
+3	0.777909577
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	george	B-producer.name	7.75079441
+3	4	lucas	I-producer.name	3.7626667
+4	5	movies	O	3.69768047
+5	0.406967849
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	directed	O	4.8857708
+3	4	by	O	4.6175065
+4	5	george	B-producer.name	7.75079441
+5	6	lucas	I-producer.name	3.7626667
+6	0.586683631
+0	1	produced	O	4.5665822
+1	2	by	O	4.32329941
+2	2.70263886
+0	1	please	O	5.47413921
+1	2	find	O	3.97845912
+2	3	movies	O	2.98924232
+3	4	produced	O	4.87400579
+4	5	by	O	4.6175065
+5	6	morgan	B-producer.name	7.93311596
+6	7	freeman	I-producer.name	3.7626667
+7	0.586683631
+0	1	please	O	5.47413921
+1	2	look	O	5.40397406
+2	3	up	O	6.27799988
+3	4	movies	O	2.98924232
+4	5	produced	O	4.87400579
+5	6	by	O	4.6175065
+6	7	morgan	B-producer.name	7.93311596
+7	8	freeman	I-producer.name	3.7626667
+8	0.586683631
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	produced	O	4.87400579
+4	5	by	O	4.6175065
+5	6	morgan	B-producer.name	7.93311596
+6	7	freeman	I-producer.name	3.7626667
+7	0.586683631
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	by	O	4.6175065
+4	5	morgan	B-producer.name	7.93311596
+5	6	freeman	I-producer.name	3.7626667
+6	0.586683631
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	movies	O	2.98924232
+3	4	produced	O	4.87400579
+4	5	by	O	4.6175065
+5	6	morgan	B-producer.name	7.93311596
+6	7	freeman	I-producer.name	3.7626667
+7	0.586683631
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	meryl	B-actor.name	8.95656395
+4	5	streep	I-actor.name	4.7133708
+5	6	starred	O	6.65298653
+6	7	in	O	3.96486473
+7	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	movies	O	2.98924232
+4	5	directed	O	4.8857708
+5	6	by	O	4.6175065
+6	7	the	O	3.14250541
+7	8	director	O	5.27073717
+8	9	of	O	3.7656939
+9	10	this	O	6.18702793
+10	11	movie	O	3.6823895
+11	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	movies	O	2.98924232
+5	6	made	O	5.38094044
+6	7	in	O	3.80506921
+7	8	russia	B-country.name	8.07946777
+8	0.796538711
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	5	four	I-movie.name	5.265522
+5	6	movie	O	5.23129797
+6	0.694736838
+0	1	display	O	6.45014906
+1	2	all	O	4.80148125
+2	3	details	O	6.75757265
+3	4	about	O	4.6829505
+4	5	star	B-movie.name	5.41223907
+5	6	wars	I-movie.name	3.81354642
+6	7	-	I-movie.name	6.83413792
+7	8	a	I-movie.name	5.76225853
+8	9	new	I-movie.name	6.08071184
+9	10	hope	I-movie.name	6.08071184
+10	11	movie	O	5.23129797
+11	0.694736838
+0	1	get	O	5.64780283
+1	2	all	O	4.80148125
+2	3	details	O	6.75757265
+3	4	about	O	4.6829505
+4	5	star	B-movie.name	5.41223907
+5	6	wars	I-movie.name	3.81354642
+6	7	-	I-movie.name	6.83413792
+7	8	a	I-movie.name	5.76225853
+8	9	new	I-movie.name	6.08071184
+9	10	hope	I-movie.name	6.08071184
+10	11	movie	O	5.23129797
+11	0.694736838
+0	1	star	B-movie.name	6.98358154
+1	2	wars	I-movie.name	3.87375546
+2	3	episode	I-movie.name	6.65181637
+3	4	four	I-movie.name	4.98210001
+4	1.04722989
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	5	four	I-movie.name	5.265522
+5	6	main	O	9.48513603
+6	7	page	O	7.36294317
+7	2.70263886
+0	1	search	O	4.9987154
+1	2	star	B-movie.name	7.27865982
+2	3	wars	I-movie.name	3.81354642
+3	4	four	I-movie.name	5.265522
+4	1.04722989
+0	1	get	O	5.64780283
+1	2	details	O	6.46336555
+2	3	of	O	3.7656939
+3	4	in	B-movie.name	5.52556801
+4	5	july	I-movie.name	4.10122824
+5	6	movie	O	4.95200729
+6	0.694736838
+0	1	find	O	3.96524286
+1	2	details	O	6.46336555
+2	3	of	O	3.7656939
+3	4	in	B-movie.name	5.52556801
+4	5	july	I-movie.name	4.10122824
+5	6	movie	O	4.95200729
+6	0.694736838
+0	1	show	O	3.50773692
+1	2	details	O	6.46336555
+2	3	of	O	3.7656939
+3	4	in	B-movie.name	5.52556801
+4	5	july	I-movie.name	4.10122824
+5	6	movie	O	4.95200729
+6	0.694736838
+0	1	tell	O	5.81642532
+1	2	me	O	3.4410665
+2	3	about	O	4.6829505
+3	4	in	B-movie.name	5.52556801
+4	5	july	I-movie.name	4.10122824
+5	6	movie	O	4.95200729
+6	0.694736838
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	in	B-movie.name	5.52556801
+5	6	july	I-movie.name	4.10122824
+6	0.858570755
+0	1	display	O	6.45014906
+1	2	information	O	5.03011465
+2	3	for	O	3.87794209
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	title	O	8.62937546
+6	7	in	B-movie.name	5.52556801
+7	8	july	I-movie.name	4.10122824
+8	0.858570755
+0	1	movie	O	3.37496638
+1	2	in	B-movie.name	7.39198875
+2	3	july	I-movie.name	4.10122824
+3	4	data	O	11.2852869
+4	0.694736838
+0	1	where	O	5.92405605
+1	2	can	O	4.95077753
+2	3	i	O	4.34234619
+3	4	find	O	4.27266598
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	aankhen	B-movie.name	8.74444389
+7	8	in	O	5.78747749
+8	9	hindi	B-movie.language	6.50532389
+9	0.501109123
+0	1	display	O	6.45014906
+1	2	julia	B-person.name	10.6607285
+2	3	roberts	I-person.name	4.98576355
+3	4	films	O	6.20258856
+4	0.680353224
+0	1	list	O	4.36591148
+1	2	the	O	2.84829855
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	have	O	5.90479565
+5	6	the	O	3.14250541
+6	7	actress	O	7.61777401
+7	8	angelina	B-actor.name	7.0106535
+8	9	jolie	I-actor.name	2.76746106
+9	1.09873056
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	view	O	7.9362278
+5	6	movies	O	2.98924232
+6	7	produced	O	4.87400579
+7	8	by	O	4.6175065
+8	9	clint	B-producer.name	7.59664392
+9	10	eastwood	I-producer.name	3.42619467
+10	0.586683631
+0	1	list	O	4.36591148
+1	2	all	O	4.80148125
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	horses	B-movie.subject	8.7915802
+5	0.840985358
+0	1	find	O	3.96524286
+1	2	all	O	4.80148125
+2	3	johnny	B-actor.name	9.64971066
+3	4	depp	I-actor.name	5.40651798
+4	5	movies	O	3.02775717
+5	0.985451758
+0	1	search	O	4.9987154
+1	2	by	O	4.32329941
+2	3	director	O	5.27073717
+3	2.70263886
+0	1	search	O	4.9987154
+1	2	by	O	4.32329941
+2	3	director	O	5.27073717
+3	2.70263886
+0	1	is	O	4.04876375
+1	2	there	O	6.54340839
+2	3	any	O	6.4047513
+3	4	upcoming	O	10.0156698
+4	5	movies	O	2.98924232
+5	6	from	O	5.40054893
+6	7	warner	B-producer.name	7.05764771
+7	8	brothers	I-producer.name	3.58034515
+8	0.586683631
+0	1	bring	O	7.31035042
+1	2	up	O	5.98379278
+2	3	movies	O	2.98924232
+3	4	with	O	5.43070173
+4	5	ice	B-movie.subject	7.53881693
+5	6	skating	I-movie.subject	3.3993721
+6	7	in	I-movie.subject	6.47791529
+7	8	it	O	8.26321888
+8	0.386756212
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	info	O	6.04537725
+3	4	on	O	5.52703285
+4	5	house	B-movie.name	5.74871159
+5	6	at	I-movie.name	4.22798014
+6	7	the	I-movie.name	3.40015078
+7	8	end	I-movie.name	4.52256775
+8	9	of	I-movie.name	3.71750236
+9	10	the	I-movie.name	3.11672854
+10	11	street	I-movie.name	4.47127438
+11	1.04722989
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	houses	O	10.0156698
+4	5	at	O	8.06975937
+5	6	the	B-movie.name	4.20114899
+6	7	end	I-movie.name	4.20131207
+7	8	of	I-movie.name	4.00092459
+8	9	the	I-movie.name	3.11672854
+9	10	street	I-movie.name	4.47127438
+10	11	about	O	6.23185873
+11	0.694736838
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	more	O	6.6483736
+3	4	facts	O	9.32252216
+4	5	about	O	4.6829505
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	house	B-movie.name	5.74871159
+8	9	at	I-movie.name	4.22798014
+9	10	the	I-movie.name	3.40015078
+10	11	end	I-movie.name	4.52256775
+11	12	of	I-movie.name	3.71750236
+12	13	the	I-movie.name	3.11672854
+13	14	street	I-movie.name	4.47127438
+14	15	in	I-movie.name	4.72616625
+15	16	detail	O	9.77281857
+16	0.694736838
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	in	O	3.80506921
+6	7	detail	O	8.22390938
+7	8	about	O	4.6829505
+8	9	the	O	3.14250541
+9	10	movie	O	3.6823895
+10	11	house	B-movie.name	5.74871159
+11	12	at	I-movie.name	4.22798014
+12	13	the	I-movie.name	3.40015078
+13	14	end	I-movie.name	4.52256775
+14	15	of	I-movie.name	3.71750236
+15	16	the	I-movie.name	3.11672854
+16	17	street	I-movie.name	4.47127438
+17	1.04722989
+0	1	display	O	6.45014906
+1	2	movie	O	3.38818264
+2	3	information	O	5.32432175
+3	4	for	O	3.87794209
+4	5	the	O	3.14250541
+5	6	film	O	6.30209732
+6	7	house	B-movie.name	5.74871159
+7	8	at	I-movie.name	4.22798014
+8	9	the	I-movie.name	3.40015078
+9	10	end	I-movie.name	4.52256775
+10	11	of	I-movie.name	3.71750236
+11	12	the	I-movie.name	3.11672854
+12	13	street	I-movie.name	4.47127438
+13	1.04722989
+0	1	films	O	5.12327814
+1	2	with	O	5.13649464
+2	3	chinese	B-movie.language	7.79195929
+3	0.501109123
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	watch	O	6.37808323
+4	5	a	O	4.65908337
+5	6	movie	O	3.6823895
+6	7	in	O	3.80506921
+7	8	chinese	B-movie.language	7.79195929
+8	0.501109123
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	produced	O	4.87400579
+3	4	and	O	6.12384892
+4	5	directed	O	4.8857708
+5	6	by	O	4.6175065
+6	7	tyler	B-director.name	8.17227554
+7	8	perry	I-director.name	4.09108686
+8	0.786501288
+0	1	tom	B-actor.name	6.84096479
+1	2	cruise	I-actor.name	2.8527658
+2	3	movies	O	3.02775717
+3	4	please	O	5.94135809
+4	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	tom	B-actor.name	6.35387373
+3	4	cruise	I-actor.name	2.84156895
+4	5	movies	O	3.02775717
+5	6	please	O	5.94135809
+6	2.70263886
+0	1	which	O	5.85809803
+1	2	movies	O	2.69503546
+2	3	star	O	7.61777401
+3	4	tom	B-person.name	7.01622868
+4	5	cruise	I-person.name	2.68317842
+5	0.382662475
+0	1	which	O	5.85809803
+1	2	movies	O	2.69503546
+2	3	do	O	6.61447191
+3	4	tom	B-actor.name	6.35387373
+4	5	cruise	I-actor.name	2.84156895
+5	6	play	O	7.85695934
+6	7	in	O	3.96486473
+7	2.70263886
+0	1	find	O	3.96524286
+1	2	end	B-movie.name	10.2053995
+2	3	of	I-movie.name	3.39624691
+3	4	watch	I-movie.name	7.05728149
+4	1.04722989
+0	1	search	O	4.9987154
+1	2	by	O	4.32329941
+2	3	genre	O	6.23147964
+3	2.70263886
+0	1	looking	O	6.76380682
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	of	O	3.7656939
+4	5	yash	B-director.name	8.8654232
+5	6	chopra	I-director.name	4.78423405
+6	0.786501288
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	the	B-movie.name	4.20114899
+5	6	campaign	I-movie.name	4.22798014
+6	7	movie	O	4.95200729
+7	0.694736838
+0	1	information	O	5.01689816
+1	2	for	O	3.58373523
+2	3	movie	O	3.6823895
+3	4	the	B-movie.name	4.20114899
+4	5	campaign	I-movie.name	4.22798014
+5	0.858570755
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	info	O	6.04537725
+3	4	on	O	5.52703285
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	the	B-movie.name	4.20114899
+7	8	campaign	I-movie.name	4.22798014
+8	9	please	O	7.05118036
+9	0.694736838
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	all	O	5.09568834
+5	6	the	O	3.14250541
+6	7	details	O	6.75757265
+7	8	about	O	4.6829505
+8	9	the	O	3.14250541
+9	10	movie	O	3.6823895
+10	11	the	B-movie.name	4.20114899
+11	12	campaign	I-movie.name	4.22798014
+12	0.858570755
+0	1	sort	O	8.60963345
+1	2	all	O	4.80148125
+2	3	pg	B-rating.name	5.32419777
+3	4	movies	O	3.22743654
+4	0.59731108
+0	1	pg	B-rating.name	6.74696827
+1	2	rated	O	5.27641153
+2	3	movies	O	3.48612738
+3	2.70263886
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	pg	B-rating.name	5.32419777
+6	7	movies	O	3.22743654
+7	0.59731108
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	find	O	4.27266598
+3	4	me	O	3.73527336
+4	5	a	O	4.65908337
+5	6	list	O	4.67333508
+6	7	of	O	3.7656939
+7	8	pg	B-rating.name	5.32419777
+8	9	rated	O	5.65874338
+9	10	movies	O	3.48612738
+10	11	to	O	4.49021626
+11	12	watch	O	6.37808323
+12	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	pg	B-rating.name	5.32419777
+6	7	rated	O	5.65874338
+7	8	movies	O	3.48612738
+8	2.70263886
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	with	O	5.43070173
+3	4	a	O	4.65908337
+4	5	pg	B-rating.name	5.32419777
+5	6	rating	O	5.66889572
+6	0.59731108
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	are	O	4.95942354
+3	4	pg	B-rating.name	5.32419777
+4	1.15894651
+0	1	movies	O	2.6818192
+1	2	by	O	4.32329941
+2	3	alfred	B-director.name	6.91951275
+3	4	hitchcock	I-director.name	2.83832383
+4	0.786501288
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	did	O	4.92807293
+3	4	alfred	B-director.name	6.91951275
+4	5	hitchcock	I-director.name	2.83832383
+5	6	make	O	6.40167189
+6	0.588822782
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	any	O	6.4047513
+5	6	current	O	8.06975937
+6	7	movies	O	2.98924232
+7	8	starring	O	7.45071983
+8	9	tom	B-actor.name	6.35387373
+9	10	hanks	I-actor.name	2.76746106
+10	1.09873056
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	recent	O	7.37661219
+6	7	movies	O	2.98924232
+7	8	rated	O	5.42054939
+8	9	pg	B-rating.name	5.32419777
+9	1.15894651
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	recent	O	7.37661219
+6	7	movies	O	2.98924232
+7	8	rated	O	5.42054939
+8	9	pg	B-rating.name	5.32419777
+9	1.15894651
+0	1	ray	B-person.name	8.65338707
+1	2	stark	I-person.name	3.76997876
+2	3	produced	O	5.64589262
+3	4	what	O	4.12454271
+4	5	other	O	7.18245602
+5	6	movies	O	2.98924232
+6	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	spielberg	B-person.name	7.27859306
+3	4	's	O	8.21673393
+4	5	latest	O	7.59093189
+5	6	movie	O	3.6823895
+6	2.70263886
+0	1	please	O	5.47413921
+1	2	find	O	3.97845912
+2	3	movies	O	2.98924232
+3	4	directed	O	4.8857708
+4	5	by	O	4.6175065
+5	6	tom	B-actor.name	6.35387373
+6	7	hanks	I-actor.name	2.76746106
+7	1.09873056
+0	1	are	O	4.65199995
+1	2	there	O	6.54340839
+2	3	any	O	6.4047513
+3	4	recent	O	7.37661219
+4	5	movies	O	2.98924232
+5	6	that	O	5.49388075
+6	7	are	O	4.95942354
+7	8	polish	B-movie.language	8.48510647
+8	9	speaking	I-movie.language	4.27325439
+9	1.20964324
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	tom	B-actor.name	6.35387373
+4	5	cruise	I-actor.name	2.84156895
+5	6	been	O	6.83530807
+6	7	in	O	3.96486473
+7	8	recently	O	10.0156698
+8	2.70263886
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	new	O	7.30761909
+3	4	movies	O	2.98924232
+4	2.70263886
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	in	B-movie.name	5.52556801
+3	4	july	I-movie.name	4.10122824
+4	0.858570755
+0	1	watch	O	6.07065964
+1	2	in	B-movie.name	7.39198875
+2	3	july	I-movie.name	4.10122824
+3	4	online	O	11.2852869
+4	0.694736838
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	information	O	5.32432175
+3	4	about	O	4.6829505
+4	5	lionsgate	B-producer.name	6.28445768
+5	1.79282713
+0	1	lionsgate	B-producer.name	7.63817453
+1	2	info	O	6.30789566
+2	0.565836787
+0	1	find	O	3.96524286
+1	2	information	O	5.03011465
+2	3	about	O	4.6829505
+3	4	paramount	B-producer.name	6.76996517
+4	5	studios	I-producer.name	4.27349234
+5	0.586683631
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	ray	B-person.name	8.19488335
+3	4	stark	I-person.name	3.59946918
+4	0.382662475
+0	1	find	O	3.96524286
+1	2	information	O	5.03011465
+2	3	on	O	5.52703285
+3	4	charles	B-person.name	7.97173977
+4	5	vidor	I-person.name	3.37632561
+5	0.382662475
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	look	O	5.69818115
+4	5	up	O	6.27799988
+5	6	information	O	5.32432175
+6	7	about	O	4.6829505
+7	8	tom	B-person.name	7.01622868
+8	9	cruise	I-person.name	2.68317842
+9	0.382662475
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	please	O	5.78156281
+3	4	search	O	5.30613899
+4	5	details	O	6.75757265
+5	6	about	O	4.6829505
+6	7	will	B-person.name	5.94359159
+7	8	ferrell	I-person.name	1.43041551
+8	0.382662475
+0	1	will	B-person.name	6.40209532
+1	2	ferrell	I-person.name	1.60092497
+2	3	biography	O	8.9957962
+3	0.680353224
+0	1	show	O	3.50773692
+1	2	will	B-person.name	7.02314234
+2	3	ferrell	I-person.name	1.43041551
+3	4	biography	O	8.9957962
+4	0.680353224
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	complete	O	9.32252216
+4	5	biography	O	8.22390938
+5	6	of	O	3.7656939
+6	7	will	B-person.name	5.94359159
+7	8	ferrell	I-person.name	1.43041551
+8	0.382662475
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	information	O	5.32432175
+3	4	on	O	5.52703285
+4	5	will	B-person.name	5.94359159
+5	6	ferrell	I-person.name	1.43041551
+6	0.382662475
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	will	B-person.name	5.94359159
+3	4	ferrell	I-person.name	1.43041551
+4	5	's	O	6.47006798
+5	6	bio	O	8.12090683
+6	2.70263886
+0	1	get	O	5.64780283
+1	2	info	O	5.75117016
+2	3	on	O	5.52703285
+3	4	kristen	B-person.name	7.63526773
+4	5	stewart	I-person.name	3.03985333
+5	0.382662475
+0	1	where	O	5.92405605
+1	2	can	O	4.95077753
+2	3	i	O	4.34234619
+3	4	find	O	4.27266598
+4	5	information	O	5.32432175
+5	6	about	O	4.6829505
+6	7	kristen	B-person.name	7.63526773
+7	8	stewart	I-person.name	3.03985333
+8	0.382662475
+0	1	jennifer	B-actor.name	8.52736378
+1	2	aniston	I-actor.name	5.41771507
+2	3	bio	O	7.75159883
+3	0.985451758
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	spielberg	B-person.name	7.27859306
+5	6	's	O	8.21673393
+6	7	main	O	7.99639702
+7	8	page	O	6.92462683
+8	2.70263886
+0	1	steven	B-director.name	7.33807755
+1	2	spielberg	I-director.name	2.1740694
+2	3	summary	O	10.2934933
+3	0.588822782
+0	1	about	O	4.37552691
+1	2	steven	B-director.name	6.92127609
+2	3	spielberg	I-director.name	1.9808737
+3	0.786501288
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	bio	O	7.71308422
+3	4	details	O	6.75757265
+4	5	for	O	3.87794209
+5	6	steven	B-person.name	6.53665543
+6	7	spielberg	I-person.name	1.85026932
+7	0.382662475
+0	1	bio	O	7.40566063
+1	2	for	O	3.58373523
+2	3	steven	B-person.name	6.53665543
+3	4	spielberg	I-person.name	1.85026932
+4	0.382662475
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	alfred	B-director.name	6.91951275
+3	4	hitchcock	I-director.name	2.83832383
+4	0.786501288
+0	1	all	O	4.78826475
+1	2	info	O	5.75117016
+2	3	hitchcock	B-director.name	7.47912884
+3	3.42545056
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	name	O	6.02668524
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	producer	O	5.93813181
+6	7	of	O	3.7656939
+7	8	avatar	B-movie.name	5.23289871
+8	1.55078459
+0	1	producer	O	5.63070822
+1	2	hitch	B-movie.name	7.64045048
+2	1.55078459
+0	1	who	O	3.99781895
+1	2	produces	O	8.33516884
+2	3	hitch	B-movie.name	5.77402973
+3	1.55078459
+0	1	production	O	6.87503242
+1	2	company	O	6.22495461
+2	3	for	O	3.87794209
+3	4	transformers	B-movie.name	8.33897877
+4	1.55078459
+0	1	what	O	3.40929675
+1	2	company	O	6.22495461
+2	3	made	O	5.38094044
+3	4	et	B-movie.name	7.24036646
+4	1.55078459
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	production	O	7.18245602
+4	5	company	O	6.5191617
+5	6	for	O	3.87794209
+6	7	et	B-movie.name	7.24036646
+7	1.55078459
+0	1	who	O	3.99781895
+1	2	produces	O	8.33516884
+2	3	cars	B-movie.subject	7.87528896
+3	0.840985358
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	find	O	4.27266598
+3	4	who	O	4.30524206
+4	5	produced	O	4.87400579
+5	6	cars	B-movie.subject	7.87528896
+6	0.840985358
+0	1	production	O	6.87503242
+1	2	company	O	6.22495461
+2	3	for	O	3.87794209
+3	4	devil	I-movie.name	12.3882189
+4	1.75186944
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	steel	B-movie.name	8.05129623
+5	6	magnolias	I-movie.name	6.45260334
+6	0.858570755
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	avatar	B-movie.name	5.23289871
+3	1.55078459
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	the	O	3.14250541
+5	6	producer	O	5.93813181
+6	7	of	O	3.7656939
+7	8	avatar	B-movie.name	5.23289871
+8	1.55078459
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	avatar	B-movie.name	5.23289871
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	avatar	B-movie.name	5.23289871
+3	1.55078459
+0	1	avatar	B-movie.name	6.80424023
+1	2	producer	O	6.76253891
+2	0.777909577
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	who	O	4.30524206
+6	7	produced	O	4.87400579
+7	8	the	O	3.14250541
+8	9	movie	O	3.6823895
+9	10	avatar	B-movie.name	5.23289871
+10	1.55078459
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	avatar	B-movie.name	5.23289871
+5	1.55078459
+0	1	who	O	3.99781895
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	producers	O	7.61777401
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	avatar	B-movie.name	5.23289871
+8	1.55078459
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	grease	B-movie.name	7.13500595
+3	4	's	I-movie.name	5.35399151
+4	5	producer	O	7.20774937
+5	0.694736838
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	grease	B-movie.name	7.13500595
+3	1.55078459
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	my	B-movie.name	7.4916811
+5	6	big	I-movie.name	6.45260334
+6	7	fat	I-movie.name	7.05728149
+7	8	greek	I-movie.name	6.77385902
+8	9	wedding	I-movie.name	6.77385902
+9	1.04722989
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	pretty	B-movie.name	7.13500595
+3	4	woman	I-movie.name	6.74028587
+4	0.858570755
+0	1	tell	O	5.81642532
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	producer	O	5.93813181
+4	5	for	O	3.87794209
+5	6	the	B-movie.name	4.20114899
+6	7	godfather	I-movie.name	5.19984055
+7	0.858570755
+0	1	the	B-movie.name	5.77249146
+1	2	godfather	I-movie.name	5.26004982
+2	3	was	O	5.86475182
+3	4	produced	O	5.31232214
+4	5	by	O	4.6175065
+5	2.70263886
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	hotel	B-movie.name	6.66500235
+3	4	rwanda	I-movie.name	6.74028587
+4	0.858570755
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	marley	B-movie.name	8.05129623
+3	4	and	I-movie.name	5.06630945
+4	5	me	O	5.00489092
+5	0.694736838
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	despicable	B-movie.name	9.43759155
+3	4	me	O	5.71768188
+4	0.777909577
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	company	O	6.5191617
+4	5	that	O	5.49388075
+5	6	produced	O	4.87400579
+6	7	the	O	3.14250541
+7	8	movie	O	3.6823895
+8	9	inception	B-movie.name	8.33897877
+9	1.55078459
+0	1	find	O	3.96524286
+1	2	producer	O	5.64392471
+2	3	of	O	3.7656939
+3	4	the	B-movie.name	4.20114899
+4	5	great	I-movie.name	6.04713869
+5	6	debaters	I-movie.name	7.05728149
+6	1.04722989
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	inception	B-movie.name	8.33897877
+3	1.55078459
+0	1	provide	O	8.09880829
+1	2	the	O	2.84829855
+2	3	name	O	6.02668524
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	company	O	6.5191617
+6	7	that	O	5.49388075
+7	8	produced	O	4.87400579
+8	9	sparkle	B-movie.name	8.33897877
+9	1.55078459
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	the	O	3.14250541
+5	6	company	O	6.5191617
+6	7	that	O	5.49388075
+7	8	produced	O	4.87400579
+8	9	sparkle	B-movie.name	8.33897877
+9	1.55078459
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	producer	O	5.93813181
+3	4	of	O	3.7656939
+4	5	step	B-movie.name	6.72954082
+5	6	up	I-movie.name	5.13084793
+6	0.858570755
+0	1	please	O	5.47413921
+1	2	find	O	3.97845912
+2	3	the	O	3.14250541
+3	4	producer	O	5.93813181
+4	5	of	O	3.7656939
+5	6	freedom	B-movie.name	7.35814953
+6	7	writers	I-movie.name	5.75945616
+7	0.858570755
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	the	O	3.14250541
+3	4	producer	O	5.93813181
+4	5	of	O	3.7656939
+5	6	freedom	B-movie.name	7.35814953
+6	7	writers	I-movie.name	5.75945616
+7	0.858570755
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movie	O	3.6823895
+3	4	rating	O	5.43070173
+4	2.70263886
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	revenue	O	5.82601452
+3	4	did	O	4.92807293
+4	5	pretty	B-movie.name	7.13500595
+5	6	woman	I-movie.name	6.74028587
+6	7	make	O	7.39346647
+7	0.694736838
+0	1	earnings	O	7.91648626
+1	2	for	O	3.58373523
+2	3	pretty	B-movie.name	7.13500595
+3	4	woman	I-movie.name	6.74028587
+4	0.858570755
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	revenue	O	5.82601452
+4	5	of	O	3.7656939
+5	6	pretty	B-movie.name	7.13500595
+6	7	woman	I-movie.name	6.74028587
+7	0.858570755
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	pretty	B-movie.name	7.13500595
+4	5	woman	I-movie.name	6.74028587
+5	6	make	O	7.39346647
+6	0.694736838
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	gross	O	6.83761549
+4	5	revenue	O	5.82601452
+5	6	for	O	3.87794209
+6	7	the	B-movie.name	4.20114899
+7	8	avengers	I-movie.name	5.00568438
+8	0.858570755
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	the	B-movie.name	4.20114899
+4	5	avengers	I-movie.name	5.00568438
+5	6	make	O	7.39346647
+6	0.694736838
+0	1	revenue	O	5.51859093
+1	2	for	O	3.58373523
+2	3	the	B-movie.name	4.20114899
+3	4	avengers	I-movie.name	5.00568438
+4	0.858570755
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	the	B-movie.name	4.20114899
+4	5	dark	I-movie.name	5.19984055
+5	6	night	I-movie.name	6.045681
+6	7	generate	O	10.4659653
+7	8	in	O	4.24338579
+8	9	revenues	O	8.91705704
+9	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	new	O	7.30761909
+4	5	will	B-person.name	5.94359159
+5	6	ferrell	I-person.name	1.43041551
+6	7	movie	O	4.45427656
+7	8	about	O	5.09077311
+8	2.70263886
+0	1	who	O	3.99781895
+1	2	played	O	6.03258276
+2	3	the	O	3.14250541
+3	4	voice	O	9.32252216
+4	5	of	O	3.7656939
+5	6	nemo	B-character.name	9.38545036
+6	7	in	O	4.37066936
+7	8	finding	B-movie.name	3.18344164
+8	9	nemo	I-movie.name	3.43217897
+9	0.858570755
+0	1	who	O	3.99781895
+1	2	stars	O	7.32356691
+2	3	in	O	3.80506921
+3	4	house	B-movie.name	5.74871159
+4	5	at	I-movie.name	4.22798014
+5	6	the	I-movie.name	3.40015078
+6	7	end	I-movie.name	4.52256775
+7	8	of	I-movie.name	3.71750236
+8	9	the	I-movie.name	3.11672854
+9	10	street	I-movie.name	4.47127438
+10	1.04722989
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	cast	O	6.14446831
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	house	B-movie.name	5.74871159
+7	8	at	I-movie.name	4.22798014
+8	9	the	I-movie.name	3.40015078
+9	10	end	I-movie.name	4.52256775
+10	11	of	I-movie.name	3.71750236
+11	12	the	I-movie.name	3.11672854
+12	13	street	I-movie.name	4.47127438
+13	1.04722989
+0	1	cast	O	5.83704472
+1	2	and	O	5.82964182
+2	3	crew	O	6.61447191
+3	4	of	O	3.7656939
+4	5	house	B-movie.name	5.74871159
+5	6	at	I-movie.name	4.22798014
+6	7	the	I-movie.name	3.40015078
+7	8	end	I-movie.name	4.52256775
+8	9	of	I-movie.name	3.71750236
+9	10	the	I-movie.name	3.11672854
+10	11	street	I-movie.name	4.47127438
+11	1.04722989
+0	1	ethel	B-character.name	11.3022451
+1	2	actress	O	9.30466652
+2	3	from	O	6.33199358
+3	4	i	B-movie.name	8.05129623
+4	5	love	I-movie.name	6.45260334
+5	6	lucy	I-movie.name	7.34496403
+6	1.04722989
+0	1	actress	O	7.31035042
+1	2	who	O	4.01103497
+2	3	played	O	6.32678986
+3	4	ethel	B-character.name	9.38545036
+4	5	on	O	6.09263277
+5	6	i	B-movie.name	6.20386648
+6	7	love	I-movie.name	6.45260334
+7	8	lucy	I-movie.name	7.34496403
+8	1.04722989
+0	1	who	O	3.99781895
+1	2	played	O	6.03258276
+2	3	mother	B-character.name	9.38545036
+3	4	in	O	4.37066936
+4	5	tarkovsky	B-director.name	11.3490534
+5	6	's	O	8.20418072
+6	7	mirror	B-movie.name	9.03468227
+7	1.55078459
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	name	O	6.02668524
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	actress	O	7.61777401
+7	8	who	O	4.30524206
+8	9	played	O	6.32678986
+9	10	mother	B-character.name	9.38545036
+10	11	in	O	4.37066936
+11	12	tarkovsky	B-director.name	11.3490534
+12	13	's	O	8.20418072
+13	14	mirror	B-movie.name	9.03468227
+14	1.55078459
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	name	O	6.02668524
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	actor	O	6.10364628
+7	8	who	O	4.30524206
+8	9	played	O	6.32678986
+9	10	todd	B-character.name	7.999156
+10	11	in	O	4.37066936
+11	12	the	O	4.07395029
+12	13	tv	O	8.40623188
+13	14	show	O	3.81516004
+14	15	one	O	8.62937546
+15	16	life	B-movie.name	5.58744335
+16	17	to	I-movie.name	5.06630945
+17	18	live	I-movie.name	7.05728149
+18	1.04722989
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	name	O	6.02668524
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	main	O	7.9362278
+7	8	actress	O	7.61777401
+8	9	in	O	3.80506921
+9	10	platoon	B-movie.name	8.74444389
+10	1.55078459
+0	1	what	O	3.40929675
+1	2	's	O	5.40397406
+2	3	the	O	3.14250541
+3	4	name	O	6.02668524
+4	5	of	O	3.7656939
+5	6	the	B-character.name	7.18822575
+6	7	mom	I-character.name	3.78837204
+7	8	on	O	5.78223705
+8	9	seinfeld	B-movie.name	6.79165316
+9	1.55078459
+0	1	name	O	5.71926165
+1	2	the	O	2.84829855
+2	3	co-star	O	10.0156698
+3	4	in	O	3.80506921
+4	5	shoot	B-movie.name	8.05129623
+5	6	to	I-movie.name	5.06630945
+6	7	kill	I-movie.name	6.65181637
+7	1.04722989
+0	1	please	O	5.47413921
+1	2	provide	O	8.11202431
+2	3	the	O	3.14250541
+3	4	cost	O	7.01993704
+4	5	for	O	3.87794209
+5	6	producing	O	9.32252216
+6	7	the	B-movie.name	4.20114899
+7	8	deer	I-movie.name	6.74028587
+8	9	hunter	I-movie.name	7.34496403
+9	1.04722989
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	epic	B-movie.name	8.33897877
+6	1.55078459
+0	1	search	O	4.9987154
+1	2	budget	O	5.36475325
+2	3	for	O	3.87794209
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	epic	B-movie.name	8.33897877
+6	1.55078459
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	1st	O	9.32252216
+6	7	harry	B-movie.name	7.82815313
+7	8	potter	I-movie.name	6.22946024
+8	9	movie	O	4.95200729
+9	0.694736838
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	does	O	6.46032143
+3	4	it	O	6.88017511
+4	5	cost	O	7.01993704
+5	6	to	O	4.49021626
+6	7	produce	O	7.24308062
+7	8	looper	B-movie.name	6.49315214
+8	1.55078459
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	it	O	6.88017511
+4	5	cost	O	7.01993704
+5	6	to	O	4.49021626
+6	7	produce	O	7.24308062
+7	8	looper	B-movie.name	6.49315214
+8	1.55078459
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	money	O	6.88017511
+3	4	was	O	4.59513426
+4	5	spent	O	10.0156698
+5	6	to	O	4.49021626
+6	7	produce	O	7.24308062
+7	8	looper	B-movie.name	6.49315214
+8	1.55078459
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	men	B-movie.name	7.64583158
+4	5	in	I-movie.name	4.40491056
+5	6	black	I-movie.name	6.65181637
+6	7	3	I-movie.name	5.85756874
+7	8	cost	O	8.56884575
+8	0.694736838
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	was	O	4.59513426
+3	4	it	O	6.88017511
+4	5	to	O	4.49021626
+5	6	make	O	6.12384892
+6	7	paranorman	B-movie.name	7.82815313
+7	1.55078459
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	to	O	4.49021626
+5	6	rebel	B-movie.name	9.43759155
+6	7	movie	O	5.66479778
+7	0.777909577
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	star	B-movie.name	5.41223907
+6	7	wars	I-movie.name	3.81354642
+7	8	2	I-movie.name	6.24635124
+8	1.04722989
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	expendables	B-movie.name	8.74444389
+6	7	1	I-movie.name	7.14575052
+7	0.858570755
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	budget	O	5.65896034
+4	5	for	O	3.87794209
+5	6	finding	B-movie.name	5.03087187
+6	7	nemo	I-movie.name	3.43217897
+7	8	in	I-movie.name	5.00958824
+8	9	3d	I-movie.name	7.06154156
+9	1.04722989
+0	1	liongate	B-producer.name	10.8962708
+1	3.78800106
+0	1	what	O	3.40929675
+1	2	country	O	5.91479969
+2	3	is	O	4.35618687
+3	4	les	B-movie.name	7.4916811
+4	5	mes	I-movie.name	6.74028587
+5	6	from	O	6.67016649
+6	0.694736838
+0	1	what	O	3.40929675
+1	2	country	O	5.91479969
+2	3	does	O	6.46032143
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	thoda	B-movie.name	8.05129623
+6	7	pyaar	I-movie.name	6.45260334
+7	8	thoda	I-movie.name	7.05728149
+8	9	magic	I-movie.name	6.77385902
+9	10	comes	O	10.1782837
+10	11	from	O	5.83886528
+11	2.70263886
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	barfi	B-movie.name	7.35814953
+5	6	!	I-movie.name	6.74028587
+6	7	released	O	6.72093868
+7	0.694736838
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	dates	O	10.0156698
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	barfi	B-movie.name	7.35814953
+8	9	!	I-movie.name	6.74028587
+9	0.858570755
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	release	O	6.12384892
+4	5	date	O	6.00833607
+5	6	of	O	3.7656939
+6	7	evil	B-movie.name	8.33897877
+7	8	goes	I-movie.name	6.74028587
+8	9	global	I-movie.name	7.34496403
+9	1.04722989
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	release	O	6.12384892
+4	5	date	O	6.00833607
+5	6	for	O	3.87794209
+6	7	jaws	B-movie.name	8.33897877
+7	8	17	I-rating.name	21.2328415
+8	9	in	O	4.42818117
+9	10	the	O	4.05474901
+10	11	theaters	O	8.62937546
+11	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	release	O	6.12384892
+4	5	date	O	6.00833607
+5	6	for	O	3.87794209
+6	7	jurassic	B-movie.name	7.13500595
+7	8	park	I-movie.name	5.53631306
+8	9	4	O	11.2852869
+9	0.694736838
+0	1	list	O	4.36591148
+1	2	release	O	5.82964182
+2	3	dates	O	10.0156698
+3	4	for	O	3.87794209
+4	5	the	O	3.14250541
+5	6	jurassic	B-movie.name	7.13500595
+6	7	park	I-movie.name	5.53631306
+7	8	movies	O	4.25886011
+8	0.694736838
+0	1	when	O	5.14389753
+1	2	will	O	6.22495461
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	omg	B-movie.name	6.87264156
+5	6	oh	I-movie.name	6.45260334
+6	7	my	I-movie.name	6.83413792
+7	8	god	I-movie.name	6.36839437
+8	9	be	I-movie.name	8.16015339
+9	10	released	O	7.00022936
+10	0.694736838
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	lord	B-movie.name	7.64583158
+4	5	of	I-movie.name	3.39624691
+5	6	the	I-movie.name	3.40015078
+6	7	rings	I-movie.name	6.21424341
+7	8	movie	O	5.23129797
+8	9	released	O	5.88963747
+9	2.70263886
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	the	B-movie.name	4.20114899
+3	4	sound	I-movie.name	5.75945616
+4	5	of	I-movie.name	4.00092459
+5	6	music	I-movie.name	5.67524719
+6	7	released	O	7.00022936
+7	0.694736838
+0	1	when	O	5.14389753
+1	2	will	O	6.22495461
+2	3	twilight	B-movie.name	7.03969574
+3	4	breaking	I-movie.name	7.83889771
+4	5	dawn	I-movie.name	7.7504282
+5	6	part	O	11.5645781
+6	7	2	O	10.4539862
+7	8	be	O	6.54993343
+8	9	released	O	5.45132113
+9	2.70263886
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	director	O	5.27073717
+3	4	of	O	3.7656939
+4	5	downton	B-movie.name	8.33897877
+5	6	abbey	I-movie.name	6.74028587
+6	0.858570755
+0	1	who	O	3.99781895
+1	2	directed	O	4.5915637
+2	3	good	B-movie.name	9.43759155
+3	4	bad	I-movie.name	7.83889771
+4	5	and	I-movie.name	5.67098713
+5	6	ugly	I-movie.name	8.16015339
+6	1.04722989
+0	1	i	O	4.0349226
+1	2	can	O	4.95077753
+2	3	't	O	8.91705704
+3	4	remember	O	9.32252216
+4	5	who	O	4.30524206
+5	6	directed	O	4.8857708
+6	7	star	B-movie.name	5.41223907
+7	8	wars	I-movie.name	3.81354642
+8	0.858570755
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	director	O	5.27073717
+3	4	of	O	3.7656939
+4	5	to	B-movie.name	8.74444389
+5	6	kill	I-movie.name	6.04713869
+6	7	a	I-movie.name	6.045681
+7	8	mockingbird	I-movie.name	7.46700621
+8	1.04722989
+0	1	is	O	4.04876375
+1	2	amelie	B-movie.name	9.91771698
+2	3	in	I-movie.name	4.40491056
+3	4	a	O	5.92870092
+4	5	different	O	9.35537338
+5	6	language	O	6.14446831
+6	2.70263886
+0	1	what	O	3.40929675
+1	2	language	O	5.85026121
+2	3	was	O	4.59513426
+3	4	amelie	B-movie.name	8.05129623
+4	5	filmed	O	9.35902023
+5	6	in	O	4.21852064
+6	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	ju	B-movie.name	8.05129623
+3	4	on	I-movie.name	6.04713869
+4	5	's	O	6.96779871
+5	6	original	O	8.66222668
+6	7	language	O	6.14446831
+7	2.70263886
+0	1	what	O	3.40929675
+1	2	language	O	5.85026121
+2	3	is	O	4.35618687
+3	4	secrets	B-movie.name	9.43759155
+4	5	and	I-movie.name	5.06630945
+5	6	lies	I-movie.name	8.44357586
+6	7	in	I-movie.name	4.72616625
+7	1.04722989
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	names	O	6.5191617
+3	4	of	O	3.7656939
+4	5	some	O	5.65896034
+5	6	action	B-movie.genre	8.07488441
+6	7	movies	O	3.02375102
+7	8	with	O	6.37878942
+8	9	a	O	4.65908337
+9	10	pg	B-rating.name	5.32419777
+10	11	thirteen	I-rating.name	3.02122307
+11	12	rating	O	5.74263048
+12	0.357671082
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	comedy	B-movie.genre	6.97627163
+3	4	musicals	B-movie.genre	8.91491699
+4	5	for	O	3.70403981
+5	6	twenty	B-movie.release_date	4.89329004
+6	7	twelve	I-movie.release_date	1.80984092
+7	0.99620527
+0	1	are	O	4.65199995
+1	2	there	O	6.54340839
+2	3	any	O	6.4047513
+3	4	documentaries	B-movie.genre	8.9911747
+4	5	on	O	5.56154108
+5	6	classic	B-movie.subject	9.65958405
+6	7	cars	I-movie.subject	3.73584414
+7	0.371760279
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	dramas	O	8.91705704
+3	4	produced	O	4.87400579
+4	5	in	O	3.80506921
+5	6	2010	B-movie.release_date	9.6069355
+6	1.58835161
+0	1	<unk>	O	3.78027987
+1	5.03627825
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	westerns	B-movie.genre	9.68432236
+3	1.51725364
+0	1	show	O	3.50773692
+1	2	car	B-movie.subject	10.3576584
+2	3	documentaries	B-movie.genre	7.84149837
+3	1.22138405
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	videos	O	7.81844473
+5	6	of	O	3.7656939
+6	7	steven	B-person.name	6.53665543
+7	8	spielberg	I-person.name	1.85026932
+8	0.382662475
+0	1	videos	O	7.51102114
+1	2	related	O	7.6420207
+2	3	to	O	4.49021626
+3	4	steven	B-person.name	6.53665543
+4	5	spielberg	I-person.name	1.85026932
+5	0.382662475
+0	1	new	O	7.0001955
+1	2	released	O	5.15711403
+2	3	videos	O	7.81844473
+3	2.70263886
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	were	O	6.54993343
+3	4	made	O	5.38094044
+4	5	in	O	3.80506921
+5	6	ireland	B-country.name	8.77261543
+6	7	this	B-movie.release_date	7.85244131
+7	8	year	I-movie.release_date	2.97689319
+8	0.99620527
+0	1	i	O	4.0349226
+1	2	'd	O	7.92970276
+2	3	love	O	8.06975937
+3	4	to	O	4.49021626
+4	5	watch	O	6.37808323
+5	6	an	O	7.53076267
+6	7	albert	B-producer.name	7.46311283
+7	8	ruddy	I-producer.name	3.17488003
+8	9	movie	O	4.39082766
+9	0.406967849
+0	1	bring	O	7.31035042
+1	2	up	O	5.98379278
+2	3	all	O	5.09568834
+3	4	movies	O	2.98924232
+4	5	brad	B-actor.name	6.51421642
+5	6	pitt	I-actor.name	2.31547594
+6	7	directed	O	4.92428541
+7	0.985451758
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	brad	B-actor.name	6.51421642
+4	5	pitt	I-actor.name	2.31547594
+5	6	directed	O	4.92428541
+6	0.985451758
+0	1	movies	O	2.6818192
+1	2	by	O	4.32329941
+2	3	john	B-director.name	7.94913197
+3	4	paul	I-director.name	4.37876892
+4	5	as	O	8.0962677
+5	6	a	O	5.17066622
+6	7	director	O	5.27073717
+7	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	directed	O	4.8857708
+4	5	by	O	4.6175065
+5	6	john	B-director.name	7.94913197
+6	7	paul	I-director.name	4.37876892
+7	0.786501288
+0	1	tom	B-actor.name	6.84096479
+1	2	cruise	I-actor.name	2.8527658
+2	3	has	O	5.69747496
+3	4	directed	O	5.04556608
+4	5	what	O	3.71671987
+5	6	movies	O	2.98924232
+6	2.70263886
+0	1	please	O	5.47413921
+1	2	list	O	4.37912798
+2	3	all	O	5.09568834
+3	4	movies	O	2.98924232
+4	5	directed	O	4.8857708
+5	6	by	O	4.6175065
+6	7	tom	B-person.name	7.01622868
+7	8	cruise	I-person.name	2.68317842
+8	0.382662475
+0	1	find	O	3.96524286
+1	2	action	B-movie.genre	8.58169365
+2	3	movies	O	3.02375102
+3	4	with	O	6.37878942
+4	5	john	B-actor.name	8.26341629
+5	6	travolta	I-actor.name	5.40651798
+6	1.09873056
+0	1	animated	B-movie.genre	11.2611294
+1	2	pg	B-rating.name	2.34660864
+2	3	thirteen	I-rating.name	2.06970525
+3	4	movies	O	3.3011713
+4	0.357671082
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	films	O	5.43070173
+3	4	released	O	5.45132113
+4	5	in	O	3.80506921
+5	6	september	B-movie.release_date	7.20904064
+6	1.58835161
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	movies	O	2.98924232
+3	4	released	O	5.45132113
+4	5	in	O	3.80506921
+5	6	september	B-movie.release_date	7.20904064
+6	1.58835161
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	all	O	5.09568834
+3	4	movies	O	2.98924232
+4	5	coming	O	8.91705704
+5	6	in	O	3.80506921
+6	7	september	B-movie.release_date	7.20904064
+7	1.58835161
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	for	O	3.87794209
+3	4	twenty	B-movie.release_date	6.51589298
+4	5	ten	I-movie.release_date	5.1056776
+5	0.99620527
+0	1	most	O	7.91648626
+1	2	recent	O	7.08240509
+2	3	zombie	B-movie.subject	6.71213818
+3	4	movies	O	4.29665661
+4	0.557442844
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	in	O	3.80506921
+4	5	chinese	B-movie.language	7.79195929
+5	0.501109123
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	are	O	4.95942354
+5	6	in	O	3.80506921
+6	7	chinese	B-movie.language	7.79195929
+7	0.501109123
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	a	O	4.65908337
+5	6	list	O	4.67333508
+6	7	of	O	3.7656939
+7	8	all	O	5.09568834
+8	9	movies	O	2.98924232
+9	10	shown	O	8.91705704
+10	11	in	O	3.80506921
+11	12	english	B-movie.language	6.94466162
+12	0.501109123
+0	1	send	O	8.32195187
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	are	O	4.95942354
+5	6	in	O	3.80506921
+6	7	french	B-movie.language	6.25151443
+7	0.501109123
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	in	O	3.80506921
+3	4	french	B-movie.language	6.25151443
+4	0.501109123
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	a	O	4.65908337
+4	5	list	O	4.67333508
+5	6	of	O	3.7656939
+6	7	movies	O	2.98924232
+7	8	in	O	3.80506921
+8	9	french	B-movie.language	6.25151443
+9	0.501109123
+0	1	movies	O	2.6818192
+1	2	in	O	3.51086235
+2	3	french	B-movie.language	6.25151443
+3	0.501109123
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	movies	O	2.98924232
+3	4	in	O	3.80506921
+4	5	french	B-movie.language	6.25151443
+5	0.501109123
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	in	O	3.80506921
+3	4	german	B-country.name	7.85632467
+4	5	before	O	10.4714823
+5	6	2000	B-movie.release_date	8.97845173
+6	1.58835161
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	some	O	5.65896034
+3	4	movies	O	2.98924232
+4	5	which	O	6.16552162
+5	6	were	O	6.54993343
+6	7	filmed	O	7.37661219
+7	8	in	O	3.80506921
+8	9	polish	B-movie.language	8.48510647
+9	0.501109123
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	in	O	3.80506921
+3	4	portugese	B-movie.language	9.58371925
+4	0.501109123
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	movies	O	2.98924232
+3	4	in	O	3.80506921
+4	5	spanish	B-movie.language	5.82251883
+5	0.501109123
+0	1	list	O	4.36591148
+1	2	of	O	3.47148705
+2	3	movies	O	2.98924232
+3	4	in	O	3.80506921
+4	5	the	O	3.14250541
+5	6	spanish	B-movie.language	5.82251883
+6	7	language	I-movie.language	2.23637247
+7	1.20964324
+0	1	movies	O	2.6818192
+1	2	in	O	3.51086235
+2	3	spanish	B-movie.language	5.82251883
+3	0.501109123
+0	1	i	O	4.0349226
+1	2	am	O	7.013412
+2	3	searching	O	8.91705704
+3	4	for	O	3.87794209
+4	5	movies	O	2.98924232
+5	6	in	O	3.80506921
+6	7	spanish	B-movie.language	5.82251883
+7	0.501109123
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	look	O	5.69818115
+5	6	for	O	3.87794209
+6	7	movies	O	2.98924232
+7	8	in	O	3.80506921
+8	9	spanish	B-movie.language	5.82251883
+9	0.501109123
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	all	O	5.09568834
+6	7	movies	O	2.98924232
+7	8	produced	O	4.87400579
+8	9	by	O	4.6175065
+9	10	alfred	B-producer.name	8.15625954
+10	11	ruddy	I-producer.name	3.17488003
+11	0.586683631
+0	1	what	O	3.40929675
+1	2	other	O	6.88824892
+2	3	movies	O	2.98924232
+3	4	charles	B-director.name	7.76681042
+4	5	vidor	I-director.name	3.39793968
+5	6	produce	O	7.52090359
+6	0.588822782
+0	1	list	O	4.36591148
+1	2	the	O	2.84829855
+2	3	movies	O	2.98924232
+3	4	created	O	8.22390938
+4	5	by	O	4.6175065
+5	6	7	B-producer.name	9.54255486
+6	7	arts	I-producer.name	4.67895746
+7	0.586683631
+0	1	twentieth	B-producer.name	8.69904613
+1	2	century	I-producer.name	3.35790706
+2	3	fox	I-producer.name	4.71774673
+3	4	movies	O	3.76480055
+4	5	2012	B-movie.release_date	6.57109165
+5	1.58835161
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	with	O	5.43070173
+4	5	not	O	9.32252216
+5	6	rated	O	5.42054939
+6	7	rating	O	5.43070173
+7	2.70263886
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	nr	B-rating.name	8.39997292
+6	7	movies	O	3.22743654
+7	0.59731108
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	pg	B-rating.name	5.32419777
+6	7	thirteen	I-rating.name	3.02122307
+7	8	action	B-movie.genre	13.4739475
+8	9	movies	O	3.06596017
+9	0.524204075
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	a	O	4.65908337
+5	6	pg	B-rating.name	5.32419777
+6	7	thirteen	I-rating.name	3.02122307
+7	8	movie	O	3.99431849
+8	0.357671082
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	all	O	5.09568834
+3	4	rated	O	5.42054939
+4	5	r	B-rating.name	5.58656216
+5	6	movies	O	3.22743654
+6	7	by	O	5.11439133
+7	8	paramount	B-producer.name	6.76996517
+8	1.79282713
+0	1	list	O	4.36591148
+1	2	movies	O	2.69503546
+2	3	from	O	5.40054893
+3	4	1995	I-movie.release_date	19.6134033
+4	5	with	O	7.88237238
+5	6	adam	B-actor.name	10.9675093
+6	7	sandler	I-actor.name	5.40651798
+7	1.09873056
+0	1	which	O	5.85809803
+1	2	movies	O	2.69503546
+2	3	has	O	5.65896034
+3	4	angelina	B-actor.name	7.0106535
+4	5	jolie	I-actor.name	2.76746106
+5	6	starred	O	6.65298653
+6	7	this	B-movie.release_date	11.5361519
+7	8	season	I-movie.release_date	5.1056776
+8	0.99620527
+0	1	what	O	3.40929675
+1	2	movie	O	3.38818264
+2	3	was	O	4.59513426
+3	4	angelina	B-actor.name	7.0106535
+4	5	a	O	7.74379253
+5	6	main	O	8.10052299
+6	7	actress	O	7.61777401
+7	2.70263886
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	movies	O	2.98924232
+3	4	starring	O	7.45071983
+4	5	the	O	3.14250541
+5	6	singer	B-actor.type	8.20172405
+6	7	mario	B-actor.name	4.39026594
+7	0.276862621
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	find	O	4.27266598
+4	5	movies	O	2.98924232
+5	6	starring	O	7.45071983
+6	7	the	O	3.14250541
+7	8	singer	B-actor.type	8.20172405
+8	9	mario	B-actor.name	4.39026594
+9	0.276862621
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	have	O	5.90479565
+5	6	patrick	B-actor.name	8.26341629
+6	7	swayze	I-actor.name	4.02022409
+7	8	and	O	6.16236353
+8	9	jennifer	B-actor.name	8.06045341
+9	10	grey	I-actor.name	4.7133708
+10	11	in	O	3.84358406
+11	12	them	O	7.77756929
+12	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	star	O	7.61777401
+5	6	patrick	B-actor.name	8.26341629
+6	7	swayze	I-actor.name	4.02022409
+7	8	starred	O	6.65298653
+8	9	in	O	3.96486473
+9	10	from	O	5.40054893
+10	11	nineteen	B-movie.release_date	7.81517601
+11	12	eighty	I-movie.release_date	5.1056776
+12	13	seven	I-movie.release_date	4.87712955
+13	0.76204741
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	that	B-movie.name	9.43759155
+3	4	dancing	I-movie.name	4.03223562
+4	5	movie	O	4.95200729
+5	6	with	O	5.86901808
+6	7	patrick	B-actor.name	8.26341629
+7	8	swayze	I-actor.name	4.02022409
+8	1.09873056
+0	1	chess	B-movie.subject	10.3637009
+1	2	movies	O	3.56404734
+2	0.557442844
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	on	O	5.52703285
+4	5	chess	B-movie.subject	8.7915802
+5	0.840985358
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	look	O	5.69818115
+4	5	up	O	6.27799988
+5	6	movies	O	2.98924232
+6	7	about	O	4.6829505
+7	8	hair	B-movie.subject	9.48472691
+8	0.840985358
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	about	O	4.6829505
+3	4	libraries	B-movie.subject	8.38611412
+4	0.840985358
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	find	O	4.27266598
+3	4	movies	O	2.98924232
+4	5	about	O	4.6829505
+5	6	preschool	B-movie.subject	9.48472691
+6	7	boys	I-movie.subject	5.34528208
+7	0.371760279
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	preschool	B-movie.subject	9.48472691
+5	6	boys	I-movie.subject	5.34528208
+6	0.371760279
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	names	O	6.5191617
+6	7	of	O	3.7656939
+7	8	some	O	5.65896034
+8	9	movies	O	2.98924232
+9	10	on	O	5.52703285
+10	11	religious	B-movie.subject	8.38611412
+11	12	issues	I-movie.subject	4.24666977
+12	0.371760279
+0	1	give	O	5.85809803
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	some	O	5.65896034
+6	7	movies	O	2.98924232
+7	8	on	O	5.52703285
+8	9	religious	B-movie.subject	8.38611412
+9	10	issues	I-movie.subject	4.24666977
+10	0.371760279
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	school	O	10.0156698
+5	2.70263886
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	some	O	5.65896034
+3	4	time	B-movie.subject	6.65151405
+4	5	travel	I-movie.subject	2.51206875
+5	6	movies	O	4.33802605
+6	7	i	O	5.19005108
+7	8	can	O	5.24498463
+8	9	watch	O	6.37808323
+9	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	involving	O	9.32252216
+4	5	time	B-movie.subject	6.65151405
+5	6	travel	I-movie.subject	2.51206875
+6	0.371760279
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	find	O	4.27266598
+3	4	me	O	3.73527336
+4	5	some	O	5.65896034
+5	6	movies	O	2.98924232
+6	7	about	O	4.6829505
+7	8	war	B-movie.subject	7.69296741
+8	0.840985358
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	movies	O	2.98924232
+6	7	about	O	4.6829505
+7	8	war	B-movie.subject	7.69296741
+8	0.840985358
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	movies	O	2.98924232
+3	4	about	O	4.6829505
+4	5	war	B-movie.subject	7.69296741
+5	0.840985358
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	about	O	4.6829505
+3	4	world	B-movie.subject	9.48472691
+4	5	war	I-movie.subject	5.34528208
+5	6	two	O	9.75501537
+6	0.386756212
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	zombie	B-movie.subject	6.71213818
+3	4	movies	O	4.29665661
+4	0.557442844
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	belle	B-movie.name	8.74444389
+3	4	in	O	5.78747749
+4	5	spanish	B-movie.language	4.82356548
+5	0.501109123
+0	1	is	O	4.04876375
+1	2	dredd	B-movie.name	9.35810184
+2	3	rated	O	7.40295744
+3	4	r	B-rating.name	8.93394947
+4	1.15894651
+0	1	take	O	7.51102114
+1	2	me	O	3.4410665
+2	3	to	O	4.49021626
+3	4	the	O	3.14250541
+4	5	french	B-country.name	6.75771236
+5	6	version	O	9.77833462
+6	7	of	O	4.5623765
+7	8	et	B-movie.name	7.24036646
+8	1.55078459
+0	1	find	O	3.96524286
+1	2	et	B-movie.name	9.10678673
+2	3	in	O	5.78747749
+3	4	french	B-movie.language	5.25256109
+4	0.501109123
+0	1	find	O	3.96524286
+1	2	fast	B-movie.name	11.3040123
+2	3	and	I-movie.name	5.06630945
+3	4	furious	I-movie.name	8.44357586
+4	5	in	O	5.35397768
+5	6	japanese	B-movie.language	7.07312918
+6	0.501109123
+0	1	hard	B-movie.name	10.3157864
+1	2	day	I-movie.name	6.28966951
+2	3	's	I-movie.name	5.95866966
+3	4	night	I-movie.name	5.76225853
+4	5	richard	B-director.name	11.0147171
+5	6	lester	I-director.name	4.34371853
+6	0.786501288
+0	1	information	O	5.01689816
+1	2	about	O	4.3887434
+2	3	movie	O	3.6823895
+3	4	life	B-movie.name	5.58744335
+4	5	is	I-movie.name	3.96769714
+5	6	beautiful	I-movie.name	4.6369133
+6	1.04722989
+0	1	movie	O	3.37496638
+1	2	information	O	5.03011465
+2	3	for	O	3.87794209
+3	4	life	B-movie.name	5.58744335
+4	5	is	I-movie.name	3.96769714
+5	6	beautiful	I-movie.name	4.6369133
+6	1.04722989
+0	1	will	O	6.21173811
+1	2	you	O	5.02098179
+2	3	please	O	5.78156281
+3	4	show	O	3.81516004
+4	5	me	O	3.73527336
+5	6	info	O	6.04537725
+6	7	on	O	5.52703285
+7	8	the	O	3.14250541
+8	9	movie	O	3.6823895
+9	10	life	B-movie.name	5.58744335
+10	11	is	I-movie.name	3.96769714
+11	12	beautiful	I-movie.name	4.6369133
+12	1.04722989
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	please	O	5.78156281
+3	4	show	O	3.81516004
+4	5	me	O	3.73527336
+5	6	info	O	6.04537725
+6	7	on	O	5.52703285
+7	8	the	O	3.14250541
+8	9	movie	O	3.6823895
+9	10	life	B-movie.name	5.58744335
+10	11	is	I-movie.name	3.96769714
+11	12	beautiful	I-movie.name	4.6369133
+12	1.04722989
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	details	O	6.75757265
+3	4	to	O	4.49021626
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	life	B-movie.name	5.58744335
+7	8	is	I-movie.name	3.96769714
+8	9	beautiful	I-movie.name	4.6369133
+9	1.04722989
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	info	O	6.04537725
+3	4	on	O	5.52703285
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	life	B-movie.name	5.58744335
+7	8	is	I-movie.name	3.96769714
+8	9	beautiful	I-movie.name	4.6369133
+9	10	please	O	7.33047104
+10	0.694736838
+0	1	open	O	8.09880829
+1	2	a	O	4.36487627
+2	3	page	O	6.92462683
+3	4	about	O	4.6829505
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	life	B-movie.name	5.58744335
+7	8	is	I-movie.name	3.96769714
+8	9	beautiful	I-movie.name	4.6369133
+9	1.04722989
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	first	O	8.22390938
+4	5	star	B-movie.name	5.41223907
+5	6	wars	I-movie.name	3.81354642
+6	7	movie	O	4.95200729
+7	8	info	O	6.4836936
+8	2.70263886
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	details	O	6.75757265
+3	4	about	O	4.6829505
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	star	B-movie.name	5.41223907
+7	8	wars	I-movie.name	3.81354642
+8	9	:	I-movie.name	6.83413792
+9	10	episode	I-movie.name	6.36839437
+10	11	four	I-movie.name	4.98210001
+11	12	-	I-movie.name	6.55071592
+12	13	a	I-movie.name	5.76225853
+13	14	new	I-movie.name	6.08071184
+14	15	hope	I-movie.name	6.08071184
+15	1.04722989
+0	1	did	O	4.62064934
+1	2	ray	B-director.name	8.6076746
+2	3	stark	I-director.name	3.86794329
+3	4	produce	O	7.52090359
+4	5	steel	B-movie.name	9.76159763
+5	6	magnolias	I-movie.name	6.45260334
+6	0.858570755
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	look	O	5.69818115
+4	5	up	O	6.27799988
+5	6	information	O	5.32432175
+6	7	about	O	4.6829505
+7	8	american	B-country.name	8.77261543
+8	9	movies	O	3.44505525
+9	0.465665758
+0	1	french	B-country.name	8.08311844
+1	2	movies	O	2.76236129
+2	3	for	O	4.67462444
+3	4	twenty	B-movie.release_date	6.51589298
+4	5	twelve	I-movie.release_date	1.80984092
+5	0.99620527
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	russian	B-country.name	8.07946777
+3	4	movies	O	3.44505525
+4	5	by	O	5.41418886
+5	6	mosfilm	B-producer.name	8.8494072
+6	1.79282713
+0	1	show	O	3.50773692
+1	2	production	O	6.88824892
+2	3	company	O	6.5191617
+3	4	lionsgate	B-producer.name	6.28445768
+4	1.79282713
+0	1	paramount	B-producer.name	8.12368202
+1	2	film	I-producer.name	5.75580263
+2	3	studios	I-producer.name	6.1040411
+3	0.679201126
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	have	O	5.90479565
+5	6	more	O	6.6483736
+6	7	information	O	5.32432175
+7	8	about	O	4.6829505
+8	9	the	O	3.14250541
+9	10	producer	O	5.93813181
+10	11	ray	B-person.name	8.19488335
+11	12	stark	I-person.name	3.59946918
+12	0.382662475
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	details	O	6.75757265
+3	4	for	O	3.87794209
+4	5	the	O	3.14250541
+5	6	director	O	5.27073717
+6	7	steven	B-person.name	6.53665543
+7	8	spielberg	I-person.name	1.85026932
+8	0.382662475
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	that	O	5.49388075
+3	4	actor	O	6.10364628
+4	5	tom	B-person.name	7.01622868
+5	6	cruise	I-person.name	2.68317842
+6	0.382662475
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	information	O	5.32432175
+4	5	about	O	4.6829505
+5	6	the	O	3.14250541
+6	7	actor	O	6.10364628
+7	8	will	B-person.name	5.94359159
+8	9	ferrell	I-person.name	1.43041551
+9	0.382662475
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	great	B-movie.name	9.43759155
+5	6	debaters	I-movie.name	6.45260334
+6	0.858570755
+0	1	i	O	4.0349226
+1	2	wonder	O	8.33516884
+2	3	who	O	4.30524206
+3	4	produced	O	4.87400579
+4	5	star	B-movie.name	5.41223907
+5	6	wars	I-movie.name	3.81354642
+6	0.858570755
+0	1	i	O	4.0349226
+1	2	can	O	4.95077753
+2	3	't	O	8.91705704
+3	4	remember	O	9.32252216
+4	5	who	O	4.30524206
+5	6	produced	O	4.87400579
+6	7	star	B-movie.name	5.41223907
+7	8	wars	I-movie.name	3.81354642
+8	0.858570755
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	0.858570755
+0	1	movie	O	3.37496638
+1	2	producers	O	7.32356691
+2	2.70263886
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	end	B-movie.name	8.33897877
+4	5	of	I-movie.name	3.39624691
+5	6	watch	I-movie.name	7.05728149
+6	7	gross	O	8.3865242
+7	0.694736838
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	movie	O	3.6823895
+4	5	earn	O	9.32252216
+5	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	earnings	O	8.22390938
+4	5	for	O	3.87794209
+5	6	hotel	B-movie.name	6.66500235
+6	7	transylvania	I-movie.name	5.53631306
+7	0.858570755
+0	1	revenue	O	5.51859093
+1	2	for	O	3.58373523
+2	3	iron	B-movie.name	7.35814953
+3	4	man	I-movie.name	5.13084793
+4	5	2	I-movie.name	6.24635124
+5	1.04722989
+0	1	what	O	3.40929675
+1	2	amount	O	9.72146225
+2	3	of	O	3.7656939
+3	4	revenue	O	5.82601452
+4	5	did	O	4.92807293
+5	6	iron	B-movie.name	7.35814953
+6	7	man	I-movie.name	5.13084793
+7	8	make	O	7.39346647
+8	0.694736838
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	gross	O	6.83761549
+4	5	revenue	O	5.82601452
+5	6	of	O	3.7656939
+6	7	iron	B-movie.name	7.35814953
+7	8	man	I-movie.name	5.13084793
+8	0.858570755
+0	1	kahani	B-movie.name	9.91032028
+1	2	's	I-movie.name	5.41420078
+2	3	revenue	O	7.09563208
+3	0.694736838
+0	1	get	O	5.64780283
+1	2	the	O	2.84829855
+2	3	revenue	O	5.82601452
+3	4	of	O	3.7656939
+4	5	kahani	B-movie.name	8.33897877
+5	1.55078459
+0	1	revenue	O	5.51859093
+1	2	looper	B-movie.name	8.35957336
+2	1.55078459
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	looper	B-movie.name	6.49315214
+4	5	gross	O	8.82002354
+5	6	in	O	4.21852064
+6	7	sales	O	8.91705704
+7	2.70263886
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	did	O	4.92807293
+3	4	looper	B-movie.name	6.49315214
+4	5	gross	O	8.82002354
+5	0.777909577
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	money	O	6.88017511
+3	4	did	O	4.92807293
+4	5	mr	B-movie.name	8.74444389
+5	6	and	I-movie.name	5.06630945
+6	7	mrs	I-movie.name	7.7504282
+7	8	smith	I-movie.name	7.46700621
+8	9	make	O	7.67275715
+9	0.694736838
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	money	O	6.88017511
+3	4	did	O	4.92807293
+4	5	the	O	3.14250541
+5	6	movie	O	3.6823895
+6	7	mr	B-movie.name	8.74444389
+7	8	and	I-movie.name	5.06630945
+8	9	mrs	I-movie.name	7.7504282
+9	10	smith	I-movie.name	7.46700621
+10	11	make	O	7.67275715
+11	0.694736838
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	what	O	3.71671987
+5	6	the	O	3.14250541
+6	7	revenue	O	5.82601452
+7	8	for	O	3.87794209
+8	9	pirates	B-movie.name	9.43759155
+9	10	was	O	6.5775423
+10	0.777909577
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	was	O	4.59513426
+3	4	made	O	5.38094044
+4	5	from	O	5.40054893
+5	6	platoon	B-movie.name	8.74444389
+6	1.55078459
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	total	O	8.22390938
+4	5	gross	O	6.83761549
+5	6	receipts	O	10.0156698
+6	7	at	O	8.06975937
+7	8	the	O	3.14250541
+8	9	box	O	7.61777401
+9	10	office	O	7.61777401
+10	11	for	O	3.87794209
+11	12	the	O	3.14250541
+12	13	movie	O	3.6823895
+13	14	star	B-movie.name	5.41223907
+14	15	wars	I-movie.name	3.81354642
+15	0.858570755
+0	1	what	O	3.40929675
+1	2	were	O	6.25572634
+2	3	the	O	3.14250541
+3	4	gross	O	6.83761549
+4	5	receipts	O	10.0156698
+5	6	for	O	3.87794209
+6	7	hunger	B-movie.name	9.43759155
+7	8	games	I-movie.name	5.75945616
+8	0.858570755
+0	1	how	O	4.68436527
+1	2	much	O	5.35201454
+2	3	revenue	O	5.82601452
+3	4	did	O	4.92807293
+4	5	top	B-movie.name	7.24036646
+5	6	gun	I-movie.name	5.64167356
+6	7	make	O	7.39346647
+7	0.694736838
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	life	B-movie.name	5.58744335
+3	4	is	I-movie.name	3.96769714
+4	5	beautiful	I-movie.name	4.6369133
+5	6	about	O	6.23185873
+6	0.694736838
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	a	O	4.65908337
+3	4	list	O	4.67333508
+4	5	of	O	3.7656939
+5	6	production	O	7.18245602
+6	7	companies	O	9.32252216
+7	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	viewer	O	8.91705704
+4	5	ratings	O	7.18245602
+5	6	in	B-movie.name	5.52556801
+6	7	orange	I-movie.name	5.75945616
+7	0.858570755
+0	1	is	O	4.04876375
+1	2	in	B-movie.name	7.39198875
+2	3	july	I-movie.name	4.10122824
+3	4	on	I-movie.name	6.65181637
+4	5	netflix	O	10.8714304
+5	0.694736838
+0	1	rate	O	9.01509857
+1	2	movies	O	2.69503546
+2	2.70263886
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	actor	O	6.10364628
+3	4	that	O	5.49388075
+4	5	sings	O	9.32252216
+5	6	let	O	8.91705704
+6	7	me	O	3.73527336
+7	8	love	B-movie.subject	8.38611412
+8	9	you	O	6.62260342
+9	0.557442844
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	steven	B-director.name	6.26273346
+3	4	spielberg	I-director.name	1.9808737
+4	5	up	O	6.55582285
+5	6	to	O	5.00179911
+6	2.70263886
+0	1	what	O	3.40929675
+1	2	's	O	5.40397406
+2	3	playing	O	7.71308422
+3	4	tonight	O	10.0156698
+4	2.70263886
+0	1	where	O	5.92405605
+1	2	can	O	4.95077753
+2	3	i	O	4.34234619
+3	4	buy	O	10.0156698
+4	5	this	O	6.18702793
+5	6	movie	O	3.6823895
+6	2.70263886
+0	1	how	O	4.68436527
+1	2	to	O	4.19600916
+2	3	rent	O	9.32252216
+3	4	dirty	B-movie.name	5.58744335
+4	5	dancing	I-movie.name	4.03223562
+5	0.858570755
+0	1	can	O	4.93756104
+1	2	i	O	4.0481391
+2	3	rent	O	9.32252216
+3	4	finding	B-movie.name	5.03087187
+4	5	nemo	I-movie.name	3.43217897
+5	6	on	I-movie.name	6.65181637
+6	7	netflix	O	10.8714304
+7	0.694736838
+0	1	hotel	B-movie.name	8.23634434
+1	2	rwanda	I-movie.name	6.80049515
+2	3	is	O	5.62580442
+3	4	based	O	8.66222668
+4	5	on	O	5.52703285
+5	6	what	O	3.71671987
+6	2.70263886
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	where	O	6.23147964
+5	6	you	O	5.31518888
+6	7	keep	O	10.0156698
+7	8	resident	B-movie.name	6.79853392
+8	9	evil	I-movie.name	5.19984055
+9	0.858570755
+0	1	in	O	3.49764609
+1	2	september	B-movie.release_date	8.49610996
+2	1.58835161
+0	1	find	O	3.96524286
+1	2	movie	O	3.38818264
+2	3	from	O	5.40054893
+3	4	criteria	O	9.32252216
+4	2.70263886
+0	1	find	O	3.96524286
+1	2	a	O	4.36487627
+2	3	movie	O	3.6823895
+3	2.70263886
+0	1	find	O	3.96524286
+1	2	movies	O	2.69503546
+2	3	selected	O	8.91705704
+3	4	on	O	5.52703285
+4	5	all	O	5.09568834
+5	6	criteria	O	9.32252216
+6	2.70263886
+0	1	options	O	9.70824623
+1	2	available	O	8.11202431
+2	3	for	O	3.87794209
+3	4	movies	O	2.98924232
+4	5	today	O	10.0156698
+5	2.70263886
+0	1	find	O	3.96524286
+1	2	all	O	4.80148125
+2	3	selected	O	8.91705704
+3	4	criteria	O	9.32252216
+4	2.70263886
+0	1	search	O	4.9987154
+1	2	highlighted	O	8.11202431
+2	3	information	O	5.32432175
+3	2.70263886
+0	1	bring	O	7.31035042
+1	2	up	O	5.98379278
+2	3	movie	O	3.6823895
+3	4	request	B-movie.name	9.43759155
+4	1.55078459
+0	1	find	O	3.96524286
+1	2	selected	O	8.62285042
+2	3	information	O	5.32432175
+3	2.70263886
+0	1	find	O	3.96524286
+1	2	selected	O	8.62285042
+2	3	criteria	O	9.32252216
+3	2.70263886
+0	1	where	O	5.92405605
+1	2	can	O	4.95077753
+2	3	i	O	4.34234619
+3	4	watch	O	6.37808323
+4	5	movie	O	3.6823895
+5	2.70263886
+0	1	search	O	4.9987154
+1	2	all	O	4.80148125
+2	3	databases	O	10.0156698
+3	2.70263886
+0	1	search	O	4.9987154
+1	2	databases	O	9.72146225
+2	2.70263886
+0	1	where	O	5.92405605
+1	2	can	O	4.95077753
+2	3	i	O	4.34234619
+3	4	see	O	5.4409585
+4	5	movie	O	3.6823895
+5	2.70263886
+0	1	how	O	4.68436527
+1	2	long	O	8.62285042
+2	3	did	O	4.92807293
+3	4	it	O	6.88017511
+4	5	take	O	7.81844473
+5	6	james	B-director.name	6.99362087
+6	7	cameron	I-director.name	2.99247456
+7	8	to	O	4.76803923
+8	9	produce	O	7.75466347
+9	10	avatar	B-movie.name	5.23289871
+10	1.55078459
+0	1	in	O	3.49764609
+1	2	how	O	4.69758177
+2	3	many	O	6.30209732
+3	4	days	B-movie.name	9.43759155
+4	5	did	O	6.91048098
+5	6	it	O	7.29362631
+6	7	take	O	7.81844473
+7	8	to	O	4.49021626
+8	9	make	O	6.12384892
+9	10	twenty	B-movie.gross_revenue	8.74044228
+10	11	one	I-movie.gross_revenue	2.57735872
+11	12	point	I-movie.gross_revenue	2.2025311
+12	13	two	I-movie.gross_revenue	3.13609838
+13	14	for	O	6.28895855
+14	15	looper	B-movie.name	7.45122194
+15	1.55078459
+0	1	what	O	3.40929675
+1	2	age	O	7.92970276
+2	3	group	O	9.32252216
+3	4	is	O	4.35618687
+4	5	for	O	3.87794209
+5	6	rated	O	5.42054939
+6	7	r	B-rating.name	5.58656216
+7	8	movies	O	3.22743654
+8	0.59731108
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	behind	O	9.32252216
+4	5	scenes	O	10.0156698
+5	6	of	O	3.7656939
+6	7	the	O	3.14250541
+7	8	movie	O	3.6823895
+8	9	in	B-movie.name	5.52556801
+9	10	orange	I-movie.name	5.75945616
+10	0.858570755
+0	1	house	B-movie.name	7.32005358
+1	2	at	I-movie.name	4.28818941
+2	3	the	I-movie.name	3.40015078
+3	4	end	I-movie.name	4.52256775
+4	5	of	I-movie.name	3.71750236
+5	6	the	I-movie.name	3.11672854
+6	7	street	I-movie.name	4.47127438
+7	8	should	O	10.8714304
+8	9	of	O	4.20401049
+9	10	made	O	5.38094044
+10	11	more	O	6.6483736
+11	12	money	O	6.88017511
+12	2.70263886
+0	1	find	O	3.96524286
+1	2	me	O	3.4410665
+2	3	dirty	B-movie.name	5.58744335
+3	4	dancing	I-movie.name	4.03223562
+4	5	news	O	10.5921392
+5	0.694736838
+0	1	who	O	3.99781895
+1	2	came	O	7.32356691
+2	3	up	O	6.27799988
+3	4	for	O	3.87794209
+4	5	the	O	3.14250541
+5	6	main	O	7.9362278
+6	7	plot	O	10.0156698
+7	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	standard	O	10.0156698
+4	5	to	O	4.49021626
+5	6	be	O	6.54993343
+6	7	rated	O	5.42054939
+7	8	g	B-rating.name	5.71439552
+8	1.15894651
+0	1	i	O	4.0349226
+1	2	love	O	7.77555227
+2	3	taye	B-actor.name	8.95656395
+3	4	diggs	I-actor.name	4.7133708
+4	1.09873056
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	reviews	O	6.58168221
+5	6	in	B-movie.name	5.52556801
+6	7	orange	I-movie.name	5.75945616
+7	0.858570755
+0	1	how	O	4.68436527
+1	2	old	O	7.15651274
+2	3	do	O	6.61447191
+3	4	you	O	5.31518888
+4	5	have	O	5.90479565
+5	6	to	O	4.49021626
+6	7	be	O	6.54993343
+7	8	to	O	4.49021626
+8	9	see	O	5.4409585
+9	10	an	O	7.53076267
+10	11	r-rated	B-rating.name	8.39997292
+11	12	movie	O	3.92058372
+12	0.59731108
+0	1	click	O	9.70824623
+1	2	on	O	5.23282576
+2	3	the	O	3.14250541
+3	4	most	O	8.22390938
+4	5	popular	O	8.06975937
+5	6	movie	O	3.6823895
+6	7	in	B-movie.name	5.52556801
+7	8	orange	I-movie.name	5.75945616
+8	0.858570755
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	history	O	8.91705704
+4	5	behind	O	9.32252216
+5	6	lionsgate	B-producer.name	6.28445768
+6	1.79282713
+0	1	what	O	3.40929675
+1	2	does	O	6.16611433
+2	3	an	O	7.53076267
+3	4	r	B-rating.name	5.58656216
+4	5	rating	O	5.66889572
+5	6	mean	O	8.90311623
+6	7	on	O	5.52703285
+7	8	a	O	4.65908337
+8	9	movie	O	3.6823895
+9	2.70263886
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	give	O	6.16552162
+3	4	me	O	3.73527336
+4	5	more	O	6.6483736
+5	6	information	O	5.32432175
+6	7	about	O	4.6829505
+7	8	the	O	3.14250541
+8	9	text	O	10.0156698
+9	10	highlighted	O	8.40623188
+10	11	in	B-movie.name	5.52556801
+11	12	orange	I-movie.name	5.75945616
+12	0.858570755
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	recommended	O	10.0156698
+4	5	ages	O	9.32252216
+5	6	for	O	3.87794209
+6	7	a	O	4.65908337
+7	8	pg	B-rating.name	5.32419777
+8	9	movie	O	3.92058372
+9	0.59731108
+0	1	send	O	8.32195187
+1	2	dredd	B-movie.name	9.35810184
+2	3	movie	O	5.66479778
+3	0.777909577
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movie	O	3.6823895
+3	4	highlights	O	10.0156698
+4	5	in	B-movie.name	5.52556801
+5	6	orange	I-movie.name	5.75945616
+6	0.858570755
+0	1	need	O	5.92405605
+1	2	to	O	4.19600916
+2	3	rate	O	9.32252216
+3	4	movie	O	3.6823895
+4	2.70263886
+0	1	how	O	4.68436527
+1	2	old	O	7.15651274
+2	3	do	O	6.61447191
+3	4	you	O	5.31518888
+4	5	have	O	5.90479565
+5	6	to	O	4.49021626
+6	7	be	O	6.54993343
+7	8	to	O	4.49021626
+8	9	see	O	5.4409585
+9	10	a	O	4.65908337
+10	11	rated	O	5.42054939
+11	12	r	B-rating.name	5.58656216
+12	13	movie	O	3.92058372
+13	0.59731108
+0	1	what	O	3.40929675
+1	2	does	O	6.16611433
+2	3	a	O	4.65908337
+3	4	pg	B-rating.name	5.32419777
+4	5	thirteen	I-rating.name	3.02122307
+5	6	rating	O	5.74263048
+6	7	mean	O	9.31847572
+7	2.70263886
+0	1	twenty	B-movie.gross_revenue	14.9030113
+1	2	one	I-movie.gross_revenue	2.68260121
+2	3	point	I-movie.gross_revenue	2.2025311
+3	4	two	I-movie.gross_revenue	3.13609838
+4	5	is	O	6.76720333
+5	6	the	O	2.924932
+6	7	first	O	8.22390938
+7	8	week	O	10.0156698
+8	9	gross	O	6.83761549
+9	2.70263886
+0	1	in	B-movie.name	7.09691
+1	2	julie	I-movie.name	7.89910698
+2	0.858570755
+0	1	wb	B-producer.name	10.203124
+1	2	-	O	10.2781887
+2	3	what	O	4.27544928
+3	4	does	O	6.46032143
+4	5	it	O	6.88017511
+5	6	take	O	7.81844473
+6	7	to	O	4.49021626
+7	8	become	O	10.0156698
+8	9	a	O	4.65908337
+9	10	movie	O	3.6823895
+10	11	producer	O	5.93813181
+11	2.70263886
+0	1	how	O	4.68436527
+1	2	does	O	6.16611433
+2	3	a	O	4.65908337
+3	4	movie	O	3.6823895
+4	5	receive	O	8.91705704
+5	6	an	O	7.53076267
+6	7	r	B-rating.name	5.58656216
+7	8	rating	O	5.66889572
+8	0.59731108
+0	1	did	O	4.62064934
+1	2	you	O	5.02098179
+2	3	have	O	5.90479565
+3	4	fun	O	9.32252216
+4	5	on	O	5.52703285
+5	6	the	O	3.14250541
+6	7	set	O	8.22390938
+7	2.70263886
+0	1	sb	O	9.01509857
+1	2	news	O	9.02831459
+2	3	on	O	5.52703285
+3	4	life	B-movie.name	5.58744335
+4	1.55078459
+0	1	i	O	4.0349226
+1	2	have	O	5.61058855
+2	3	a	B-rating.name	9.49858475
+3	4	thirteen	I-rating.name	3.02122307
+4	5	year	O	7.61954784
+5	6	old	O	8.36296368
+6	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	list	O	4.67333508
+5	6	in	B-movie.name	5.52556801
+6	7	orange	I-movie.name	5.75945616
+7	0.858570755
+0	1	classic	B-movie.subject	8.9774065
+1	2	cars	I-movie.subject	3.57334995
+2	0.371760279
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	learn	O	9.32252216
+4	5	about	O	4.6829505
+5	6	flowers	O	10.0156698
+6	2.70263886
+0	1	out	O	5.92405605
+1	2	camping	B-movie.name	11.3040123
+2	1.55078459
+0	1	happy	B-movie.name	11.0089331
+1	3.36252427
+0	1	<unk>	O	3.78027987
+1	5.03627825
+0	1	sort	O	8.60963345
+1	2	by	O	4.32329941
+2	3	spanish	B-movie.language	5.82251883
+3	0.501109123
+0	1	where	O	5.92405605
+1	2	is	O	4.06198025
+2	3	punjabi	B-movie.language	8.48510647
+3	0.501109123
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	robert	B-director.name	6.78598118
+3	4	wise	I-director.name	2.76933098
+4	5	's	O	5.97600412
+5	6	middle	O	10.5272532
+6	7	name	O	6.02668524
+7	2.70263886
+0	1	<unk>	O	3.78027987
+1	5.03627825
+0	1	forty	I-movie.gross_revenue	15.5961571
+1	2	three	B-movie.gross_revenue	12.3869238
+2	3	million	I-movie.gross_revenue	1.4298383
+3	4	what	O	8.28519917
+4	2.35995531
+0	1	on	B-movie.name	9.91032028
+1	2	lies	I-movie.name	7.89910698
+2	0.858570755
+0	1	how	O	4.68436527
+1	2	fun	O	9.02831459
+2	3	is	O	4.35618687
+3	4	it	O	6.88017511
+4	5	to	O	4.49021626
+5	6	produce	O	7.24308062
+6	7	a	O	4.65908337
+7	8	movie	O	3.6823895
+8	2.70263886
+0	1	can	O	4.93756104
+1	2	i	O	4.0481391
+2	3	see	O	5.4409585
+3	4	a	O	4.65908337
+4	5	map	O	8.62937546
+5	6	of	O	3.7656939
+6	7	canada	B-country.name	7.38632107
+7	0.796538711
+0	1	south	B-country.name	10.7911682
+1	2	american	I-actor.nationality	15.6195068
+2	3	country	O	6.04508448
+3	4	flags	O	7.71865416
+4	2.70263886
+0	1	best	O	7.31035042
+1	2	writers	I-movie.name	17.2252846
+2	3	in	O	6.19147825
+3	4	the	O	3.58082223
+4	5	field	B-movie.name	8.05129623
+5	1.55078459
+0	1	who	O	3.99781895
+1	2	played	O	6.03258276
+2	3	the	O	3.14250541
+3	4	female	O	8.40623188
+4	5	lead	O	7.45071983
+5	6	in	O	3.80506921
+6	7	hitch	B-movie.name	5.77402973
+7	1.55078459
+0	1	who	O	3.99781895
+1	2	is	O	4.06198025
+2	3	in	O	3.80506921
+3	4	picture	O	8.62937546
+4	5	three	B-movie.name	9.43759155
+5	1.55078459
+0	1	who	O	3.99781895
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	lead	O	7.45071983
+4	5	actors	O	6.54993343
+5	2.70263886
+0	1	how	O	4.68436527
+1	2	old	O	7.15651274
+2	3	is	O	4.35618687
+3	4	jennifer	B-actor.name	8.04027271
+4	5	aniston	I-actor.name	5.40651798
+5	1.09873056
+0	1	when	O	5.14389753
+1	2	was	O	4.30092716
+2	3	will	B-person.name	5.94359159
+3	4	ferrell	I-person.name	1.43041551
+4	5	born	O	10.094409
+5	0.680353224
+0	1	where	O	5.92405605
+1	2	was	O	4.30092716
+2	3	black	B-movie.name	6.00360394
+3	4	swan	I-movie.name	4.50669336
+4	5	directed	O	6.15538836
+5	0.694736838
+0	1	show	O	3.50773692
+1	2	release	O	5.82964182
+2	3	date	O	6.00833607
+3	4	in	O	3.80506921
+4	5	the	B-movie.release_region	9.55137253
+5	6	usa	I-movie.release_region	2.17472744
+6	7	for	O	3.60340214
+7	8	the	O	2.924932
+8	9	movie	O	3.6823895
+9	10	little	B-movie.name	8.05129623
+10	11	women	I-movie.name	5.75945616
+11	0.858570755
+0	1	best	O	7.31035042
+1	2	director	O	4.97653008
+2	2.70263886
+0	1	best	O	7.31035042
+1	2	directors	O	6.58596802
+2	3	of	O	3.7656939
+3	4	all	O	5.09568834
+4	5	time	B-movie.subject	6.65151405
+5	0.840985358
+0	1	please	O	5.47413921
+1	2	show	O	3.52095318
+2	3	me	O	3.73527336
+3	4	famous	O	7.37661219
+4	5	film	O	6.30209732
+5	6	directors	O	6.88017511
+6	2.70263886
+0	1	greatest	O	9.70824623
+1	2	directors	O	6.58596802
+2	2.70263886
+0	1	who	O	3.99781895
+1	2	produced	O	4.5797987
+2	3	some	O	5.65896034
+3	4	of	O	3.7656939
+4	5	the	O	3.14250541
+5	6	most	O	8.22390938
+6	7	popular	O	8.06975937
+7	8	movies	O	2.98924232
+8	2.70263886
+0	1	who	O	3.99781895
+1	2	's	O	5.40397406
+2	3	the	O	3.14250541
+3	4	director	O	5.27073717
+4	2.70263886
+0	1	director	O	4.96331358
+1	2	's	O	5.40397406
+2	3	name	O	6.02668524
+3	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	name	O	6.02668524
+4	5	of	O	3.7656939
+5	6	a	O	4.65908337
+6	7	turkish	B-movie.language	8.89057159
+7	8	director	O	6.42831802
+8	9	that	O	6.81774235
+9	10	produced	O	4.87400579
+10	11	a	O	4.65908337
+11	12	drama	B-movie.genre	8.07488441
+12	13	film	O	6.33660555
+13	0.524204075
+0	1	watch	O	6.07065964
+1	2	dredd	B-movie.name	9.35810184
+2	3	movie	O	5.66479778
+3	0.777909577
+0	1	see	O	5.13353491
+1	2	dredd	B-movie.name	9.35810184
+2	3	movie	O	5.66479778
+3	0.777909577
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	the	O	3.14250541
+3	4	name	O	6.02668524
+4	5	of	O	3.7656939
+5	6	an	O	7.53076267
+6	7	academy	B-award.ceremony	8.42462349
+7	8	award	I-award.ceremony	1.89994204
+8	9	winning	O	9.51226711
+9	10	russian	B-country.name	9.0199585
+10	11	documentary	B-movie.genre	8.62331009
+11	0.211630508
+0	1	in	O	3.49764609
+1	2	search	O	5.0119319
+2	3	for	O	3.87794209
+3	4	names	O	6.5191617
+4	5	of	O	3.7656939
+5	6	crew	O	6.61447191
+6	7	members	O	8.40623188
+7	8	please	O	5.78156281
+8	2.70263886
+0	1	get	O	5.64780283
+1	2	me	O	3.4410665
+2	3	reviews	O	6.58168221
+3	4	and	O	6.12384892
+4	5	info	O	6.04537725
+5	6	about	O	4.6829505
+6	7	the	B-movie.name	4.20114899
+7	8	campaign	I-movie.name	4.22798014
+8	9	movie	O	4.95200729
+9	0.694736838
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	reviews	O	6.58168221
+3	4	and	O	6.12384892
+4	5	info	O	6.04537725
+5	6	for	O	3.87794209
+6	7	the	B-movie.name	4.20114899
+7	8	campaign	I-movie.name	4.22798014
+8	0.858570755
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	that	O	5.49388075
+3	4	clint	B-director.name	7.47912884
+4	5	eastwood	I-director.name	3.39793968
+5	6	direct	O	6.99765539
+6	7	that	O	6.0054636
+7	8	he	O	7.45071983
+8	9	won	O	8.22390938
+9	10	the	O	3.14250541
+10	11	best	O	7.61777401
+11	12	director	O	5.27073717
+12	13	oscar	B-award.ceremony	8.42462349
+13	14	for	O	4.31108284
+14	3.45856762
+0	1	what	O	3.40929675
+1	2	's	O	5.40397406
+2	3	hitchcock	B-director.name	7.47912884
+3	4	's	O	8.20418072
+4	5	most	O	9.21030903
+5	6	famous	O	7.37661219
+6	7	movie	O	3.6823895
+7	2.70263886
+0	1	looking	O	6.76380682
+1	2	for	O	3.58373523
+2	3	movies	O	2.98924232
+3	4	directed	O	4.8857708
+4	5	by	O	4.6175065
+5	6	actor	O	6.10364628
+6	7	number	B-character.name	9.38545036
+7	8	one	O	9.1949749
+8	4.66253948
+0	1	list	O	4.36591148
+1	2	of	O	3.47148705
+2	3	movies	O	2.98924232
+3	4	directed	O	4.8857708
+4	5	by	O	4.6175065
+5	6	director	O	5.27073717
+6	7	three	B-movie.name	9.43759155
+7	1.55078459
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	film	O	6.30209732
+4	5	that	O	5.49388075
+5	6	grossed	O	9.32252216
+6	7	seven	B-movie.gross_revenue	9.43358994
+7	8	point	I-movie.gross_revenue	2.1718936
+8	9	two	I-movie.gross_revenue	2.60799623
+9	10	million	I-movie.gross_revenue	1.88333559
+10	11	at	O	10.4807758
+11	12	the	O	2.924932
+12	13	box	O	7.61777401
+13	14	office	O	7.61777401
+14	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	made	O	5.38094044
+5	6	over	B-movie.gross_revenue	8.74044228
+6	7	seven	I-movie.gross_revenue	3.27050591
+7	8	million	I-movie.gross_revenue	1.35523331
+8	9	dollars	I-movie.gross_revenue	2.73063326
+9	0.994777024
+0	1	show	O	3.50773692
+1	2	last	B-movie.release_date	9.50771141
+2	3	years	I-movie.release_date	5.1056776
+3	4	films	O	6.87080097
+4	5	by	O	4.75933695
+5	6	7	B-producer.name	9.54255486
+6	7	arts	I-producer.name	4.67895746
+7	0.586683631
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	movies	O	2.98924232
+3	4	that	O	5.49388075
+4	5	came	O	7.61777401
+5	6	out	O	6.23147964
+6	7	nine	B-movie.release_date	7.40971088
+7	8	fourteen	I-movie.release_date	3.15976739
+8	9	twenty	I-movie.release_date	2.52575397
+9	10	twelve	I-movie.release_date	2.15901423
+10	0.76204741
+0	1	were	O	6.24250984
+1	2	there	O	6.54340839
+2	3	any	O	6.4047513
+3	4	movies	O	2.98924232
+4	5	released	O	5.45132113
+5	6	nine	B-movie.release_date	7.40971088
+6	7	fourteen	I-movie.release_date	3.15976739
+7	8	twenty	I-movie.release_date	2.52575397
+8	9	twelve	I-movie.release_date	2.15901423
+9	0.76204741
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	movies	O	2.98924232
+3	4	from	O	5.40054893
+4	5	the	O	3.14250541
+5	6	nineteen	B-movie.release_date	7.81517601
+6	7	seventies	B-movie.release_date	16.5385075
+7	1.70516348
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	list	O	4.67333508
+3	4	all	O	5.09568834
+4	5	movies	O	2.98924232
+5	6	from	O	5.40054893
+6	7	twenty	B-movie.release_date	6.51589298
+7	8	twelve	I-movie.release_date	1.80984092
+8	9	with	O	6.87080097
+9	10	a	O	4.80091381
+10	11	rating	O	5.43070173
+11	12	of	O	3.7656939
+12	13	three	O	9.32252216
+13	14	stars	O	7.61777401
+14	15	and	O	6.12384892
+15	16	up	O	6.27799988
+16	2.70263886
+0	1	academy	B-award.ceremony	14.4975452
+1	2	award	I-award.ceremony	1.87168121
+2	3	lionsgate	B-producer.name	8.69272137
+3	4	movies	O	4.20752573
+4	0.565836787
+0	1	show	O	3.50773692
+1	2	oscar	B-award.ceremony	13.9867802
+2	3	winning	O	9.35019684
+3	4	movies	O	2.92065668
+4	5	by	O	4.6175065
+5	6	warner	B-producer.name	7.05764771
+6	7	brothers	I-producer.name	3.58034515
+7	0.586683631
+0	1	what	O	3.40929675
+1	2	us	B-country.name	9.82318687
+2	3	release	O	6.57966185
+3	4	movies	O	3.78592491
+4	5	have	O	5.90479565
+5	6	been	O	6.79679346
+6	7	filmed	O	7.37661219
+7	8	in	O	3.80506921
+8	9	the	O	3.14250541
+9	10	czech	B-movie.location	9.30033588
+10	11	republic	I-movie.location	2.85595465
+11	0.035227444
+0	1	list	O	4.36591148
+1	2	movies	O	2.69503546
+2	3	set	O	8.22390938
+3	4	in	O	3.80506921
+4	5	ireland	B-country.name	8.77261543
+5	0.796538711
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	movies	O	2.98924232
+4	5	released	O	5.45132113
+5	6	in	O	3.80506921
+6	7	england	B-country.name	7.51985264
+7	0.796538711
+0	1	what	O	3.40929675
+1	2	movies	O	2.69503546
+2	3	are	O	4.95942354
+3	4	coming	O	8.91705704
+4	5	out	O	6.23147964
+5	6	this	O	6.18702793
+6	7	week	O	10.0156698
+7	8	in	O	3.80506921
+8	9	great	B-country.name	9.46576309
+9	10	britain	I-country.name	5.497262
+10	0.369526356
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	top	O	7.61777401
+4	5	five	O	8.91705704
+5	6	french	B-country.name	6.75771236
+6	7	movies	O	3.44505525
+7	8	of	O	4.5623765
+8	9	all	O	5.09568834
+9	10	time	B-movie.subject	6.65151405
+10	0.840985358
+0	1	what	O	3.40929675
+1	2	top	O	7.32356691
+2	3	films	O	5.43070173
+3	4	have	O	5.90479565
+4	5	come	O	6.92462683
+5	6	out	O	6.23147964
+6	7	of	O	3.7656939
+7	8	russia	B-country.name	8.07946777
+8	0.796538711
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	top	O	7.61777401
+4	5	movies	O	2.98924232
+5	6	from	O	5.40054893
+6	7	spain	B-country.name	7.51985264
+7	0.796538711
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	highest	O	10.0156698
+4	5	rated	O	5.42054939
+5	6	zombie	B-movie.subject	6.71213818
+6	7	movie	O	4.98980427
+7	0.557442844
+0	1	look	O	5.39075756
+1	2	for	O	3.58373523
+2	3	popular	O	8.06975937
+3	4	movies	O	2.98924232
+4	2.70263886
+0	1	search	O	4.9987154
+1	2	for	O	3.58373523
+2	3	foreign	B-movie.language	9.58371925
+3	4	language	I-movie.language	2.23637247
+4	5	films	O	5.7248621
+5	0.180756956
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	will	B-person.name	5.94359159
+3	4	ferrell	I-person.name	1.43041551
+4	5	famous	O	8.14849854
+5	6	for	O	4.28576469
+6	2.70263886
+0	1	is	O	4.04876375
+1	2	this	O	5.89282084
+2	3	a	O	4.65908337
+3	4	musical	B-movie.genre	8.58570957
+4	1.51725364
+0	1	hope	O	9.01509857
+1	2	that	O	5.19967365
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	is	O	4.35618687
+5	6	in	O	3.80506921
+6	7	english	B-movie.language	6.94466162
+7	0.501109123
+0	1	is	O	4.04876375
+1	2	this	O	5.89282084
+2	3	movie	O	3.6823895
+3	4	in	O	3.80506921
+4	5	english	B-movie.language	6.94466162
+5	0.501109123
+0	1	do	O	6.30704832
+1	2	they	O	7.52423763
+2	3	speak	O	8.62937546
+3	4	german	B-country.name	7.85632467
+4	5	in	O	4.26088238
+5	6	the	O	3.939188
+6	7	movie	O	3.6823895
+7	2.70263886
+0	1	is	O	4.04876375
+1	2	this	O	5.89282084
+2	3	movie	O	3.6823895
+3	4	filmed	O	7.37661219
+4	5	in	O	3.80506921
+5	6	india	B-country.name	7.85632467
+6	0.796538711
+0	1	show	O	3.50773692
+1	2	all	O	4.80148125
+2	3	dawn	B-movie.name	9.43759155
+3	4	of	I-movie.name	3.39624691
+4	5	the	I-movie.name	3.40015078
+5	6	dead	I-movie.name	8.16015339
+6	7	movies	O	4.53815079
+7	0.694736838
+0	1	list	O	4.36591148
+1	2	movies	O	2.69503546
+2	3	that	O	5.49388075
+3	4	have	O	5.90479565
+4	5	time	B-movie.subject	6.65151405
+5	6	travel	I-movie.subject	2.51206875
+6	7	in	O	5.15385342
+7	8	their	O	9.76476192
+8	9	title	O	8.62937546
+9	2.70263886
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	nine	B-movie.release_date	7.40971088
+5	6	twenty	I-movie.release_date	2.06115532
+6	7	eight	I-movie.release_date	3.96083856
+7	8	release	O	9.40472889
+8	9	date	O	6.15016651
+9	10	films	O	5.43070173
+10	11	from	O	5.40054893
+11	12	twenty	B-movie.release_date	6.51589298
+12	13	twelve	I-movie.release_date	1.80984092
+13	0.99620527
+0	1	find	O	3.96524286
+1	2	information	O	5.03011465
+2	3	about	O	4.6829505
+3	4	french	B-movie.language	6.25151443
+4	5	movies	O	4.14682341
+5	0.212632611
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	more	O	6.6483736
+5	6	about	O	4.6829505
+6	7	the	O	3.14250541
+7	8	life	B-movie.name	5.58744335
+8	9	and	I-movie.name	5.06630945
+9	10	movies	O	4.25886011
+10	11	of	O	4.20401049
+11	12	indian	B-actor.nationality	7.91404152
+12	13	actor	O	5.97111034
+13	14	dilip	B-actor.name	4.25867081
+14	15	kumar	I-actor.name	4.02022409
+15	1.09873056
+0	1	what	O	3.40929675
+1	2	does	O	6.16611433
+2	3	the	O	3.14250541
+3	4	miramax	B-producer.name	8.15625954
+4	5	logo	O	11.4285135
+5	6	look	O	6.25691032
+6	7	like	O	5.68493605
+7	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	pictures	O	7.9362278
+3	4	of	O	3.7656939
+4	5	martin	B-director.name	7.61265993
+5	6	scorsese	I-director.name	4.09108686
+6	0.786501288
+0	1	photos	O	9.70824623
+1	2	of	O	3.47148705
+2	3	steven	B-person.name	6.53665543
+3	4	spielberg	I-person.name	1.85026932
+4	0.382662475
+0	1	i	O	4.0349226
+1	2	want	O	4.93397045
+2	3	to	O	4.49021626
+3	4	see	O	5.4409585
+4	5	images	O	7.81844473
+5	6	of	O	3.7656939
+6	7	will	B-person.name	5.94359159
+7	8	ferrell	I-person.name	1.43041551
+8	0.382662475
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	pictures	O	7.9362278
+3	4	of	O	3.7656939
+4	5	woody	B-director.name	7.36134529
+5	6	allen	I-director.name	3.39793968
+6	0.786501288
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	popular	O	8.06975937
+3	4	movie	O	3.6823895
+4	5	producers	O	7.61777401
+5	2.70263886
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	give	O	6.16552162
+3	4	me	O	3.73527336
+4	5	the	O	3.14250541
+5	6	producer	O	5.93813181
+6	2.70263886
+0	1	i	O	4.0349226
+1	2	would	O	5.59432793
+2	3	like	O	5.68493605
+3	4	to	O	4.49021626
+4	5	know	O	6.00833607
+5	6	the	O	3.14250541
+6	7	rating	O	5.43070173
+7	8	of	O	3.7656939
+8	9	the	O	3.14250541
+9	10	movie	O	3.6823895
+10	11	avatar	B-movie.name	5.23289871
+11	1.55078459
+0	1	what	O	3.40929675
+1	2	rating	O	5.13649464
+2	3	is	O	4.35618687
+3	4	the	O	3.14250541
+4	5	movie	O	3.6823895
+5	6	barfi	B-movie.name	7.35814953
+6	1.55078459
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	5	rated	O	6.69016695
+5	0.694736838
+0	1	i	O	4.0349226
+1	2	need	O	5.93727255
+2	3	to	O	4.49021626
+3	4	know	O	6.00833607
+4	5	the	O	3.14250541
+5	6	rating	O	5.43070173
+6	7	of	O	3.7656939
+7	8	grease	B-movie.name	7.13500595
+8	1.55078459
+0	1	can	O	4.93756104
+1	2	you	O	5.02098179
+2	3	find	O	4.27266598
+3	4	out	O	6.23147964
+4	5	what	O	3.71671987
+5	6	rating	O	5.43070173
+6	7	the	O	3.14250541
+7	8	movie	O	3.6823895
+8	9	grease	B-movie.name	7.13500595
+9	10	is	I-movie.name	3.96769714
+10	0.858570755
+0	1	what	O	3.40929675
+1	2	rating	O	5.13649464
+2	3	did	O	4.92807293
+3	4	marley	B-movie.name	8.05129623
+4	5	and	I-movie.name	5.06630945
+5	6	me	O	5.00489092
+6	7	receive	O	9.35537338
+7	2.70263886
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	rating	O	5.43070173
+4	5	for	O	3.87794209
+5	6	mr	B-movie.name	8.74444389
+6	7	and	I-movie.name	5.06630945
+7	8	mrs	I-movie.name	7.7504282
+8	9	smith	I-movie.name	7.46700621
+9	1.04722989
+0	1	what	O	3.40929675
+1	2	rating	O	5.13649464
+2	3	did	O	4.92807293
+3	4	resident	B-movie.name	6.79853392
+4	5	evil	I-movie.name	5.19984055
+5	6	receive	O	10.1866741
+6	0.694736838
+0	1	rating	O	5.12327814
+1	2	for	O	3.58373523
+2	3	snow	B-movie.name	8.33897877
+3	4	white	I-movie.name	6.74028587
+4	5	and	I-movie.name	5.67098713
+5	6	the	I-movie.name	3.11672854
+6	7	huntsman	I-movie.name	7.06154156
+7	1.04722989
+0	1	what	O	3.40929675
+1	2	rating	O	5.13649464
+2	3	is	O	4.35618687
+3	4	step	B-movie.name	6.72954082
+4	5	up	I-movie.name	5.13084793
+5	0.858570755
+0	1	look	O	5.39075756
+1	2	up	O	5.98379278
+2	3	the	O	3.14250541
+3	4	rating	O	5.43070173
+4	5	of	O	3.7656939
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	step	B-movie.name	6.72954082
+8	9	up	I-movie.name	5.13084793
+9	0.858570755
+0	1	what	O	3.40929675
+1	2	rating	O	5.13649464
+2	3	did	O	4.92807293
+3	4	the	B-movie.name	4.20114899
+4	5	campaign	I-movie.name	4.22798014
+5	6	movie	O	4.95200729
+6	7	get	O	6.39354277
+7	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	rating	O	5.43070173
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	the	B-movie.name	4.20114899
+8	9	expendables	I-movie.name	6.74028587
+9	0.858570755
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	rating	O	5.43070173
+4	5	for	O	3.87794209
+5	6	toy	B-movie.name	8.05129623
+6	7	story	I-movie.name	6.45260334
+7	0.858570755
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	rating	O	5.43070173
+4	5	for	O	3.87794209
+5	6	the	O	3.14250541
+6	7	movie	O	3.6823895
+7	8	toy	B-movie.name	8.05129623
+8	9	story	I-movie.name	6.45260334
+9	0.858570755
+0	1	rating	O	5.12327814
+1	2	for	O	3.58373523
+2	3	twilight	B-movie.name	7.03969574
+3	4	breaking	I-movie.name	7.83889771
+4	5	dawn	I-movie.name	7.7504282
+5	1.04722989
+0	1	what	O	3.40929675
+1	2	was	O	4.30092716
+2	3	gross	O	6.83761549
+3	4	revenue	O	5.82601452
+4	5	for	O	3.87794209
+5	6	batman	B-movie.name	7.13500595
+6	7	begins	I-movie.name	7.14575052
+7	0.858570755
+0	1	find	O	3.96524286
+1	2	the	O	2.84829855
+2	3	revenue	O	5.82601452
+3	4	for	O	3.87794209
+4	5	downton	B-movie.name	8.33897877
+5	6	abbey	I-movie.name	6.74028587
+6	0.858570755
+0	1	what	O	3.40929675
+1	2	is	O	4.06198025
+2	3	the	O	3.14250541
+3	4	most	O	8.22390938
+4	5	a	O	4.65908337
+5	6	movie	O	3.6823895
+6	7	made	O	5.38094044
+7	2.70263886
+0	1	reviews	O	6.27425861
+1	2	for	O	3.58373523
+2	3	dirty	B-movie.name	5.58744335
+3	4	dancing	I-movie.name	4.03223562
+4	0.858570755
+0	1	find	O	3.96524286
+1	2	reviews	O	6.28747511
+2	3	for	O	3.87794209
+3	4	dirty	B-movie.name	5.58744335
+4	5	dancing	I-movie.name	4.03223562
+5	0.858570755
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	reviews	O	6.58168221
+3	4	for	O	3.87794209
+4	5	finding	B-movie.name	5.03087187
+5	6	nemo	I-movie.name	3.43217897
+6	0.858570755
+0	1	what	O	3.40929675
+1	2	are	O	4.66521645
+2	3	the	O	3.14250541
+3	4	ratings	O	7.18245602
+4	5	and	O	6.12384892
+5	6	review	O	9.32252216
+6	7	on	O	5.52703285
+7	8	finding	B-movie.name	5.03087187
+8	9	nemo	I-movie.name	3.43217897
+9	0.858570755
+0	1	reviews	O	6.27425861
+1	2	for	O	3.58373523
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	reviews	O	6.27425861
+1	2	for	O	3.58373523
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	reviews	O	6.27425861
+1	2	for	O	3.58373523
+2	3	finding	B-movie.name	5.03087187
+3	4	nemo	I-movie.name	3.43217897
+4	0.858570755
+0	1	reviews	O	6.27425861
+1	2	for	O	3.58373523
+2	3	movie	O	3.6823895
+3	2.70263886
+0	1	reviews	O	6.27425861
+1	2	for	O	3.58373523
+2	3	in	B-movie.name	5.52556801
+3	4	july	I-movie.name	4.10122824
+4	0.858570755
+0	1	how	O	4.68436527
+1	2	long	O	8.62285042
+2	3	is	O	4.35618687
+3	4	life	B-movie.name	5.58744335
+4	5	is	I-movie.name	3.96769714
+5	6	beautiful	I-movie.name	4.6369133
+6	1.04722989
+0	1	synopsis	O	7.76233578
+1	2	for	O	3.58373523
+2	3	the	O	3.14250541
+3	4	movie	O	3.6823895
+4	5	house	B-movie.name	5.74871159
+5	6	at	I-movie.name	4.22798014
+6	7	the	I-movie.name	3.40015078
+7	8	end	I-movie.name	4.52256775
+8	9	of	I-movie.name	3.71750236
+9	10	the	I-movie.name	3.11672854
+10	11	street	I-movie.name	4.47127438
+11	1.04722989
+0	1	synopsis	O	7.76233578
+1	2	for	O	3.58373523
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	5	four	I-movie.name	5.265522
+5	1.04722989
+0	1	summary	O	9.70824623
+1	2	of	O	3.47148705
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	5	four	I-movie.name	5.265522
+5	1.04722989
+0	1	finding	B-movie.name	6.60221386
+1	2	nemo	I-movie.name	3.49238801
+2	3	movie	O	4.95200729
+3	4	shortcut	O	10.4539862
+4	2.70263886
+0	1	show	O	3.50773692
+1	2	me	O	3.4410665
+2	3	the	O	3.14250541
+3	4	trailer	O	8.22390938
+4	5	for	O	3.87794209
+5	6	house	B-movie.name	5.74871159
+6	7	at	I-movie.name	4.22798014
+7	8	the	I-movie.name	3.40015078
+8	9	end	I-movie.name	4.52256775
+9	10	of	I-movie.name	3.71750236
+10	11	the	I-movie.name	3.11672854
+11	12	street	I-movie.name	4.47127438
+12	1.04722989
+0	1	life	O	8.09880829
+1	2	is	O	4.06198025
+2	3	beatiful	O	10.0156698
+3	4	shortcut	O	10.0156698
+4	2.70263886
+0	1	trailer	O	7.91648626
+1	2	for	O	3.58373523
+2	3	star	B-movie.name	5.41223907
+3	4	wars	I-movie.name	3.81354642
+4	5	a	I-movie.name	6.045681
+5	6	new	I-movie.name	6.08071184
+6	7	hope	I-movie.name	6.08071184
+7	1.04722989
+0	1	show	O	3.50773692
+1	2	resident	B-movie.name	8.66495514
+2	3	evil	I-movie.name	5.19984055
+3	4	movies	O	4.25886011
+4	5	with	O	5.86901808
+5	6	trailers	O	8.62937546
+6	2.70263886
+0	1	how	O	4.68436527
+1	2	many	O	6.00789022
+2	3	scorsese	B-director.name	8.8654232
+3	4	films	O	7.9367013
+4	5	were	O	7.53633261
+5	6	filmed	O	7.37661219
+6	7	in	O	3.80506921
+7	8	france	B-country.name	6.9008131
+8	0.796538711

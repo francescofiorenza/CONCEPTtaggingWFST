@@ -1,0 +1,41 @@
+fst type                                          vector
+arc type                                          standard
+input symbol table                                none
+output symbol table                               none
+# of states                                       4
+# of arcs                                         3
+initial state                                     0
+# of final states                                 1
+# of input/output epsilons                        0
+# of input epsilons                               0
+# of output epsilons                              0
+input label multiplicity                          1
+output label multiplicity                         1
+# of accessible states                            4
+# of coaccessible states                          4
+# of connected states                             4
+# of connected components                         1
+# of strongly conn components                     4
+input matcher                                     y
+output matcher                                    y
+input lookahead                                   n
+output lookahead                                  n
+expanded                                          y
+mutable                                           y
+error                                             n
+acceptor                                          y
+input deterministic                               y
+output deterministic                              y
+input/output epsilons                             n
+input epsilons                                    n
+output epsilons                                   n
+input label sorted                                y
+output label sorted                               y
+weighted                                          n
+cyclic                                            n
+cyclic at initial state                           n
+top sorted                                        y
+accessible                                        y
+coaccessible                                      y
+string                                            y
+weighted cycles                                   n

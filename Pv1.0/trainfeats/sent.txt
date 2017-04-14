@@ -1,0 +1,4 @@
+0	1	star	star
+1	2	of	of
+2	3	thor	thor
+3

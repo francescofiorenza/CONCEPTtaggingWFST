@@ -1,0 +1,7 @@
+#!/bin/bash
+array=0
+for file in test/*; do
+  #fstinfo ${file%.*}|grep error|awk '$2=="y" {print $2}'
+  array=$array+$(fstinfo ${file%.*}|grep arcs|awk '{print $4}')
+done
+echo $array

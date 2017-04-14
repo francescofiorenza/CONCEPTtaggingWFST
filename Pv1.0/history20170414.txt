@@ -1,0 +1,1000 @@
+ 1182  fstcompose sent.fst finalPOStagger.fst|fstcompose - pos.lm |fstshortestpath - |fstrmepsilon -| fstdraw --isymbols=lex.txt --osymbols=lex.txt >concSentPOStag.dot
+ 1183  xdot concSentPOStag.dot 
+ 1184  history 
+ 1185  history |grep pos.lm
+ 1186  history |grep pos.cnt
+ 1187  history |grep data.far
+ 1188  history |grep data
+ 1189  ls
+ 1190  ls *.sh
+ 1191  nano text2fsa.sh 
+ 1192  nano convTPL2SPL.sh 
+ 1193  ./convTPL2SPL.sh 
+ 1194  nano 0runned 
+ 1195  history 
+ 1196  nano farcompilestr.sh 
+ 1197  nano 0runned 
+ 1198  nano farcompilestr.sh 
+ 1199  mv farcompilestr.sh farcompile.sh 
+ 1200  nano 0runned 
+ 1201  nano farcompile.sh 
+ 1202  nano 0runned 
+ 1203  nano farcompile.sh 
+ 1204  ./farcompile.sh data.far
+ 1205  nano farcompile.sh 
+ 1206  nano 0runned 
+ 1207  vi 0runned
+ 1208  nano 0runned 
+ 1209  cd shared/Lab5
+ 1210  cd ../Lab6/Ex1/
+ 1211  ls
+ 1212  nano template.crf
+ 1213  ls
+ 1214  crf_learn template.crf train.txt 
+ 1215  cat train.txt 
+ 1216  crf_learn template.crf train.txt model.lm
+ 1217  crf_test -m model.lm test.txt 
+ 1218  ls
+ 1219  crf_learn template.crf train.txt model_lm
+ 1220  nano template.crf
+ 1221  crf_learn template.crf train.txt model.lm
+ 1222  nano template.crf
+ 1223  crf_learn template.crf train.txt model.lm
+ 1224  crf_test -m model.lm test.txt 
+ 1225  crf_test -m model.lm test.txt > out.txt
+ 1226  cd /shared/Lab5
+ 1227  cd shared/Lab5
+ 1228  cd Solution/l
+ 1229  cd Solution/
+ 1230  nano 0runned.sh 
+ 1231  cd ..
+ 1232  ls
+ 1233  cd ..
+ 1234  cd Lab4
+ 1235  lw
+ 1236  ls
+ 1237  nano conlleval.pl
+ 1238  ls
+ 1239  mv conlleval.pl ../Lab6/Ex1/
+ 1240  cd ../Lab6/Ex1/
+ 1241  ls
+ 1242  conlleval.pl -d '\t' < out.txt
+ 1243  perl conlleval.pl -d '\t' < out.txt
+ 1244  cd ..
+ 1245  mkdir Ex2
+ 1246  cd Ex2
+ 1247  cp ../Ex1/template.crf template.crf
+ 1248  cp ../Ex1/train.txt train.txt
+ 1249  cp ../Ex1/test.txt test.txt
+ 1250  ls
+ 1251  nano template.crf 
+ 1252  crf_learn template.crf train.txt model.lm
+ 1253  crf_test -m model.lm test.txt
+ 1254  crf_test -m model.lm test.txt >out.txt
+ 1255  perl conlleval.pl -d '\t' < out.txt>accuracy.txt
+ 1256  cp ../Ex1/conlleval.pl conlleval.pl
+ 1257  perl conlleval.pl -d '\t' < out.txt>accuracy.txt
+ 1258  nano accuracy.txt 
+ 1259  history 
+ 1260  nano 0runned.sh
+ 1261  cd ..
+ 1262  cd Ex1/
+ 1263  nano 0runned.sh
+ 1264  cd shared/
+ 1265  ls
+ 1266  mkdir Lab6
+ 1267  cd Lab6
+ 1268  cd ..
+ 1269  cd Lab5
+ 1270  ls
+ 1271  cd Solution/
+ 1272  ls
+ 1273  cd ../../Lab6/Ex1/
+ 1274  cat out.txt 
+ 1275  cd ../Ex2/
+ 1276  nano template.crf 
+ 1277  cd shared/Lab5
+ 1278  cd ../Lab6
+ 1279  ls
+ 1280  cd CRF++-0.58/
+ 1281  ls
+ 1282  cd ..
+ 1283  cd CRF++-0.58/
+ 1284  ls
+ 1285  ./configure
+ 1286  make
+ 1287  sudo make install
+ 1288  cd ..
+ 1289  cd Ex1/
+ 1290  ls
+ 1291  cd ..
+ 1292  ls
+ 1293  cd CRF++-0.58/
+ 1294  ls
+ 1295  ./configure
+ 1296  top
+ 1297  cd ..
+ 1298  cd Ex1
+ 1299  crf_test -m model.lm out.txt >accuracy.txt
+ 1300  nano accuracy.txt 
+ 1301  crf_test -m model.lm test.txt >out.txt
+ 1302  pl conlleval.pl -d '\t' <out.txt >accuracy.txt
+ 1303  perl conlleval.pl -d '\t' <out.txt >accuracy.txt
+ 1304  nano accuracy.txt 
+ 1305  python3-pip
+ 1306  pip
+ 1307  pip -V
+ 1308  pip3 
+ 1309  pip3 install numpy
+ 1310  sudo python3 pip3 install numpy
+ 1311  sudo python3 pip install numpy
+ 1312  sudo apt-cache search conda
+ 1313  cd Downloads/
+ 1314  ls
+ 1315  sudo bash Miniconda3-latest-Linux-x86_64.sh
+ 1316  python -v
+ 1317  python version
+ 1318  python2.7
+ 1319  pip help
+ 1320  pip install numpy
+ 1321  pip install --upgrade
+ 1322  pip install -upgrade numpy
+ 1323  pip install --upgrade numpy
+ 1324  python3
+ 1325  sudo apt-get install python3-pip
+ 1326  python-pip numphy
+ 1327  conda install numpy scipy mkl <nose> <sphinx> <pydot-ng>
+ 1328  conda install numpy scipy mkl nose sphinx pydot-ng
+ 1329  conda install numpy scipy mkl 
+ 1330  sudo conda install numpy scipy mkl nose sphinx pydot-ng
+ 1331  sudo su
+ 1332  conda
+ 1333  cd Downloads/
+ 1334  ls
+ 1335  sudo sh Miniconda3-latest-Linux-x86_64.sh 
+ 1336  sudo ./Miniconda3-latest-Linux-x86_64.sh 
+ 1337  ./Miniconda3-latest-Linux-x86_64.sh 
+ 1338  sudo chmod 777 Miniconda3-latest-Linux-x86_64.sh 
+ 1339  ./Miniconda3-latest-Linux-x86_64.sh 
+ 1340  sudo rm -R /home/vagrant/miniconda3
+ 1341  ./Miniconda3-latest-Linux-x86_64.sh 
+ 1342  conda install numpy scipy mkl nose sphinx pydot-ng
+ 1343  conda install numpy scipy mkl nose sphinx
+ 1344  conda install theano pygpu
+ 1345  theano
+ 1346  python3
+ 1347  cd shared/
+ 1348  cd Lab7\ RNN
+ 1349  LS
+ 1350  ls
+ 1351  cd lus_rnn_lab/
+ 1352  cd ..
+ 1353  mv Lab7\ RNN LAB7RNN
+ 1354  mv "Lab7 RNN" LAB7RNN
+ 1355  LS
+ 1356  ls
+ 1357  mv "lab7 RNN" LAB7RNN
+ 1358  mv "lab7 RNN" lab7RNN
+ 1359  sudo mv lab7\ RNN/ lab7RNN
+ 1360  cd lab7\ RNN/lus_rnn_lab/
+ 1361  ls
+ 1362  cd rnn_slu/
+ 1363  ls
+ 1364  cd rnn/
+ 1365  ls
+ 1366  nano elman.py
+ 1367  vs jordan.py
+ 1368  vim jordan.py
+ 1369  ls
+ 1370  cd ..
+ 1371  ls
+ 1372  vim config.cfg 
+ 1373  nano config.cfg 
+ 1374  ls
+ 1375  cd ..
+ 1376  ls
+ 1377  nano test_out.txt 
+ 1378  pwd
+ 1379  export PYTHONPATH=/home/vagrant/shared/lab7 RNN/lus_rnn_lab:$PYTHONPATH
+ 1380  export PYTHONPATH="/home/vagrant/shared/lab7 RNN/lus_rnn_lab":$PYTHONPATH
+ 1381  ls
+ 1382  cd rnn_slu/
+ 1383  ls
+ 1384  cd lus
+ 1385  ls
+ 1386  cd ..
+ 1387  python -V
+ 1388  python2.7 -V
+ 1389  python2.7 
+ 1390  python "/home/vagrant/shared/lab7 RNN/lus_rnn_lab/rnn_slu/lus/rnn_elman_train.py"
+ 1391  python lus_rnn_lab/rnn_slu/lus/rnn_elman_train.py
+ 1392  ls
+ 1393  cd lus_rnn_lab/
+ 1394  ls
+ 1395  python rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1396  ls
+ 1397  python rnn_slu/lus/rnn_elman_train.py
+ 1398  python rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1399  python3 rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1400  python2.7 rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1401  cd ..
+ 1402  cd Do
+ 1403  cd ..
+ 1404  cd Downloads/
+ 1405  ls
+ 1406  ./Miniconda3-latest-Linux-x86_64.sh
+ 1407  chmod 777 Miniconda2-latest-Linux-x86_64.sh 
+ 1408  ./Miniconda2-latest-Linux-x86_64.sh 
+ 1409  conda install numpy scipy mkl nose sphinx pydot-ng
+ 1410  python rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1411  cd shared/
+ 1412  la
+ 1413  cd lab7\ RNN/
+ 1414  ls
+ 1415  cd lus_rnn_lab/
+ 1416  python rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1417  python2.7 rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1418  pwd
+ 1419  export PYTHONPATH="/home/vagrant/shared/lab7 RNN/lus_rnn_lab":$PYTHONPATH
+ 1420  python2.7 rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1421  python rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1422  python2.7
+ 1423  conda install theano pygpu
+ 1424  python rnn_slu/lus/rnn_elman_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_elman
+ 1425  python rnn_slu/lus/rnn_elman_test.py model_elman rnn_slu/data/test_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg test_out.txt
+ 1426  python rnn_slu/lus/rnn_jordan_test.py model_jordan rnn_slu/data/test_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg test_out.txt
+ 1427  python rnn_slu/lus/rnn_jordan_train.py rnn_slu/data/train_atis_samp.txt rnn_slu/data/dev_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg model_jordan
+ 1428  python rnn_slu/lus/rnn_jordan_test.py model_jordan rnn_slu/data/test_atis.txt rnn_slu/data/word_dict.txt rnn_slu/data/label_dict.txt rnn_slu/config.cfg test_out.txt
+ 1429  python -V
+ 1430  cd shared/lab7\ RNN/
+ 1431  ls
+ 1432  cd lus_rnn_lab/
+ 1433  nano README.txt 
+ 1434  top
+ 1435  pluma
+ 1436  sudo apt-get install pluma
+ 1437  plum
+ 1438  sudo apt-get install plum
+ 1439  plum
+ 1440  sudo apt-get remove plum
+ 1441  kate
+ 1442  sudo apt-get install kate
+ 1443  kate
+ 1444  cd shared/
+ 1445  ls
+ 1446  cd Lab1lus_lab/
+ 1447  ls
+ 1448  ./count_word.sh 
+ 1449  bash
+ 1450  ./count_word.sh 
+ 1451  ls /bin/
+ 1452  ls /bin/ba*
+ 1453  ./create_lexicon.sh 
+ 1454  cd shared/
+ 1455  cd Lab1lus_lab/
+ 1456  ./count_bigram.sh 
+ 1457  data='train.txt'
+ 1458  ./count_word.sh 
+ 1459  cat train.txt | tr ’ ’ ’\n’ | sort | uniq
+ 1460  cat train.txt | tr ' ' '\n' | sort | uniq
+ 1461  cat train.txt | tr ' ' '\n' | sort
+ 1462  cat train.txt | tr ' ' '\n' | sort | uniq
+ 1463  cat train.txt | tr ' ' '\n' | sort | uniq -c
+ 1464  cat train.txt | tr ' ' '\n' | sort | uniq -c|sort
+ 1465  sort -h
+ 1466  sort -help
+ 1467  sort --help
+ 1468  cat train.txt | tr ' ' '\n' | sort | uniq -c|sort -n
+ 1469  sort --help
+ 1470  cat train.txt | tr ' ' '\n' | sort | uniq -c|sort -n -r
+ 1471  cat train.txt | tr ' ' '\n' | sort | uniq -c|sort -n -r>word.hist
+ 1472  cat word.hist|grep [A-Z]
+ 1473  cat train.txt| tr ' ' '\n' > word1|tail -n +2 word1 > word2|paste word1 word2
+ 1474  cat train.txt| tr ' ' '\n' > word1&tail -n +2 word1 > word2&paste word1 word2
+ 1475  exit
+ 1476  cd /shared/Lab1lus_lab
+ 1477  cd shared/Lab1lus_lab
+ 1478  ./count_bigram.sh 
+ 1479  tail -n +2 word1
+ 1480  cat word1
+ 1481  ./count_bigram.sh 
+ 1482  ./count_trigram.sh 
+ 1483  tail --help
+ 1484  ./count_trigram.sh 
+ 1485  paste '<s>' train.txt 
+ 1486  paste "<s>" train.txt 
+ 1487  cat $data| tr '\n' '</s>\n<s>'
+ 1488  cat train.txt| tr '\n' '</s>\n<s>'
+ 1489  cat train.txt| tr '\n' '\</s\>\n\<s\>'
+ 1490  cat train.txt| tr '\n' '<//s>\n<s>'
+ 1491  cat train.txt| tr '\n' '<\/s>\n<s>'
+ 1492  data='train.txt'
+ 1493  cat $data| tr '\n' '</s>\012<s>'| a
+ 1494  cat $data| tr '\n' '</s>\012<s>'
+ 1495  cat $data| tr '\n' '<//s>\012<s>'
+ 1496  cat $data| sed '/^ *$/d'| s
+ 1497  cat $data| sed '/^ *$/d'
+ 1498  cat $data| tr '\012' 'ciao'
+ 1499  cat $data| tr '\012' 'ciao/n'
+ 1500  cat $data| tr '\012' 'ciao\n'
+ 1501  '
+ 1502  cat $data
+ 1503  cat $data|sed -e s/\n/'ciao'\n/
+ 1504  cat $data|sed -e s/\n/'ciao'\n/g
+ 1505  ./improve_count_bigram.sh 
+ 1506  ./improve_count_trigram.sh 
+ 1507  ./improve_count_trigram.sh >trigram.hist
+ 1508  ./improve_count_bigram.sh >bigram.hist
+ 1509  cat train.txt|wc -l
+ 1510  N=$(cat train.txt|wc -l)
+ 1511  echo $N
+ 1512  ./prob_word.sh 
+ 1513  cat word.hist|cut -f 1
+ 1514  cat word.hist|cut -f 2
+ 1515  cat word.hist|cut -f '1'
+ 1516  cat word.hist
+ 1517  cat word.hist|cut -f 1
+ 1518  cat word.hist|awk -F '\t' '{print $2}' * 
+ 1519  cat word.hist|awk -F '\t' '{print $2}' 
+ 1520  cat word.hist|awk '{print $2}' 
+ 1521  cat word.hist|awk '{print $1}' 
+ 1522  cat word.hist|awk '$1>2 {print $1}' 
+ 1523  cat word.hist|awk '$1>100 {print $1}' 
+ 1524  cat word.hist|awk '$1>100 {OFS="\t"; print $1,$2}' 
+ 1525  array=$(cat word.hist|awk '$1>100 {print $1}'
+ 1526  N=$('[+]sa[z2!>az2!>b]sb'"${array[*]//-/_}lbxp")
+ 1527  d
+ 1528  d
+ 1529  f
+ 1530  d
+ 1531  d
+ 1532  array=$(cat word.hist|awk '$1>100 {print $1}')
+ 1533  N=$('[+]sa[z2!>az2!>b]sb'"${array[*]//-/_}lbxp")
+ 1534  array=$(cat word.hist|awk '$1>100 {print $1}')
+ 1535  IFS='+'
+ 1536  N=$(echo "scale=1;${array[*]}"|bc)
+ 1537  echo $N
+ 1538  echo ${array[*]}
+ 1539  cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+'
+ 1540  N=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+'|bc)
+ 1541  N=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+'|bc -l)
+ 1542  bc --help
+ 1543  ((cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+'))
+ 1544  ((echo $(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')))
+ 1545  N=(( echo $(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+') ))
+ 1546  N=((echo $(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')))
+ 1547  N= $(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')
+ 1548  N=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')
+ 1549  echo $N
+ 1550  N=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' ' + ')
+ 1551  echo $N
+ 1552  N=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '\+')
+ 1553  echo $N
+ 1554  N=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' "+")
+ 1555  echo $N
+ 1556  IFS='+' sum=$(echo "scale=1;${N[*]}"|bc)
+ 1557  IFS='+'|sum=$(echo "scale=1;${N[*]}"|bc)
+ 1558  sum=$(echo "scale=1;${N[*]}"|bc)
+ 1559  echo "scale=1;${N[*]}"
+ 1560  echo "${N[*]}"
+ 1561  echo "${N[*]}"|bc
+ 1562  IFS="+";bc<<<"${N[*]}"
+ 1563  IFS="+";bc<"${N[*]}"
+ 1564  IFS="+";"${N[*]}"
+ 1565  ((IFS="+";"${N[*]}"))
+ 1566  (( IFS="+";"${N[*]}" ))
+ 1567  echo ${N[@]} | sed 's/ /+/g' | bc
+ 1568  array=$(cat word.hist|awk '$1>100 {print $1}')
+ 1569  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1570  echo $N
+ 1571  echo ${array[@]} | sed 's/ /+/g' | bc
+ 1572  cat word.hist|awk '$1>100 {print $1}'|tr '\012' ' '
+ 1573  array=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' ' ')
+ 1574  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1575  array=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')
+ 1576  echo $array
+ 1577  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1578  cat word.hist|awk '$1>100 {OFS='\t';print $1,$2}'
+ 1579  cat word.hist|awk '$1>100 {OFS=' ';print $1,$2}'
+ 1580  cat word.hist|awk '$1>100 {OFS='\t';print $1,$2}'
+ 1581  cat word.hist|awk '$1>100 {OFS='\t';print $1,$2}' >word_lm.hist
+ 1582  cat word.hist|awk '$1>100 {OFS='\t'; print $1,$2}' >word_lm.hist
+ 1583  cat word.hist|awk '$1>100 {OFS="\t"; print $1,$2}' >word_lm.hist
+ 1584  ./prob_word.sh 
+ 1585  array=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')
+ 1586  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1587  echo $N
+ 1588  ./prob_word.sh 
+ 1589  ./prob_word.sh array=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')
+ 1590  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1591  cat word.hist|awk '$1>100 {OFS=" ";print $1,$2}'>word_lm.hist
+ 1592  while read count word; do   prob=$(echo "$count / $N" | bc -l);   echo -e "$prob\t$word"; done < word_lm.hist
+ 1593  count=10
+ 1594  word=ciao
+ 1595  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1596  prob=$(echo "$count / $N" | bc -l)
+ 1597  ./prob_word.sh 
+ 1598  array=$(cat word.hist|awk '$1>100 {print $1}'|tr '\012' '+')
+ 1599  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1600  echo $N
+ 1601  N=(($N))
+ 1602  N=($N)
+ 1603  echo $N
+ 1604  ./prob_word.sh 
+ 1605  echo "$count / $N" | bc -l
+ 1606  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1607  echo "$count / $N" | bc -l
+ 1608  ./prob_word.sh 
+ 1609  N=$(echo ${array[@]} | sed 's/ /+/g' | bc)
+ 1610  while read count word; do   echo "$count / $N" done < word_lm.hist
+ 1611  ./prob_word.sh 
+ 1612  ./count_word_lm.sh 
+ 1613  ./prob_word.sh 
+ 1614  ./prob_word.sh >word.prob
+ 1615  ./prob_word_lm.sh
+ 1616  ./prob_word.sh
+ 1617  ./prob_word_lm.sh >word_lm.prob
+ 1618  grep -P "accumalate\t" word.hist | awk '{print $1}'
+ 1619  grep -P "accumalate\t" word.hist
+ 1620  grep -P "accumalate" word.hist
+ 1621  grep -P "accumalate" word.hist | awk '{print $1}'
+ 1622  ./prob_bigram.sh 
+ 1623  ./count_bigram.sh >bigram.hist
+ 1624  ./count_bigram.sh
+ 1625  ./count_bigram.sh >bigram.hist
+ 1626  cat bigram.hist |awk '{print $2}'
+ 1627  cat bigram.hist |awk '{print $1}'
+ 1628  cat bigram.hist |awk '{print $3}'
+ 1629  cat bigram.hist |cut -f 2
+ 1630  cat bigram.hist |cut -f 1
+ 1631  ./count_bigram.sh >bigram.hist
+ 1632  ./count_bigram.sh
+ 1633  ./count_bigram.sh >bigram.hist
+ 1634  cat bigram.hist |cut -f 1
+ 1635  cat bigram.hist |cut -f 2
+ 1636  ./count_bigram.sh >bigram.hist
+ 1637  cat bigram.hist |cut -f 2
+ 1638  cat bigram.hist |cut -f 1
+ 1639  cat bigram.hist |cut -f 3
+ 1640  ./count_word.sh 
+ 1641  ./count_word
+ 1642  ./count_word.sh 
+ 1643  ./count_word.sh >word.hist
+ 1644  exit
+ 1645  cd shared/Lab1lus_lab/
+ 1646  ./prob_bigram.sh 
+ 1647  ./count_word.sh >word.hist
+ 1648  ./prob_bigram.sh 
+ 1649  awk '"the" == $2 {print $2}'<word.hist
+ 1650  awk '"the" == $2 {print $1}'<word.hist
+ 1651  word="a"
+ 1652  awk '$word == $2 {print $1}'<word.hist
+ 1653  word="the"
+ 1654  awk '$word == $2 {print $1}'<word.hist
+ 1655  awk "$word == $2 {print $1}"<word.hist
+ 1656  awk "$word == $2"<word.hist
+ 1657  awk '$word == $2'<word.hist
+ 1658  awk '$word == $2' {print $1}<word.hist
+ 1659  awk '"$word" == $2 {print $1}'<word.hist
+ 1660  grep -P '^\S+\s+$word\b' word.hist
+ 1661  grep -P ^\S+\s+$word\b word.hist
+ 1662  grep -P ^\S+\s+$word\b < word.hist
+ 1663  cat word.hist |grep -P ^\S+\s+$word\b
+ 1664  cat word.hist |grep -P $word
+ 1665  cat word.hist |grep -P /$word
+ 1666  cat word.hist |grep -P \S+$word\b
+ 1667  cat word.hist 
+ 1668  cat word.hist |grep "^\S+\s+$word
+ 1669  "
+ 1670  cat word.hist |grep "^\S+\s+$word"
+ 1671  cat word.hist |grep "^\S+\s+the"
+ 1672  cat word.hist |grep "^\S+\s+'the'"
+ 1673  cat word.hist |grep "^\S+'the'"
+ 1674  cat word.hist |grep "\S+'the'"
+ 1675  cat word.hist |grep "\S+the"
+ 1676  cat word.hist |grep "the"
+ 1677  cat word.hist |grep "^the"
+ 1678  cat word.hist |grep "^\S\+\s\+the"
+ 1679  cat word.hist |grep "^\S\+\s\+$word"
+ 1680  ./prob_bigram.sh 
+ 1681  word='the'
+ 1682  cat word.hist|grep "^\S\+\s\+$word"
+ 1683  cat word.hist|grep -P "^\S\+\s\+$word"
+ 1684  cat word.hist|grep P "^\S\+\s\+$word"
+ 1685  cat word.hist|grep -p "^\S\+\s\+$word"
+ 1686  cat word.hist|grep -r "^\S\+\s\+$word"
+ 1687  cat word.hist|grep  "^\S\+\s\+$word\"
+ 1688  cat word.hist|grep -P "^\S\+\s\+\t$word\t"
+ 1689  cat word.hist|grep -P "^\S\+\s\+ $word "
+ 1690  cat word.hist|grep -P "\t$word\t"
+ 1691  cat word.hist|grep -P "\t$word"
+ 1692  cat word.hist|grep -P "\t$word\b"
+ 1693  ./prob_bigram.sh 
+ 1694  ./prob_bigram.sh cd ..
+ 1695  cd ..
+ 1696  cd Lab5/
+ 1697  cd P1
+ 1698  ls
+ 1699  word.sh
+ 1700  ./word.sh 
+ 1701  ./1TAGcountCreate.sh 
+ 1702  ./2TOK_TAGcountCreate.sh 
+ 1703  ./1CONCEPTcountCreate.sh
+ 1704  ./1CONCEPTcountCreate.sh > CONCEPT.counts
+ 1705  ./2TOK_CONCEPTcountCreate.sh
+ 1706  ./2TOK_CONCEPTcountCreate.sh > TOK_CONCEPT.counts
+ 1707  ./3CONCEPTtaggerWFSTCreate.sh
+ 1708  ./3CONCEPTtaggerWFSTCreate.sh >CONCEPTtaggerFST.txt
+ 1709  #Conto le occorrenze dei campioni appartenenti alle diverse classi(Concetti)
+ 1710  ./1CONCEPTcountCreate.sh > CONCEPT.counts
+ 1711  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 1712  ./2TOK_CONCEPTcountCreate.sh > TOK_CONCEPT.counts
+ 1713  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di CONCEPT 
+ 1714  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 1715  ./3CONCEPTtaggerWFSTCreate.sh >CONCEPTtaggerFST.txt
+ 1716  ngramsymbols < data/NLSPARQL.train.data >lex.txt
+ 1717  fstcompile --isymbols=lex.txt --osymbols=lex.txt CONCEPTtaggerFST.txt > CONCEPTtagger.fst
+ 1718  traindata='data/NLSPARQL.train.data'
+ 1719  N=$(cat $traindata | cut -f 2 |sed '/^ *$/d' |sort | uniq|wc -l)
+ 1720  echo $N
+ 1721  ./4POStaggerUnknownTOKENCreate.sh >CONCEPTtaggerUnknownFST.txt
+ 1722  ./4CONCEPTtaggerUnknownTOKENCreate.sh
+ 1723  ./4CONCEPTtaggerUnknownTOKENCreate.sh >CONCEPTtaggerUnknownFST.txt
+ 1724  fstcompile --isymbols=lex.txt --osymbols=lex.txt CONCEPTtaggerUnknownFST.txt>CONCEPTtaggerUnknown.fst
+ 1725  fstunion CONCEPTtaggerUnknown.fst CONCEPTtagger.fst>finalCONCEPTtagger.fst
+ 1726  ./text2fsa.sh 'star of thor'>sent.txt
+ 1727  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1728  fstcompose sent.fst finalCONCEPTtagger.fst > composeSentCONCEPTtagger.fst
+ 1729  ./text2fsa.sh 'star of thor'>sent.txt
+ 1730  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1731  fstcompose sent.fst finalCONCEPTtagger.fst > composeSentCONCEPTtagger.fst
+ 1732  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtagger.fst>composeSentCONCEPTtagger.dot
+ 1733  xdot composeSentCONCEPTtagger.dot &
+ 1734  xdot composeSentCONCEPTtagger.dot 
+ 1735  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtagger.fst>composeSentCONCEPTtagger.dot
+ 1736  xdot
+ 1737  ./text2fsa.sh 'star of thor'
+ 1738  ./sentece2fsa.sh 'star of thor'>sent.txt
+ 1739  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 1740  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1741  fstcompose sent.fst finalCONCEPTtagger.fst > composeSentCONCEPTtagger.fst
+ 1742  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtagger.fst>composeSentCONCEPTtagger.dot
+ 1743  xdot composeSentCONCEPTtagger.dot 
+ 1744  fstrmepsilon composeSentCONCEPTtagger.fst>composeSentCONCEPTtaggerRMeps.fst
+ 1745  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtaggerRMeps.fst >composeSentCONCEPTtaggerRMeps.dot
+ 1746  xdot composeSentCONCEPTtaggerRMeps.dot 
+ 1747  xdot composeSentCONCEPTtagger.dot 
+ 1748  ./farcompile.sh data.far
+ 1749  ngramcount --order=3 --require_symbols=false data.far > CONCEPT.cnt
+ 1750  ngrammake --method=witten_bell CONCEPT.cnt > CONCEPT.lm
+ 1751  #una volta che ho il modello lo posso utilizzare per generare la mia macchina a stati finiti che consideri 
+ 1752  #anche la probabilità di marcov
+ 1753  fstcompose sent.fst finalCONCEPTtagger.fst | fstcompose - CONCEPT.lm| fstdraw --isymbols=lex.txt --osymbols=lex.txt - > concSentTaggerCONCEPTlm.dot
+ 1754  ./farcompile.sh data.far
+ 1755  ngramcount --order=3 --require_symbols=false data.far > CONCEPT.cnt
+ 1756  ngrammake --method=witten_bell CONCEPT.cnt > CONCEPT.lm
+ 1757  #una volta che ho il modello lo posso utilizzare per generare la mia macchina a stati finiti che consideri 
+ 1758  #anche la probabilità di marcov
+ 1759  fstcompose sent.fst finalCONCEPTtagger.fst | fstcompose - CONCEPT.lm| fstdraw --isymbols=lex.txt --osymbols=lex.txt - > concSentTaggerCONCEPTlm.dot
+ 1760  xdot concSentTaggerCONCEPTlm.dot
+ 1761  fstcompose sent.fst finalCONCEPTtagger.fst | fstcompose - CONCEPT.lm>composeSentCONCEPTtaggerLM.fst
+ 1762  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtaggerLM.fst > concSentTaggerCONCEPTlm.dot
+ 1763  xdot concSentTaggerCONCEPTlm.dot
+ 1764  fstrmepsilon composeSentCONCEPTtaggerLM.fst>composeSentCONCEPTtaggerLMRMeps.fst
+ 1765  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtaggerLMRMeps.fst >composeSentCONCEPTtaggerLMRMeps.dot
+ 1766  xdot composeSentCONCEPTtaggerLMRMeps.dot 
+ 1767  fstshortestpath composeSentCONCEPTtaggerLMRMeps.fst >composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1768  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSP.fst >composeSentCONCEPTtaggerLMRMepsSP.dot
+ 1769  fstshortestpath composeSentCONCEPTtaggerLMRMeps.fst >composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1770  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSP.fst >composeSentCONCEPTtaggerLMRMepsSP.dot
+ 1771  xdot composeSentCONCEPTtaggerLMRMepsSP.dot
+ 1772  fstprint composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1773  fstprintstrings composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1774  fstprintstring composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1775  farprintstrings composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1776  fstinfo composeSentCONCEPTtaggerLMRMepsSP.
+ 1777  fstinfo composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1778  fstarcsort composeSentCONCEPTtaggerLMRMepsSP.fst>composeSentCONCEPTtaggerLMRMepsSPas.fst
+ 1779  fsaprintstrings composeSentCONCEPTtaggerLMRMepsSPas.fst
+ 1780  fstprint  --isymbols=lex.txt  --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSP.fst
+ 1781  fstprint  --isymbols=lex.txt  --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSPsa.fst
+ 1782  fstprint  --isymbols=lex.txt  --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSPas.fst
+ 1783  fsttopsort composeSentCONCEPTtaggerLMRMepsSP.fst>composeSentCONCEPTtaggerLMRMepsSPts.fst
+ 1784  fstprint  --isymbols=lex.txt  --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSPts.fst
+ 1785  ./farcompile.sh datatrain.far
+ 1786  ngramcount --order=3 --require_symbols=false datatrain.far > CONCEPT.cnt
+ 1787  ngrammake --method=witten_bell CONCEPT.cnt > CONCEPT.lm
+ 1788  ./farcompile.sh datatrain.far
+ 1789  ./farcompiletest.sh datatest.far
+ 1790  ngramsymbols < data/NLSPARQL.test.data >lex.txt
+ 1791  ./farcompiletest.sh > datatest.far
+ 1792  ngramsymbols < data/NLSPARQL.test.data >lex.txt
+ 1793  ./farcompiletest.sh > "datatest.far"
+ 1794  ngramsymbols < data/NLSPARQL.test.data >lex.txt
+ 1795  ./farcompiletest.sh datatest.far
+ 1796  fstprint  --isymbols=lex.txt  --osymbols=lex.txt composeSentCONCEPTtaggerLMRMepsSPts.fst
+ 1797  ngramsymbols < data/NLSPARQL.train.data >lex.txt
+ 1798  ./farcompiletest.sh datatest.far
+ 1799  ngramsymbols --unknown-symbol="<unk>" < data/NLSPARQL.train.data >lex.txt
+ 1800  ./farcompiletest.sh datatest.far
+ 1801  ./farcompiletrain.sh datatrain.far
+ 1802  ngramsymbols < data/NLSPARQL.train.data >lex.txt
+ 1803  ./farcompiletrain.sh datatrain.far
+ 1804  ./farcompiletest.sh datatest.far
+ 1805  fstdraw --isymbols=lex.txt --osymbols=lex.txt datatest.far>datatest.dot
+ 1806  mkdir test
+ 1807  cd test
+ 1808  farextract datatest.far
+ 1809  cd ..
+ 1810  ./farcompiletest.sh datatest.far
+ 1811  farextract datatest.far
+ 1812  ls datatest*
+ 1813  ls SPLtest*
+ 1814  rm SPLtest*
+ 1815  ./farcompiletest.sh datatest.far
+ 1816  ./farcompiletrain.sh datatrain.far
+ 1817  mkdir -p test
+ 1818  cd test
+ 1819  farextract ../datatest.far
+ 1820  cd ..
+ 1821  cd test/
+ 1822  cd ..
+ 1823  ./tagCONCEPT.sh 
+ 1824  fstinfo test/SPLtest-1084
+ 1825  fstdraw test/SPLtest-1084 >SPLtest-1084.dot
+ 1826  xdot SPLtest-1084.dot 
+ 1827  fstdraw --isymbols=lex.txt test/SPLtest-1084 >SPLtest-1084.dot
+ 1828  xdot SPLtest-1084.dot 
+ 1829  fstdraw --isymbols=lex.txt --osymbols=lex.txt  test/SPLtest-1084 >SPLtest-1084.dot
+ 1830  xdot SPLtest-1084.dot 
+ 1831  fstdraw --symbols=lex.txt test/SPLtest-1084 >SPLtest-1084.dot
+ 1832  fstdraw --isymbols=lex.txt --osymbols=lex.txt  temp.fst >temp.dot
+ 1833  xdot temp.dot
+ 1834  fstcompose test/SPLtest-1084 finalCONCEPTtagger.fst >temp.fst
+ 1835  fstinfo temp.fst
+ 1836  fstinfo test/SPLtest-1084
+ 1837  fstcompose test/SPLtest-1084 finalCONCEPTtagger.fst|fstinfo -
+ 1838  ./farcompiletest.sh datatest.far
+ 1839  rm test
+ 1840  mkdir -p test
+ 1841  cd test
+ 1842  farextract ../datatest.far
+ 1843  cd ..
+ 1844  fstcompose test/SPLtest-1084 finalCONCEPTtagger.fst|fstinfo -
+ 1845  ./sentence2fsa.sh 'star of thor'|fstcompile --isymbols=lex.txt --osymbols=lex.txt -|fstcompose - finalCONCEPTtagger.fst|fstinfo -
+ 1846  ./sentence2fsa.sh 'star of thor'|fstcompile --isymbols=lex.txt --osymbols=lex.txt |fstinfo -
+ 1847  ./sentence2fsa.sh 'star of thor'|fstcompile --isymbols=lex.txt --osymbols=lex.txt |fstinfo ->temp1.txt
+ 1848  fstinfo test/SPLtest-1084>temp2.txt
+ 1849  ./sentence2fsa.sh 'star of thor'|fstcompile --isymbols=lex.txt --osymbols=lex.txt |fstdraw --isymbols=lex.txt --osymb - >temp.dot
+ 1850  xdot temp.dot
+ 1851  fstdraw --isymbols=lex.txt --osymbols=lex.txt test/SPLtest-1084>temp1.dot
+ 1852  xdot temp1.dot
+ 1853  ./farcompiletest.sh datatest.far
+ 1854  rm test
+ 1855  mkdir -p test
+ 1856  cd test
+ 1857  farextract ../datatest.far
+ 1858  cd ..
+ 1859  fstdraw --isymbols=lex.txt --osymbols=lex.txt test/SPLtest-1084>temp1.dot
+ 1860  xdot temp1.dot
+ 1861  fstcompose test/SPLtest-1084 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1862  fstcompose test/SPLtest-10 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1863  fstcompose test/SPLtest-0010 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1864  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1865  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|   fstcompose - CONCEPT.lm|   fstrmepsilon -|   fstshortestpath -|   fsttopsort - |   fstprint  --isymbols=lex.txt  --osymbols=lex.txt
+ 1866  ./farcompiletrain.sh datatrain.far
+ 1867  ngramcount --order=3 --require_symbols=false datatrain.far > CONCEPT.cnt
+ 1868  ngrammake --method=witten_bell CONCEPT.cnt > CONCEPT.lm
+ 1869  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|   fstcompose - CONCEPT.lm|   fstrmepsilon -|   fstshortestpath -|   fsttopsort - |   fstprint  --isymbols=lex.txt  --osymbols=lex.txt
+ 1870  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|   fstcompose - CONCEPT.lm|   fstrmepsilon -|   fstshortestpath -|   fsttopsort - |   fstprint  --isymbols=lex.txt  --osymbols=lex.txt|   awk '{OFS="\t";print $3,$4}'
+ 1871  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|   fstcompose - CONCEPT.lm|   fstrmepsilon -|   fstshortestpath -|   fsttopsort - |   fstprint  --isymbols=lex.txt  --osymbols=lex.txt|   awk '{OFS="\t";print $3,$4}'>>out.txt
+ 1872  fstcompose test/SPLtest-0014 finalCONCEPTtagger.fst|   fstcompose - CONCEPT.lm|   fstrmepsilon -|   fstshortestpath -|   fsttopsort - |   fstprint  --isymbols=lex.txt  --osymbols=lex.txt|   awk '{OFS="\t";print $3,$4}'>>out.txt
+ 1873  mkdir trainfeats
+ 1874  cd trainfeats/
+ 1875  ./1POScountCreate.sh > POS.counts
+ 1876  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 1877  ./2TOK_POScountCreate.sh > TOK_POS.counts
+ 1878  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di POS 
+ 1879  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 1880  ./3POStaggerWFSTCreate.sh >POStaggerFST.txt
+ 1881  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1882  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 1883  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 1884  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 1885  #Testiamo la nostra macchina finale con la frase 'star of thor'
+ 1886  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 1887  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1888  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1889  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst|xdot -
+ 1890  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1891  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 1892  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1893  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1894  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst|xdot -
+ 1895  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 1896  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1897  ngramsymbols < ../data/NLSPARQL.train.feats.txt >lex.txt
+ 1898  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1899  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1900  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst|xdot -
+ 1901  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1902  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1903  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 1904  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 1905  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 1906  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerFST.txt > POStagger.fst
+ 1907  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1908  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 1909  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 1910  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 1911  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1912  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1913  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst|xdot -
+ 1914  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1915  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1916  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst|xdot -
+ 1917  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst | xdot -
+ 1918  history |grep xdot
+ 1919  fstcompose sent.fst finalPOStagger.fst | fstdraw --isymbols=lex.txt --osymbols=lex.txt -|xdot -
+ 1920  xdot
+ 1921  cd ..
+ 1922  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1923  fstcompose sent.fst finalPOStagger.fst | fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1924  fstcompose sent.fst finalPOStagger.fst | fstdraw --isymbols=lex.txt --osymbols=lex.txt - |xdot -
+ 1925  cd trainfeats/
+ 1926  fstcompose sent.fst finalPOStagger.fst | fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1927  fstcompose sent.fst finalPOStagger.fst | fstdraw --isymbols=lex.txt --osymbols=lex.txt - |xdot -
+ 1928  fstcompose sent.fst finalPOStagger.fst |fstdraw --isymbols=lex.txt --osymbols=lex.txt - |xdot -
+ 1929  cd ..
+ 1930  fstcompose test/SPLtest-0084 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1931  cd trainfeats/
+ 1932  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStaggerRMeps.fst >composeSentPOStaggerRMeps.dot
+ 1933  xdot composeSentPOStaggerRMeps.dot 
+ 1934  fstinfo sent.fst
+ 1935  fstdraw sent.fst|xdot -
+ 1936  fstdraw finalPOStagger.fst|xdot -
+ 1937  fstdraw POStaggerUnknown.fst|xdot -
+ 1938  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1939  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt|fstinfo -
+ 1940  ./1POScountCreate.sh > POS.counts
+ 1941  mkdir -p trainfeats
+ 1942  cd trainfeats
+ 1943  #Conto le occorrenze dei campioni appartenenti alle diverse classi(Concetti)
+ 1944  ./1POScountCreate.sh > POS.counts
+ 1945  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 1946  ./2TOK_POScountCreate.sh > TOK_POS.counts
+ 1947  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di POS 
+ 1948  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 1949  ./3POStaggerWFSTCreate.sh >POStaggerFST.txt
+ 1950  #Generiamo il lessico tramite ngramsymbols (appartiene al pacchetto openfst)
+ 1951  ngramsymbols < ../data/NLSPARQL.train.feats.txt >lex.txt
+ 1952  #Compiliamo il nostro trasduttore a stati finiti tramite il lessico e che ci permetterà di convertire la frase in 
+ 1953  #input in una sequenza di Concetti (insomma ci permette di taggare ogni parola)
+ 1954  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerFST.txt > POStagger.fst
+ 1955  #Dato che il training non è mai esaustivo, ci possono essere delle parole non note che devono
+ 1956  #essere mappate. Per mappare una parola non nota in uno dei possibili N POS
+ 1957  #definiamo una macchina a stati finiti che va da <unk> a uno dei possibili POS 
+ 1958  #con una probabilità di 1 su N (-l(1 / N)|bc -l)=-log(1/N)
+ 1959  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1960  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 1961  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 1962  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 1963  #Testiamo la nostra macchina finale con la frase 'star of thor'
+ 1964  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 1965  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 1966  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 1967  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst>composeSentPOStagger.dot
+ 1968  xdot composeSentPOStagger.dot &
+ 1969  fstrmepsilon composeSentPOStagger.fst>composeSentPOStaggerRMeps.fst
+ 1970  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStaggerRMeps.fst >composeSentPOStaggerRMeps.dot
+ 1971  xdot composeSentPOStaggerRMeps.dot 
+ 1972  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerFST.txt|fstdraw -|xdot -
+ 1973  ./3POStaggerWFSTCreate.sh
+ 1974  ls 3POStaggerWFSTCreate.sh
+ 1975  ./3POStaggerWFSTCreate.sh
+ 1976  ./1POScountCreate.sh > POS.counts
+ 1977  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 1978  ./2TOK_POScountCreate.sh > TOK_POS.counts
+ 1979  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di POS 
+ 1980  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 1981  ./3POStaggerWFSTCreate.sh >POStaggerFST.txt
+ 1982  #Generiamo il lessico tramite ngramsymbols (appartiene al pacchetto openfst)
+ 1983  ngramsymbols < ../data/NLSPARQL.train.feats.txt >lex.txt
+ 1984  #Compiliamo il nostro trasduttore a stati finiti tramite il lessico e che ci permetterà di convertire la frase in 
+ 1985  #input in una sequenza di Concetti (insomma ci permette di taggare ogni parola)
+ 1986  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerFST.txt > POStagger.fst
+ 1987  #Dato che il training non è mai esaustivo, ci possono essere delle parole non note che devono
+ 1988  #essere mappate. Per mappare una parola non nota in uno dei possibili N POS
+ 1989  #definiamo una macchina a stati finiti che va da <unk> a uno dei possibili POS 
+ 1990  #con una probabilità di 1 su N (-l(1 / N)|bc -l)=-log(1/N)
+ 1991  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 1992  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 1993  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 1994  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 1995  cd ..
+ 1996  ./3POStaggerWFSTCreate.sh >POStaggerFST.txt
+ 1997  exit
+ 1998  cd shared/Lab5/P1/trainfeats/
+ 1999  ./1POScountCreate.sh > POS.counts
+ 2000  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 2001  ./2TOK_POScountCreate.sh > TOK_POS.counts
+ 2002  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di POS 
+ 2003  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 2004  ./3POStaggerWFSTCreate.sh >POStaggerFST.txt
+ 2005  ngramsymbols < ../data/NLSPARQL.train.feats.txt >lex.txt
+ 2006  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerFST.txt > POStagger.fst
+ 2007  ./4POStaggerUnknownTOKENCreate.sh >POStaggerUnknownFST.txt
+ 2008  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 2009  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 2010  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 2011  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 2012  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 2013  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst>composeSentPOStagger.dot
+ 2014  xdot composeSentPOStagger.dot
+ 2015  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 2016  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 2017  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 2018  fstdraw --isymbols=lex.txt --osymbols=lex.txt composeSentPOStagger.fst>composeSentPOStagger.dot
+ 2019  xdot composeSentPOStagger.dot
+ 2020  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt>POStaggerUnknown.fst
+ 2021  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 2022  fstunion POStaggerUnknown.fst POStagger.fst>finalPOStagger.fst
+ 2023  fstinfo finalPOStagger.fst 
+ 2024  fstdraw finalPOStagger.fst |xdot -
+ 2025  ./sentence2fsa.sh 'star of thor'>sent.txt
+ 2026  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt>sent.fst
+ 2027  fstcompose sent.fst finalPOStagger.fst > composeSentPOStagger.fst
+ 2028  fstinfo composeSentPOStagger.fst
+ 2029  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt|fstinfo -
+ 2030  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt|fstdraw -|xdot -
+ 2031  fstcompose sent.fst finalPOStagger.fst|fstdraw -|xdot -
+ 2032  fstinfo sent.fst
+ 2033  fstinfo finalPOStagger.fst 
+ 2034  fstarcsort finalPOStagger.fst >finalPOStagger.fst
+ 2035  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerUnknownFST.txt| fstarcsort - >POStaggerUnknown.fst
+ 2036  fstcompile --isymbols=lex.txt --osymbols=lex.txt POStaggerFST.txt| fstarcsort - > POStagger.fst
+ 2037  fstunion POStaggerUnknown.fst POStagger.fst| fstarcsort - >finalPOStagger.fst
+ 2038  fstinfo finalPOStagger.fst
+ 2039  fstdraw finalPOStagger.fst|xdot -
+ 2040  fstcompile --isymbols=lex.txt --osymbols=lex.txt sent.txt| fstarcsort - >sent.fst
+ 2041  fstinfo sent.fst
+ 2042  fstcompose sent.fst finalPOStagger.fst |fstinfo -
+ 2043  cd ..
+ 2044  cd trainfeats/
+ 2045  rm -R trainfeats/
+ 2046  ps aux|grep xdot
+ 2047  sudo killall xdot
+ 2048  ps aux|grep xdot
+ 2049  rm -R trainfeats/
+ 2050  ./tagCONCEPT.sh
+ 2051  cd ..
+ 2052  ./tagCONCEPT.sh
+ 2053  ./tagCONCEPT.sh 
+ 2054  ./tagCONCEPT.sh >tagged.txt
+ 2055  ./tagCONCEPT.sh
+ 2056  ./outCreate.sh 
+ 2057  cat taggedCONCEPT.txt|sed 's/^ *//g;s/ *$//g'
+ 2058  cat taggedCONCEPT.txt|sed '/^$/d'
+ 2059  cat taggedCONCEPT.txt|sed "s/^[ \t]*//"
+ 2060  cat taggedCONCEPT.txt|sed $'s/^\t*$//g'
+ 2061  cat taggedCONCEPT.txt|sed -P 's/^\t*$//g'
+ 2062  cat taggedCONCEPT.txt|sed 's/\t\n//g'
+ 2063  cat taggedCONCEPT.txt|sed 's/\t//g'
+ 2064  cat taggedCONCEPT.txt|sed -r 's/^\s+$//'
+ 2065  cat taggedCONCEPT.txt|sed -r 's/\t$//'
+ 2066  cat taggedCONCEPT.txt|sed -r 's//\t$//'
+ 2067  cat taggedCONCEPT.txt|sed -r 's/\\t$//'
+ 2068  cat taggedCONCEPT.txt|sed '/[^      ]/!s/   //g'
+ 2069  cat taggedCONCEPT.txt|tr "\t" ''
+ 2070  cat taggedCONCEPT.txt|tr "\t" ' '
+ 2071  cat taggedCONCEPT.txt|tr -P "\t" ' '
+ 2072  cat taggedCONCEPT.txt|grep -P "\t"
+ 2073  cat taggedCONCEPT.txt|grep -P ^"\t"
+ 2074  cat taggedCONCEPT.txt|sed 's/TAB//g' >taggedCONCEPTne.txt 
+ 2075  cat taggedCONCEPT.txt|tr "\t" ' ' >taggedCONCEPTne.txt 
+ 2076  cat taggedCONCEPT.txt|tr "\t\n" ' ' >taggedCONCEPTne.txt 
+ 2077  cat taggedCONCEPT.txt|tr "\t " ' ' >taggedCONCEPTne.txt 
+ 2078  cat taggedCONCEPT.txt|tr -d "\t\r" >taggedCONCEPTne.txt 
+ 2079  cat taggedCONCEPT.txt|tr -d "\t\\n" >taggedCONCEPTne.txt 
+ 2080  cat taggedCONCEPT.txt|sed 's/\t\r//' >taggedCONCEPTne.txt 
+ 2081  cat taggedCONCEPT.txt|sed 's/\t\n//' >taggedCONCEPTne.txt 
+ 2082  cat taggedCONCEPT.txt|sed 's/\t\\n//'
+ 2083  cat taggedCONCEPT.txt|sed 's/\t.\n//'
+ 2084  cat taggedCONCEPT.txt|tr "\t" ' '|sed '/^$/d'
+ 2085  cat taggedCONCEPT.txt|tr "\t" ' '|sed '/ \n/d'
+ 2086  cat taggedCONCEPT.txt|tr -d '\t '
+ 2087  cat taggedCONCEPT.txt|tr -d '^\t*'
+ 2088* cat taggedCONCEPT.txt|tr '\n' ' '|
+ 2089  ./tagCONCEPT.sh 
+ 2090  ./tagCONCEPT.sh >taggedCONCEPT.txt
+ 2091  ./outCreate.sh 
+ 2092  cat taggedCONCEPT.txt|awk '$1 {print $1}'
+ 2093  cat data/NLSPARQL.test.feats.txt|awk '$1 {print $2}'
+ 2094  cat taggedCONCEPT.txt|awk '$1 {print $1}' > token
+ 2095  cat data/NLSPARQL.test.feats.txt|awk '$1 {print $2}' > pos
+ 2096  paste token pos
+ 2097  paste token pos|less
+ 2098  ./farcompiletest.sh datatest.far
+ 2099  rm test
+ 2100  mkdir -p test
+ 2101  cd test
+ 2102  farextract ../datatest.far
+ 2103  cd ..
+ 2104  ./tagCONCEPT.sh >taggedCONCEPT.txt
+ 2105  ./tagCONCEPT.sh >temp.txt
+ 2106  ls test |wc -l
+ 2107  cat data/NLSPARQL.test.data |tr -d ' ' 
+ 2108  cat data/NLSPARQL.test.data |tr -d '\t' 
+ 2109  cat data/NLSPARQL.test.data |tr -d '\t' | sort | uniq -c|sort -nr
+ 2110  cat data/NLSPARQL.test.data |tr -d '\t' | sort | uniq -c|sort -n
+ 2111  ls test |wc -l
+ 2112  cat taggedCONCEPT.txt |tr -d '\t' | sort | uniq -c|sort -n
+ 2113  cat data/NLSPARQL.test.data |grep how
+ 2114  cat data/NLSPARQL.test.data |sed '/^$/d'
+ 2115  cat data/NLSPARQL.test.data |sed '/^$/d'>temptesttaggedCONCEPT
+ 2116  diff taggedCONCEPT.txt temptesttaggedCONCEPT 
+ 2117  sudo apt-get install meld
+ 2118  meld
+ 2119  fstinfo test/SPLtest-0002
+ 2120  array=0
+ 2121  array=array+3
+ 2122  echo $array
+ 2123  array=$array+3
+ 2124  echo $array
+ 2125  array=$array 3
+ 2126  array=$array,3
+ 2127  echo $array
+ 2128  ./checkNumberOfArc.sh 
+ 2129  fstinfo test/SPLtest-0002
+ 2130  ./checkNumberOfArc.sh 
+ 2131  ./checkNumberOfArc.sh >checkerror.txt
+ 2132  cat checkerror.txt |tr ',' '+'|bc -
+ 2133  cat checkerror.txt |tr ',' '+'
+ 2134  (cat checkerror.txt |tr ',' '+')
+ 2135  ((cat checkerror.txt |tr ',' '+'))
+ 2136  arr=$( cat checkerror.txt |tr ',' ' ' )
+ 2137  IFS='+' sum=$(echo "scale=1;${arr[*]}"|bc)
+ 2138  echo $arr
+ 2139  IFS='+' echo "${arr[*]}"
+ 2140  IFS='+' echo "scale=1;${arr[*]}"
+ 2141  arr=$($( cat checkerror.txt |tr ',' ' ' ))
+ 2142  arr=$( cat checkerror.txt |tr ',' ' ' )
+ 2143  arr[2]
+ 2144  echo $arr[2]
+ 2145  echo arr[2]
+ 2146  echo ${arr[2]}
+ 2147  echo ${arr[1]}
+ 2148  echo ${arr[0]}
+ 2149  arr=${ cat checkerror.txt |tr ',' ' ' }
+ 2150  arr=${ $(cat checkerror.txt |tr ',' ' ') }
+ 2151  line=$( cat checkerror.txt |tr ',' ' ' )
+ 2152  line=${$(line)}
+ 2153  line=${echo $(line)}
+ 2154  echo $(line)
+ 2155  echo $line
+ 2156  line=${echo $line}
+ 2157  arr=$(echo ${line})
+ 2158  echo ${arr[4]}
+ 2159  echo ${arr[0]}
+ 2160  arr=( $line )
+ 2161  echo ${arr[0]}
+ 2162  arr=(`echo ${line}`)
+ 2163  echo ${arr[0]}
+ 2164  arr=$( $line | tr " " "\n")
+ 2165  arr=$( echo $line | tr " " "\n")
+ 2166  echo ${arr[0]}
+ 2167* echo ${arr[]}
+ 2168  for x in $arr; do echo "> [$x]"; done
+ 2169  echo ${arr[0]}
+ 2170  echo $x
+ 2171  echo ${x[2]}
+ 2172  IFS=', ' read -r -a array <<< "$line"
+ 2173  echo ${array[0]}
+ 2174  echo ${array[2]}
+ 2175  IFS='+' sum=$(echo "scale=1;${arr[*]}"|bc)
+ 2176  echo $sum
+ 2177  IFS='+' echo "scale=1;${arr[*]}"
+ 2178  IFS='+' sum=$(echo "scale=1;${array[*]}"|bc)
+ 2179  echo $sum
+ 2180  ./checkNumberOfArc.sh
+ 2181  history > history20170414.txt

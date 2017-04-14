@@ -1,0 +1,22 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+label = "";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 1 [label = "<epsilon>:<epsilon>", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 2 [label = "star:B-movie.name/3.2203", fontsize = 14];
+	1 -> 2 [label = "star:O/7.2436", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+	2 -> 3 [label = "of:I-movie.name/3.0276", fontsize = 14];
+	2 -> 3 [label = "of:I-movie.release_date/3.6376", fontsize = 14];
+	2 -> 3 [label = "of:I-movie.subject/4.3175", fontsize = 14];
+	2 -> 3 [label = "of:O/3.3916", fontsize = 14];
+3 [label = "3", shape = circle, style = solid, fontsize = 14]
+	3 -> 4 [label = "thor:B-movie.name/7.2457", fontsize = 14];
+4 [label = "4", shape = doublecircle, style = solid, fontsize = 14]
+}
