@@ -50,7 +50,7 @@ Linux Instructions
    install graphviz from repository
 
 --------------------------------------------------------------------------------
-Test installation of the tools
+Test installation of the tools of OpenFST
 --------------------------------------------------------------------------------
 
 in terminal go into testOPENFST directory and execute the following:
@@ -63,10 +63,10 @@ in terminal go into testOPENFST directory and execute the following:
    
    You should see a figure similar to that of A.png
    
-## data
+## Data for train and test
 <http://www.cnts.ua.ac.be/conll2000/chunking/>
 
-## evaluation
+## Evaluation info
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
 ## TODO
