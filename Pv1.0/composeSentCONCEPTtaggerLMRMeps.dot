@@ -1,0 +1,74 @@
+digraph FST {
+rankdir = LR;
+size = "8.5,11";
+label = "";
+center = 1;
+orientation = Landscape;
+ranksep = "0.4";
+nodesep = "0.25";
+0 [label = "0", shape = circle, style = bold, fontsize = 14]
+	0 -> 4 [label = "star:O/13.198", fontsize = 14];
+	0 -> 3 [label = "star:B-movie.name/11.571", fontsize = 14];
+	0 -> 2 [label = "star:O/7.3104", fontsize = 14];
+	0 -> 1 [label = "star:B-movie.name/6.9836", fontsize = 14];
+1 [label = "1", shape = circle, style = solid, fontsize = 14]
+	1 -> 11 [label = "of:I-movie.name/14.326", fontsize = 14];
+	1 -> 14 [label = "of:I-movie.release_date/17.67", fontsize = 14];
+	1 -> 15 [label = "of:I-movie.subject/18.768", fontsize = 14];
+	1 -> 12 [label = "of:O/12.518", fontsize = 14];
+	1 -> 6 [label = "of:O/4.5901", fontsize = 14];
+	1 -> 5 [label = "of:I-movie.name/3.4565", fontsize = 14];
+2 [label = "2", shape = circle, style = solid, fontsize = 14]
+	2 -> 8 [label = "of:I-movie.name/14.862", fontsize = 14];
+	2 -> 9 [label = "of:I-movie.release_date/18.482", fontsize = 14];
+	2 -> 10 [label = "of:I-movie.subject/19.207", fontsize = 14];
+	2 -> 11 [label = "of:I-movie.name/17.189", fontsize = 14];
+	2 -> 14 [label = "of:I-movie.release_date/20.533", fontsize = 14];
+	2 -> 15 [label = "of:I-movie.subject/21.632", fontsize = 14];
+	2 -> 12 [label = "of:O/15.382", fontsize = 14];
+	2 -> 7 [label = "of:O/3.4715", fontsize = 14];
+3 [label = "3", shape = circle, style = solid, fontsize = 14]
+	3 -> 12 [label = "of:O/9.508", fontsize = 14];
+	3 -> 15 [label = "of:I-movie.subject/15.758", fontsize = 14];
+	3 -> 14 [label = "of:I-movie.release_date/14.659", fontsize = 14];
+	3 -> 11 [label = "of:I-movie.name/11.315", fontsize = 14];
+	3 -> 6 [label = "of:O/5.6162", fontsize = 14];
+	3 -> 5 [label = "of:I-movie.name/3.4022", fontsize = 14];
+4 [label = "4", shape = circle, style = solid, fontsize = 14]
+	4 -> 12 [label = "of:O/10.044", fontsize = 14];
+	4 -> 15 [label = "of:I-movie.subject/16.294", fontsize = 14];
+	4 -> 14 [label = "of:I-movie.release_date/15.195", fontsize = 14];
+	4 -> 11 [label = "of:I-movie.name/11.851", fontsize = 14];
+	4 -> 7 [label = "of:O/3.7338", fontsize = 14];
+	4 -> 10 [label = "of:I-movie.subject/13.869", fontsize = 14];
+	4 -> 9 [label = "of:I-movie.release_date/13.144", fontsize = 14];
+	4 -> 8 [label = "of:I-movie.name/9.5242", fontsize = 14];
+5 [label = "5", shape = circle, style = solid, fontsize = 14]
+	5 -> 16 [label = "thor:B-movie.name/20.755", fontsize = 14];
+6 [label = "6", shape = circle, style = solid, fontsize = 14]
+	6 -> 13 [label = "thor:B-movie.name/12.806", fontsize = 14];
+	6 -> 16 [label = "thor:B-movie.name/19.398", fontsize = 14];
+7 [label = "7", shape = circle, style = solid, fontsize = 14]
+	7 -> 16 [label = "thor:B-movie.name/21.665", fontsize = 14];
+	7 -> 13 [label = "thor:B-movie.name/9.4376", fontsize = 14];
+8 [label = "8", shape = circle, style = solid, fontsize = 14]
+	8 -> 16 [label = "thor:B-movie.name/17.726", fontsize = 14];
+9 [label = "9", shape = circle, style = solid, fontsize = 14]
+	9 -> 17 [label = "thor:B-movie.name/11.893", fontsize = 14];
+	9 -> 16 [label = "thor:B-movie.name/13.981", fontsize = 14];
+10 [label = "10", shape = circle, style = solid, fontsize = 14]
+	10 -> 16 [label = "thor:B-movie.name/13.795", fontsize = 14];
+11 [label = "11", shape = circle, style = solid, fontsize = 14]
+	11 -> 16 [label = "thor:B-movie.name/15.647", fontsize = 14];
+12 [label = "12", shape = circle, style = solid, fontsize = 14]
+	12 -> 16 [label = "thor:B-movie.name/16.294", fontsize = 14];
+	12 -> 13 [label = "thor:B-movie.name/9.7025", fontsize = 14];
+13 [label = "13/1.5508", shape = doublecircle, style = solid, fontsize = 14]
+14 [label = "14", shape = circle, style = solid, fontsize = 14]
+	14 -> 16 [label = "thor:B-movie.name/13.288", fontsize = 14];
+	14 -> 17 [label = "thor:B-movie.name/11.199", fontsize = 14];
+15 [label = "15", shape = circle, style = solid, fontsize = 14]
+	15 -> 16 [label = "thor:B-movie.name/13.101", fontsize = 14];
+16 [label = "16/1.6014", shape = doublecircle, style = solid, fontsize = 14]
+17 [label = "17/1.0475", shape = doublecircle, style = solid, fontsize = 14]
+}
