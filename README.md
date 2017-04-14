@@ -73,7 +73,9 @@ in terminal go into testOPENFST directory and execute the following:
 
 ## Version
  (1) P1v1.0 Initial project
+ 
  (2) P1v1.1 Optimized the structure of the project
+ 
  (3) P1v1.2 Add some plot for the analyse of the different Language Model
  
 ## TODO
