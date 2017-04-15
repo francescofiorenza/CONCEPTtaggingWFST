@@ -1,0 +1,1007 @@
+ 1517  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     echo ../output/CONCEPT$order$method.cnt   done; done
+ 1518  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     ngramcount --order=$order --require_symbols=false ../output/CONCEPTtrain.far > ../output/CONCEPTorder$order$method.cnt;     ngrammake --method=$method ../output/CONCEPTorder$order$method.cnt > ../output/lmCONCEPT$order$method.lm;   done; done
+ 1519  mkdir -p ../output/LM
+ 1520  orderMin=1
+ 1521  orderMax=5
+ 1522  methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1523  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     ngramcount --order=$order --require_symbols=false ../output/CONCEPTtrain.far |     ngrammake --method=$method - > ../output/LM/lmCONCEPT$order$method.lm;     rm ../output/LM/CONCEPTorder$order$method.cnt;   done; done
+ 1524  mkdir -p ../output/LM
+ 1525  orderMin=1
+ 1526  orderMax=5
+ 1527  methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1528  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     ngramcount --order=$order --require_symbols=false ../output/CONCEPTtrain.far |     ngrammake --method=$method - > ../output/LM/lmCONCEPT$order$method.lm   done; done
+ 1529  mkdir -p ../output/TaggedOutput
+ 1530  orderMin=1
+ 1531  orderMax=3
+ 1532  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1533  methodType=(witten_bell absolute unsmoothed)
+ 1534  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     for file in ../output/temp/test/*; do       fstcompose $file ../output/finalCONCEPTtaggerC.fst |       fstcompose - ../output/lmCONCEPT$order$method.lm|       fstrmepsilon -|       fstshortestpath -|       fsttopsort - |       fstprint  --isymbols=../output/lex.txt  --osymbols=../output/lex.txt -|       awk '$3 {OFS="\t";print $3,$4}'>../output/TaggedOutput/orderSmooth$order$method.txt     done     echo "Finished test with order$order and method $method, ../output/TaggedOutput/orderSmooth$order$method.txt";   done
+ 1535  orderMin=1
+ 1536  orderMax=3
+ 1537  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1538  methodType=(witten_bell absolute unsmoothed)
+ 1539  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     for file in ../output/temp/test/*; do       fstcompose $file ../output/finalCONCEPTtaggerC.fst |       fstcompose - ../output/LM/lmCONCEPT$order$method.lm|       fstrmepsilon -|       fstshortestpath -|       fsttopsort - |       fstprint  --isymbols=../output/lex.txt  --osymbols=../output/lex.txt -|       awk '$3 {OFS="\t";print $3,$4}'>../output/TaggedOutput/orderSmooth$order$method.txt     done     echo "Finished test with order$order and method $method, ../output/TaggedOutput/orderSmooth$order$method.txt";   done; done
+ 1540  rm ../output/TaggedOutput
+ 1541  mkdir -p ../output/TaggedOutput
+ 1542  orderMin=1
+ 1543  orderMax=3
+ 1544  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1545  methodType=(witten_bell absolute unsmoothed)
+ 1546  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     for file in ../output/temp/test/*; do       fstcompose $file ../output/finalCONCEPTtaggerC.fst |       fstcompose - ../output/LM/lmCONCEPT$order$method.lm|       fstrmepsilon -|       fstshortestpath -|       fsttopsort - |       fstprint  --isymbols=../output/lex.txt  --osymbols=../output/lex.txt -|       awk '$3 {OFS="\t";print $3,$4}'>>../output/TaggedOutput/orderSmooth$order$method.txt     done     echo "Finished test with order$order and method $method, ../output/TaggedOutput/orderSmooth$order$method.txt";   done; done
+ 1547  git
+ 1548  #!/bin/bash
+ 1549  mkdir -p ../output/PLOT
+ 1550  orderMin=1
+ 1551  orderMax=3
+ 1552  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1553  methodType=(witten_bell absolute unsmoothed)
+ 1554  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1555  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1556  echo "" >>../output/PLOT/accuracy.dat
+ 1557  for method in ${methodType[*]}; do   echo -n "/"$method/" " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n " $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1558  #!/bin/bash
+ 1559  mkdir -p ../output/PLOT
+ 1560  orderMin=1
+ 1561  orderMax=3
+ 1562  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1563  methodType=(witten_bell absolute unsmoothed)
+ 1564  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1565  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1566  echo "" >>../output/PLOT/accuracy.dat
+ 1567  for method in ${methodType[*]}; do   echo -n "\"$method\" " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n " $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1568  #!/bin/bash
+ 1569  mkdir -p ../output/PLOT
+ 1570  orderMin=1
+ 1571  orderMax=3
+ 1572  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1573  methodType=(witten_bell absolute unsmoothed)
+ 1574  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1575  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1576  echo "" >>../output/PLOT/accuracy.dat
+ 1577  for method in ${methodType[*]}; do   echo -n "\"$method\" " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n " $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] '')" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1578  #!/bin/bash
+ 1579  mkdir -p ../output/PLOT
+ 1580  orderMin=1
+ 1581  orderMax=3
+ 1582  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1583  methodType=(witten_bell absolute unsmoothed)
+ 1584  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1585  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1586  echo "" >>../output/PLOT/accuracy.dat
+ 1587  for method in ${methodType[*]}; do   echo -n "\"$method\" " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n "$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr ['%;'] ' ')" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1588  #!/bin/bash
+ 1589  mkdir -p ../output/PLOT
+ 1590  orderMin=1
+ 1591  orderMax=3
+ 1592  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1593  methodType=(witten_bell absolute unsmoothed)
+ 1594  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1595  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1596  echo "" >>../output/PLOT/accuracy.dat
+ 1597  for method in ${methodType[*]}; do   echo -n "\"$method\" " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n "$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1598  #!/bin/bash
+ 1599  mkdir -p ../output/PLOT
+ 1600  orderMin=1
+ 1601  orderMax=3
+ 1602  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1603  methodType=(witten_bell absolute unsmoothed)
+ 1604  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1605  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1606  echo "" >>../output/PLOT/accuracy.dat
+ 1607  for method in ${methodType[*]}; do   echo -n "\"$method\" " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n "$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;']) " >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1608  #!/bin/bash
+ 1609  mkdir -p ../output/PLOT
+ 1610  orderMin=1
+ 1611  orderMax=3
+ 1612  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1613  methodType=(witten_bell absolute unsmoothed)
+ 1614  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1615  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1616  echo "" >>../output/PLOT/accuracy.dat
+ 1617  for method in ${methodType[*]}; do   echo -n "\"$method\"" >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n " $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1618  #!/bin/bash
+ 1619  mkdir -p ../output/PLOT
+ 1620  orderMin=1
+ 1621  orderMax=3
+ 1622  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1623  methodType=(witten_bell absolute unsmoothed)
+ 1624  echo -n "Smooth\t" >../output/PLOT/accuracy.dat
+ 1625  for order in $(seq $orderMin $orderMax); do     echo -n "$order\t" >>../output/PLOT/accuracy.dat; done
+ 1626  echo "" >>../output/PLOT/accuracy.dat
+ 1627  for method in ${methodType[*]}; do   echo -n "\"$method\"" >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n "\t$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1628  #!/bin/bash
+ 1629  mkdir -p ../output/PLOT
+ 1630  orderMin=1
+ 1631  orderMax=3
+ 1632  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1633  methodType=(witten_bell absolute unsmoothed)
+ 1634  echo -n "Smooth/t" >../output/PLOT/accuracy.dat
+ 1635  for order in $(seq $orderMin $orderMax); do     echo -n "$order/t" >>../output/PLOT/accuracy.dat; done
+ 1636  echo "" >>../output/PLOT/accuracy.dat
+ 1637  for method in ${methodType[*]}; do   echo -n "\"$method\"" >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n "/t$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1638  #!/bin/bash
+ 1639  mkdir -p ../output/PLOT
+ 1640  orderMin=1
+ 1641  orderMax=3
+ 1642  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1643  methodType=(witten_bell absolute unsmoothed)
+ 1644  echo -n "Smooth"'\t' >../output/PLOT/accuracy.dat
+ 1645  for order in $(seq $orderMin $orderMax); do     echo -n "$order"'\t' >>../output/PLOT/accuracy.dat; done
+ 1646  echo "" >>../output/PLOT/accuracy.dat
+ 1647  for method in ${methodType[*]}; do   echo -n "\"$method\"" >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n '\t'"$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1648  #!/bin/bash
+ 1649  mkdir -p ../output/PLOT
+ 1650  orderMin=1
+ 1651  orderMax=3
+ 1652  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1653  methodType=(witten_bell absolute unsmoothed)
+ 1654  echo -n "Smooth"'/t' >../output/PLOT/accuracy.dat
+ 1655  for order in $(seq $orderMin $orderMax); do     echo -n "$order"'/t' >>../output/PLOT/accuracy.dat; done
+ 1656  echo "" >>../output/PLOT/accuracy.dat
+ 1657  for method in ${methodType[*]}; do   echo -n "\"$method\"" >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n '/t'"$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1658  #!/bin/bash
+ 1659  mkdir -p ../output/PLOT
+ 1660  orderMin=1
+ 1661  orderMax=3
+ 1662  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1663  methodType=(witten_bell absolute unsmoothed)
+ 1664  echo -en "Smooth"'\t' >../output/PLOT/accuracy.dat
+ 1665  for order in $(seq $orderMin $orderMax); do     echo -en "$order"'\t' >>../output/PLOT/accuracy.dat; done
+ 1666  echo "" >>../output/PLOT/accuracy.dat
+ 1667  for method in ${methodType[*]}; do   echo -n "\"$method\"" >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -en '\t'"$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr -d ['%;'])" >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1668  orderMin=4
+ 1669  orderMax=6
+ 1670  methodType=(kneser_ney presmoothed unsmoothed)
+ 1671  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1672  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     ngramcount --order=$order --require_symbols=false ../output/CONCEPTtrain.far |     ngrammake --method=$method - > ../output/LM/lmCONCEPT$order$method.lm   done; done
+ 1673  mkdir -p ../output/TaggedOutput
+ 1674  orderMin=1
+ 1675  orderMax=3
+ 1676  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1677  methodType=(witten_bell absolute unsmoothed)
+ 1678  orderMin=4
+ 1679  orderMax=6
+ 1680  methodType=(kneser_ney presmoothed unsmoothed)
+ 1681  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     for file in ../output/temp/test/*; do       fstcompose $file ../output/finalCONCEPTtaggerC.fst |       fstcompose - ../output/LM/lmCONCEPT$order$method.lm|       fstrmepsilon -|       fstshortestpath -|       fsttopsort - |       fstprint  --isymbols=../output/lex.txt  --osymbols=../output/lex.txt -|       awk '$3 {OFS="\t";print $3,$4}'>>../output/TaggedOutput/orderSmooth$order$method.txt     done     echo "Finished test with order$order and method $method, ../output/TaggedOutput/orderSmooth$order$method.txt";   done; done
+ 1682  #!/bin/bash
+ 1683  mkdir -p ../output/LM
+ 1684  orderMin=1
+ 1685  orderMax=6
+ 1686  #methodType=(kneser_ney presmoothed unsmoothed)
+ 1687  methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1688  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     ngramcount --order=$order --require_symbols=false ../output/CONCEPTtrain.far |     ngrammake --method=$method - > ../output/LM/lmCONCEPT$order$method.lm   done; done
+ 1689  mkdir -p ../output/TaggedOutput
+ 1690  orderMin=1
+ 1691  orderMax=3
+ 1692  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1693  methodType=(witten_bell absolute unsmoothed)
+ 1694  orderMin=4
+ 1695  orderMax=6
+ 1696  #methodType=(kneser_ney presmoothed unsmoothed)
+ 1697  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     for file in ../output/temp/test/*; do       fstcompose $file ../output/finalCONCEPTtaggerC.fst |       fstcompose - ../output/LM/lmCONCEPT$order$method.lm|       fstrmepsilon -|       fstshortestpath -|       fsttopsort - |       fstprint  --isymbols=../output/lex.txt  --osymbols=../output/lex.txt -|       awk '$3 {OFS="\t";print $3,$4}'>>../output/TaggedOutput/orderSmooth$order$method.txt     done     echo "Finished test with order$order and method $method, ../output/TaggedOutput/orderSmooth$order$method.txt";   done; done
+ 1698  cd /home/vagrant/shared/Lab5/P1/Pv1.1/output
+ 1699  fstinfo finalCONCEPTtagger.fst 
+ 1700  fstinfo finalCONCEPTtaggerC.fst 
+ 1701  cd temp/test/
+ 1702  ls |tr -sc [0-9] ' '
+ 1703  fstcompose test/SPLtest-0005 finalCONCEPTtagger.fst|fstdraw --isymbols=lex.txt --osymbols=lex.txt |xdot -
+ 1704  fstdraw --isymbols=lex.txt --osymbols=lex.txt SPLtest-0005|xdot -
+ 1705  ls SPLtest-0005
+ 1706  ls
+ 1707  fstdraw --isymbols=../output/lex.txt --osymbols=../output/lex.txt SPLtokenTest-0005|xdot -
+ 1708  fstdraw --isymbols=../../output/lex.txt --osymbols=../../output/lex.txt SPLtokenTest-0005|xdot -
+ 1709  fstdraw --isymbols=../../lex.txt --osymbols=../../lex.txt SPLtokenTest-0005|xdot - 2>/dev/null
+ 1710  cd ..
+ 1711  fstprint --isymbols=lex.txt --osymbols=lex.txt CONCEPTtagger.fst |grep -C 5 unk
+ 1712  fstprint --isymbols=lex.txt --osymbols=lex.txt finalCONCEPTtagger.fst |grep -C 5 unk
+ 1713  fstprint --isymbols=lex.txt --osymbols=lex.txt finalCONCEPTtaggerC.fst |grep -C 5 unk
+ 1714  fstprint --isymbols=lex.txt --osymbols=lex.txt finalCONCEPTtaggerC.fst |grep -C 5 epsilon
+ 1715  fstprint --isymbols=lex.txt --osymbols=lex.txt finalCONCEPTtagger.fst |grep -C 5 epsilon
+ 1716  cd ..
+ 1717  cd scripts/
+ 1718  ls
+ 1719  rm ../output/OUTtoConlleval
+ 1720  mkdir -p ../output/OUTtoConlleval
+ 1721  orderMin=1
+ 1722  orderMax=3
+ 1723  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1724  methodType=(witten_bell absolute unsmoothed)
+ 1725  methodType=(witten_bell)
+ 1726  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     cat ../data/NLSPARQL.test.data|awk '$1 {print $1}' > ../output/token;     cat ../data/NLSPARQL.test.feats.txt|awk '$1 {print $2}' > ../output/pos;     cat ../data/NLSPARQL.test.data|awk '$1 {print $2}' > ../output/CONCEPTtag;     cat ../output/TaggedOutput/orderSmooth$order$method.txt|awk '$1 {print $2}' > ../output/predictedCONCEPTtag;     paste ../output/token ../output/pos ../output/CONCEPTtag ../output/predictedCONCEPTtag > ../output/OUTtoConlleval/OUTorderSmooth$order$method.txt;   done; done
+ 1727  rm ../output/conllevalOUT
+ 1728  mkdir -p ../output/conllevalOUT
+ 1729  orderMin=1
+ 1730  orderMax=3
+ 1731  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1732  methodType=(witten_bell absolute unsmoothed)
+ 1733  methodType=(witten_bell)
+ 1734  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl conlleval.pl -d '\t' < ../output/out.txt > ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt;   done; done
+ 1735  cd /home/vagrant/shared/Lab5/P1/Pv1.1/output/conllevalOUT
+ 1736  rm ../output/OUTtoConlleval
+ 1737  mkdir -p ../output/OUTtoConlleval
+ 1738  orderMin=1
+ 1739  orderMax=3
+ 1740  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1741  methodType=(witten_bell absolute unsmoothed)
+ 1742  methodType=(witten_bell absolute)
+ 1743  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     cat ../data/NLSPARQL.test.data|awk '$1 {print $1}' > ../output/token;     cat ../data/NLSPARQL.test.feats.txt|awk '$1 {print $2}' > ../output/pos;     cat ../data/NLSPARQL.test.data|awk '$1 {print $2}' > ../output/CONCEPTtag;     cat ../output/TaggedOutput/orderSmooth$order$method.txt|awk '$1 {print $2}' > ../output/predictedCONCEPTtag;     paste ../output/token ../output/pos ../output/CONCEPTtag ../output/predictedCONCEPTtag > ../output/OUTtoConlleval/OUTorderSmooth$order$method.txt;   done
+ 1744  cd ..
+ 1745  cd scripts/
+ 1746  rm ../output/OUTtoConlleval
+ 1747  mkdir -p ../output/OUTtoConlleval
+ 1748  orderMin=1
+ 1749  orderMax=3
+ 1750  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1751  methodType=(witten_bell absolute unsmoothed)
+ 1752  methodType=(witten_bell absolute)
+ 1753  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     cat ../data/NLSPARQL.test.data|awk '$1 {print $1}' > ../output/token;     cat ../data/NLSPARQL.test.feats.txt|awk '$1 {print $2}' > ../output/pos;     cat ../data/NLSPARQL.test.data|awk '$1 {print $2}' > ../output/CONCEPTtag;     cat ../output/TaggedOutput/orderSmooth$order$method.txt|awk '$1 {print $2}' > ../output/predictedCONCEPTtag;     paste ../output/token ../output/pos ../output/CONCEPTtag ../output/predictedCONCEPTtag > ../output/OUTtoConlleval/OUTorderSmooth$order$method.txt;   done; done
+ 1754  orderMin=1
+ 1755  orderMax=3
+ 1756  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1757  methodType=(witten_bell absolute unsmoothed)
+ 1758  methodType=(witten_bell absolute)
+ 1759  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl conlleval.pl -d '\t' < ../output/out.txt > ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt;   done; done
+ 1760  rm ../output/conllevalOUT
+ 1761  mkdir -p ../output/conllevalOUT
+ 1762  orderMin=1
+ 1763  orderMax=3
+ 1764  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1765  methodType=(witten_bell absolute unsmoothed)
+ 1766  methodType=(witten_bell absolute)
+ 1767  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl conlleval.pl -d '\t' < ../output/OUTtoConlleval/OUTorderSmooth$order$method.txt > ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt;   done; done
+ 1768  rm ../output/OUTtoConlleval
+ 1769  mkdir -p ../output/OUTtoConlleval
+ 1770  orderMin=1
+ 1771  orderMax=3
+ 1772  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1773  methodType=(witten_bell absolute unsmoothed)
+ 1774  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     cat ../data/NLSPARQL.test.data|awk '$1 {print $1}' > ../output/token;     cat ../data/NLSPARQL.test.feats.txt|awk '$1 {print $2}' > ../output/pos;     cat ../data/NLSPARQL.test.data|awk '$1 {print $2}' > ../output/CONCEPTtag;     cat ../output/TaggedOutput/orderSmooth$order$method.txt|awk '$1 {print $2}' > ../output/predictedCONCEPTtag;     paste ../output/token ../output/pos ../output/CONCEPTtag ../output/predictedCONCEPTtag > ../output/OUTtoConlleval/OUTorderSmooth$order$method.txt;   done; done
+ 1775  rm ../output/conllevalOUT
+ 1776  mkdir -p ../output/conllevalOUT
+ 1777  orderMin=1
+ 1778  orderMax=3
+ 1779  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1780  methodType=(witten_bell absolute unsmoothed)
+ 1781  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl conlleval.pl -d '\t' < ../output/OUTtoConlleval/OUTorderSmooth$order$method.txt > ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt;   done; done
+ 1782  for file in ../output/conllevalOUT/*; do   echo $file;   echo -n $(cat $file|grep accuracy|awk '{print $2}'|tr -sc [0..9]); done
+ 1783  for file in ../output/conllevalOUT/*; do   echo $file;   echo -n $(cat $file|grep accuracy|awk '{print $2}'|tr -sc [0..9] ' '); done
+ 1784  for file in ../output/conllevalOUT/*; do   echo $file;   echo -n $(cat $file|grep 'accuracy: '|awk '{print $2}'); done
+ 1785  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}');   echo -n $file; done
+ 1786  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}');   echo -n "$file "; done
+ 1787  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [;%] ' ');   echo -n "$file "; done
+ 1788  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ');   echo -n "$file "; done
+ 1789  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ');   echo -n $(tr '../output/conllevalOUT/accuracyLMorderSmooth' ' ' $file) done
+ 1790  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ');   name=${file%.txt};   echo -n ${name##*/} done
+ 1791  for file in ../output/conllevalOUT/*; do   echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ');   name=${file%.txt};   echo -n "${name##*/} " done
+ 1792  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo -n "${name##*/} ";   echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') done
+ 1793  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo -n "${name##*/} ") $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) done
+ 1794  rm ../output/PLOT
+ 1795  mkdir -p ../output/PLOT
+ 1796  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo -n "${name##*/} ") $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.data done
+ 1797  rm ../output/PLOT
+ 1798  mkdir -p ../output/PLOT
+ 1799  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(tr -sc [0..9] ' ' $(echo -n "${name##*/} "))  $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1800  rm ../output/PLOT
+ 1801  mkdir -p ../output/PLOT
+ 1802  for file in ../output/conllevalOUT/*; do   name=${file%.txt}   echo -n $(tr -sc [0..9] ' ' $file ); done
+ 1803  rm ../output/PLOT
+ 1804  mkdir -p ../output/PLOT
+ 1805  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(tr -sc [0..9] ' ' $(echo -n "${name##*/} ") )  $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1806  rm ../output/PLOT
+ 1807  mkdir -p ../output/PLOT
+ 1808  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo $(echo -n "${name##*/} ")|tr -sc [0..9] ' '  )  $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1809  rm ../output/PLOT
+ 1810  mkdir -p ../output/PLOT
+ 1811  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo $(echo -n "${name##*/} ") )  $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1812  rm ../output/PLOT
+ 1813  mkdir -p ../output/PLOT
+ 1814  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo -n "${name##*/} ")  $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1815  rm ../output/PLOT
+ 1816  mkdir -p ../output/PLOT
+ 1817  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo -n "${name##*/} ") $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1818  rm -Rf ../output/PLOT
+ 1819  mkdir -p ../output/PLOT
+ 1820  for file in ../output/conllevalOUT/*; do   name=${file%.txt};   echo $(echo -n "${name##*/} ") $(echo $(cat $file|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ')) >> ../output/PLOT/accuracy.dat done
+ 1821  set title "Comparation of the performance with the different smoothing method"
+ 1822  set key left box
+ 1823  set samples 9
+ 1824  set style data points
+ 1825  plot '../output/PLOT/accuracy.dat' 
+ 1826  sudo apt-get install plotutils
+ 1827  set title "Comparation of the performance with the different smoothing method"
+ 1828  set key left box
+ 1829  set samples 9
+ 1830  set style data points
+ 1831  plot '../output/PLOT/accuracy.dat' 
+ 1832  plot [-4:4] exp(-x**2 / 2)
+ 1833  gnuplot
+ 1834  gnuplot ../output/PLOT/orderMethodAccuracy.gp 
+ 1835  gnuplot 
+ 1836  gnuplot ../output/PLOT/orderMethodAccuracy.gp 
+ 1837  rm -Rf ../output/PLOT
+ 1838  mkdir -p ../output/PLOT
+ 1839  orderMin=1
+ 1840  orderMax=3
+ 1841  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1842  methodType=(witten_bell absolute unsmoothed)
+ 1843  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1844  for order in $(seq $orderMin $orderMax); do     echo -n $order >>../output/PLOT/accuracy.dat; done
+ 1845  echo \\r
+ 1846  for method in ${methodType[*]}; do   echo -n $method;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done; done
+ 1847  rm -Rf ../output/PLOT
+ 1848  mkdir -p ../output/PLOT
+ 1849  orderMin=1
+ 1850  orderMax=3
+ 1851  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1852  methodType=(witten_bell absolute unsmoothed)
+ 1853  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1854  for order in $(seq $orderMin $orderMax); do     echo -n $order >>../output/PLOT/accuracy.dat; done
+ 1855  echo \\r
+ 1856  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done; done
+ 1857  rm -Rf ../output/PLOT
+ 1858  mkdir -p ../output/PLOT
+ 1859  orderMin=1
+ 1860  orderMax=3
+ 1861  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1862  methodType=(witten_bell absolute unsmoothed)
+ 1863  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1864  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1865  echo " "
+ 1866  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done; done
+ 1867  #!/bin/bash
+ 1868  rm -Rf ../output/PLOT
+ 1869  mkdir -p ../output/PLOT
+ 1870  orderMin=1
+ 1871  orderMax=3
+ 1872  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1873  methodType=(witten_bell absolute unsmoothed)
+ 1874  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1875  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1876  echo "\n"
+ 1877  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done; done
+ 1878  #!/bin/bash
+ 1879  rm -Rf ../output/PLOT
+ 1880  mkdir -p ../output/PLOT
+ 1881  orderMin=1
+ 1882  orderMax=3
+ 1883  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1884  methodType=(witten_bell absolute unsmoothed)
+ 1885  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1886  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1887  echo '\n' >>../output/PLOT/accuracy.dat
+ 1888  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done; done
+ 1889  #!/bin/bash
+ 1890  rm -Rf ../output/PLOT
+ 1891  mkdir -p ../output/PLOT
+ 1892  orderMin=1
+ 1893  orderMax=3
+ 1894  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1895  methodType=(witten_bell absolute unsmoothed)
+ 1896  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1897  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1898  for method in ${methodType[*]}; do   echo $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done; done
+ 1899  #!/bin/bash
+ 1900  rm -Rf ../output/PLOT
+ 1901  mkdir -p ../output/PLOT
+ 1902  orderMin=1
+ 1903  orderMax=3
+ 1904  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1905  methodType=(witten_bell absolute unsmoothed)
+ 1906  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1907  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1908  echo '\n' >>../output/PLOT/accuracy.dat
+ 1909  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done;   echo '\n' >>../output/PLOT/accuracy.dat; done
+ 1910  #!/bin/bash
+ 1911  rm -Rf ../output/PLOT
+ 1912  mkdir -p ../output/PLOT
+ 1913  orderMin=1
+ 1914  orderMax=3
+ 1915  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1916  methodType=(witten_bell absolute unsmoothed)
+ 1917  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1918  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1919  echo '/n' >>../output/PLOT/accuracy.dat
+ 1920  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done;   echo '/n' >>../output/PLOT/accuracy.dat; done
+ 1921  #!/bin/bash
+ 1922  rm -Rf ../output/PLOT
+ 1923  mkdir -p ../output/PLOT
+ 1924  orderMin=1
+ 1925  orderMax=3
+ 1926  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1927  methodType=(witten_bell absolute unsmoothed)
+ 1928  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1929  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1930  echo "\n" >>../output/PLOT/accuracy.dat
+ 1931  for method in ${methodType[*]}; do   echo -n $method >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n $(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') >> ../output/PLOT/accuracy.dat;   done;   echo "\n" >>../output/PLOT/accuracy.dat; done
+ 1932  #!/bin/bash
+ 1933  rm -Rf ../output/PLOT
+ 1934  mkdir -p ../output/PLOT
+ 1935  orderMin=1
+ 1936  orderMax=3
+ 1937  #methodType=(witten_bell absolute katz kneser_ney presmoothed unsmoothed)
+ 1938  methodType=(witten_bell absolute unsmoothed)
+ 1939  echo -n "Smooth " >../output/PLOT/accuracy.dat
+ 1940  for order in $(seq $orderMin $orderMax); do     echo -n "$order " >>../output/PLOT/accuracy.dat; done
+ 1941  echo "" >>../output/PLOT/accuracy.dat
+ 1942  for method in ${methodType[*]}; do   echo -n "$method " >>../output/PLOT/accuracy.dat;   for order in $(seq $orderMin $orderMax);   do     echo -n "$(cat ../output/conllevalOUT/accuracyLMorderSmooth$order$method.txt|grep 'accuracy: '|awk '{print $2}'|tr [';''%'] ' ') " >> ../output/PLOT/accuracy.dat;   done;   echo "" >>../output/PLOT/accuracy.dat; done
+ 1943  set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+ 1944  set output '../output/PLOT/'
+ 1945  set bar 1.000000 front
+ 1946  set boxwidth 0.9 absolute
+ 1947  set style fill   solid 1.00 border lt -1
+ 1948  set style circle radius graph 0.02, first 0.00000, 0.00000 
+ 1949  set style ellipse size graph 0.05, 0.03, first 0.00000 angle 0 units xy
+ 1950  set key inside right top vertical Right noreverse noenhanced autotitle nobox
+ 1951  set style histogram clustered gap 5 title textcolor lt -1
+ 1952  set style textbox transparent margins  1.0,  1.0 border
+ 1953  unset logscale
+ 1954  set datafile missing '-'
+ 1955  set style data histograms
+ 1956  set xtics border in scale 0,0 nomirror rotate by -45  autojustify
+ 1957  set xtics  norangelimit 
+ 1958  set xtics   ()
+ 1959  set title "Comparation of the performance with the different smoothing method"
+ 1960  set xlabel "LM order and smothing method"
+ 1961  set ylabel "Accuracy %"
+ 1962  set yrange [ 50 : 100. ] noreverse nowriteback
+ 1963  set colorbox vertical origin screen 0.9, 0.2, 0 size screen 0.05, 0.6, 0 front  noinvert bdefault
+ 1964  x = 0.0
+ 1965  i = 23
+ 1966  ## Last datafile plotted: "immigration.dat"
+ 1967  plot '../output/PLOT/accuracy.txt' using 1:3:xtic(1) ti col, '' u 2 ti col, '' u 3 ti col, '' u 4 ti col
+ 1968  gnuplot
+ 1969  #set terminal pngcairo  transparent enhanced font "arial,10" fontscale 1.0 size 600, 400 
+ 1970  #set terminal GNUTERM background rgb 'white'
+ 1971  #set terminal pngcairo  font "arial,10" fontscale 1.0 size 600, 400 
+ 1972  #set output '../output/PLOT/accuracy.png'
+ 1973  #set terminal svg enhanced background rgb 'white'
+ 1974  #set output '../output/PLOT/accuracy.svg'
+ 1975  set bar 1.000000 front
+ 1976  set boxwidth 0.9 absolute
+ 1977  set style fill   solid 1.00 border lt -1
+ 1978  set style circle radius graph 0.02, first 0.00000, 0.00000 
+ 1979  set style ellipse size graph 0.05, 0.03, first 0.00000 angle 0 units xy
+ 1980  set key inside right top vertical Right noreverse noenhanced autotitle nobox
+ 1981  set style histogram clustered gap 5 title textcolor lt -1
+ 1982  #set style textbox transparent margins  1.0,  1.0 border
+ 1983  unset logscale
+ 1984  set datafile missing '-'
+ 1985  set style data histograms
+ 1986  set xtics border in scale 0,0 nomirror rotate by -45  autojustify
+ 1987  set xtics  norangelimit 
+ 1988  set xtics   ()
+ 1989  set title "Comparation of the performance with the different smoothing method"
+ 1990  set xlabel "LM order and smothing method"
+ 1991  set ylabel "Accuracy %"
+ 1992  set yrange [ 50 : 100. ] noreverse nowriteback
+ 1993  set colorbox vertical origin screen 0.9, 0.2, 0 size screen 0.05, 0.6, 0 front bdefault
+ 1994  x = 0.0
+ 1995  i = 23
+ 1996  ## Last datafile plotted: "immigration.dat"
+ 1997  plot '../output/PLOT/accuracy.dat' using 2:xtic(1) ti col, '' u 2 ti col, '' u 3 ti col, '' u 4 ti col
+ 1998  gnuplot
+ 1999  cd shared/
+ 2000  cd Lab5/P1/
+ 2001  ls
+ 2002  cd Pv1.1/
+ 2003  cd data/
+ 2004  ls
+ 2005  ls -l
+ 2006  cd ..
+ 2007  cd CONCEPTtaggingWFST/Pv1.2/data/
+ 2008  wget http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz
+ 2009  wget http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+ 2010  tar xvzf train.txt.gz
+ 2011  tar xvzf test.txt.gz
+ 2012  rm train.txt.gz
+ 2013  wget http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz
+ 2014  wget http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+ 2015  unzip train.txt.gz -d ./
+ 2016  unzip test.txt.gz -d ./
+ 2017  gunzip train.txt.gz
+ 2018  wget https://didatticaonline.unitn.it/dol/pluginfile.php/125305/mod_forum/attachment/87181/P1.zip
+ 2019  unzip P1.zip
+ 2020  gunzip P1.zip
+ 2021  unzip P1.zip -d
+ 2022  unzip P1.zip -d ./
+ 2023  wget https://didatticaonline.unitn.it/dol/pluginfile.php/125305/mod_forum/attachment/87181/P1.zip
+ 2024  wget http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+ 2025  unzip test.txt.gz -d ./
+ 2026  gunzip test.txt.gz
+ 2027  cd ..
+ 2028  cd P1/Pv1.2/scripts/
+ 2029  methodType=(echo -n "$(cat classification.conf|grep ^smoothing|awk '{print $2}'|tr -scd [0-9]) ")
+ 2030  methodType=(echo -n "$(cat classification.conf|grep ^smoothing|awk '{print $2}'|tr -d -sc [0-9]) ")
+ 2031  methodType=(echo -n "$(cat classification.conf|grep ^smoothing|awk '{print $2}'|tr -sc [0-9]) ' ' ")
+ 2032  ${methodType[*]}
+ 2033  ${methodType[3]}
+ 2034  echo ${methodType[3]}
+ 2035  echo ${methodType[0]}
+ 2036  echo ${methodType[2]}
+ 2037  echo ${methodType[1]}
+ 2038  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'|tr -sc [0-9]) ' ')
+ 2039  echo ${methodType[1]}
+ 2040  echo ${methodType[2]}
+ 2041  echo ${methodType[*]}
+ 2042  echo $(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -scd [0-9]) 
+ 2043  echo $(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2044  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'|tr -sc [0-9]) ' ')
+ 2045  echo ${methodType[*]}
+ 2046  cd ..
+ 2047  cd output/
+ 2048  mkdir temp1
+ 2049  cd ..
+ 2050  cd scripts/
+ 2051  outputFolder=../output
+ 2052  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}')
+ 2053  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2054  echo ${methodType[2]}
+ 2055  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2056  echo $cutoffFreq
+ 2057  trainFileName=NLSPARQL.train.data
+ 2058  testFileName=NLSPARQL.test.data
+ 2059  outputFolder=../output
+ 2060  LMfolder=$outputFolder/LM
+ 2061  FSTsentenceTESTfolder=$outputFolder/temp/test
+ 2062  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2063  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2064  conllevalOutFolder=$outputFolder/conllevalOUT
+ 2065  plotFolder=$outputFolder/PLOT
+ 2066  dataFolder=../data
+ 2067  traindata=$dataFolder/$trainFileName
+ 2068  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk '{OFS="\t";$1>$cutoffFreq print $2,$1}'
+ 2069  traindata=$dataFolder/$trainFileName
+ 2070  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk "$1>$cutoffFreq {OFS="\t"; print $2,$1}"
+ 2071  traindata=$dataFolder/$trainFileName
+ 2072  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk '$1>$cutoffFreq {OFS="\t"; print $2,$1}'
+ 2073  traindata=$dataFolder/$trainFileName
+ 2074  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk '{OFS="\t"; print $2,$1}'
+ 2075  traindata=$dataFolder/$trainFileName
+ 2076  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk -v tempcutoffFreq=$cutoffFreq '$1>$tempcutoffFreq {OFS="\t";  print $2,$1}'
+ 2077  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk '$1>41 {OFS="\t";  print $2,$1}'
+ 2078  commandAWK=$(echo ^awk '$1>^"$tempcutoffFreq {OFS"^="\t";  print $2,$1}'^)
+ 2079  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2080  echo $commandAWK
+ 2081  commandAWK=$(echo `awk '$1>"$tempcutoffFreq" {OFS"^="\t";  print $2,$1}'`
+ 2082  commandAWK=$(echo awk "\'$1>$tempcutoffFreq {OFS\"=\"\\t\";  print $2,$1}\'"
+ 2083  commandAWK=$(echo awk "\'\$1>$tempcutoffFreq \{OFS\"\=\"\\t\";  print \$2,\$1}\'")
+ 2084  $commandAWK
+ 2085  commandAWK=$(echo awk "\'\$1>$tempcutoffFreq \{OFS\"\=\"\\t\";  print \$2,\$1}\'")
+ 2086  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2087  commandAWK=$(echo awk '\'$1>'$tempcutoffFreq '\{OFS\"\=\"\\t\";  print $2,$1}\'')
+cat $traindata | cut -f 2 |
+sed '/^ *$/d' |
+sort | uniq -c |
+sed 's/^ *//g' |
+$commandAWK
+
+
+ 2088  commandAWK=$(echo awk '\'$1>'$tempcutoffFreq '\{OFS\"\=\"\\t\";  print $2,$1}\'')
+ 2089  commandAWK=$(echo awk "\'\$1>$tempcutoffFreq \'\{OFS\"=\"\\t\";  print \$2,\$1\}\'"
+ 2090  commandAWK="awk \'\$1>$tempcutoffFreq \'\{OFS\"=\"\\t\";  print \$2,\$1\}\'"
+ 2091  echo "$commandAWK"
+ 2092  echo $commandAWK
+ 2093  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2094  traindata=$dataFolder/$trainFileName
+ 2095  commandAWK="awk \'\$1>$tempcutoffFreq \'\{OFS\"=\"\\t\";  print \$2,\$1\}\'"
+ 2096  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2097  echo $commandAWK
+ 2098  echo $tempcutoffFreq
+ 2099  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2100  echo $tempcutoffFreq
+ 2101  commandAWK="awk '\$1\>$cutoffFreq \'\{OFS\"=\"\\t\";  print \$2,\$1\}\'"
+ 2102  echo $commandAWK
+ 2103  commandAWK="awk '\$1>$cutoffFreq '{OFS"="\t";  print $2,$1}\'"
+ 2104  echo $(echo$commandAWK)
+ 2105  echo $(echo $commandAWK)
+ 2106  echo $commandAWK
+ 2107  commandAWK="awk '\$1>$cutoffFreq {OFS\"=\"\\t\";  print \$2,\$1}\'"
+ 2108  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2109  echo $commandAWK
+ 2110  commandAWK="awk '\$1>$cutoffFreq {OFS\"=\"\\t\";  print \$2,\$1}'"
+ 2111  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2112  echo $commandAWK
+ 2113  commandAWK="awk '\$1>$cutoffFreq {OFS=\"\\t\";  print \$2,\$1}'"
+ 2114  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2115  echo $commandAWK
+ 2116  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | awk '$1>0 {OFS="\t"; print $2,$1}'
+ 2117  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2118  traindata=$dataFolder/$trainFileName
+ 2119  commandAWK="awk '\$1>$cutoffFreq {OFS=\"\\t\";  print \$2,\$1}'"
+ 2120  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2121  commandAWK="awk \'\$1>$cutoffFreq {OFS=\"\\t\";  print \$2,\$1}\'"
+ 2122  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | $commandAWK
+ 2123  set(commandAWK="awk '\$1>$cutoffFreq {OFS=\"\\t\";  print \$2,\$1}'")
+ 2124  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2125  traindata=$dataFolder/$trainFileName
+ 2126  commandAWK="awk '\$1>$cutoffFreq {OFS=\"\\t\";  print \$2,\$1}'"
+ 2127  cat $traindata | cut -f 2 | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' | eval $commandAWK
+ 2128  cat $traindata | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' |
+ 2129  cat $traindata | sed '/^ *$/d' | sort | uniq -c | sed 's/^ *//g' 
+ 2130  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2131  cat $dataFolder/$trainFeatFileName | sed '/^ *$/d' |awk '{OFS="\t"; print $1,$2}'| sort | uniq -c | sed 's/^ *//g' | awk '{OFS="\t"; print $2,$3,$1}'
+ 2132  cat $dataFolder/$trainFeatFileName | sed '/^ *$/d' |awk '{OFS="\t"; print $1,$3}'| sort | uniq -c | sed 's/^ *//g' | awk '{OFS="\t"; print $2,$3,$1}'
+ 2133  cd testCONCEPT/
+ 2134  ls -l
+ 2135  cd ..
+ 2136  trainFileName=NLSPARQL.train.data
+ 2137  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2138  testFileName=NLSPARQL.test.data
+ 2139  testFeatFileName=NLSPARQL.test.feats.txt
+ 2140  outputFolder=../output
+ 2141  tempFolder=$outputFolder/temp
+ 2142  trainFolder=train
+ 2143  LMfolder=$outputFolder/LM
+ 2144  LMconceptFolder=$LMfolder/CONCEPT
+ 2145  LMposFolder=$LMfolder/POS
+ 2146  LMlemmaFolder=$LMfolder/LEMMA
+ 2147  FSTsentenceTESTfolder=$tempFolder/test
+ 2148  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2149  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2150  conllevalOutFolder=$outputFolder/conllevalOUT
+ 2151  plotFolder=$outputFolder/PLOT
+ 2152  dataFolder=../data
+ 2153  orderMin=$(cat classification.conf|grep ^orderMin|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2154  orderMax=$(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2155  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2156  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2157  mkdir -p $outputFolder
+ 2158  #Conto le occorrenze dei campioni appartenenti alle diverse classi(Concetti)
+ 2159  ./$trainFolder/1CONCEPTcountCreate.sh > $outputFolder/CONCEPT.counts
+ 2160  echo "1 Computed the occurrances of the CONCEPT."
+ 2161  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 2162  ./$trainFolder/2TOK_CONCEPTcountCreate.sh > $outputFolder/TOK_CONCEPT.counts
+ 2163  echo "2 Computed the joint occurrances of the CONCEPT and the TOKENS."
+ 2164  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di CONCEPT 
+ 2165  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 2166  ./$trainFolder/3CONCEPTtaggerWFSTCreate.sh >$outputFolder/CONCEPTtaggerFST.txt
+ 2167  echo "3 Defined the weighted finite state trasducer with weights computed as -log of joint occurrances token,tag over the occurances of the CONCEPT tag."
+ 2168  #Generiamo il lessico tramite ngramsymbols (appartiene al pacchetto openfst)
+ 2169  ngramsymbols < $dataFolder/$trainFileName >$outputFolder/lex.txt
+ 2170  echo "4 Created the lexicon in the output folder of the training set."
+ 2171  #Compiliamo il nostro trasduttore a stati finiti tramite il lessico e che ci permetterà di convertire la frase in 
+ 2172  #input in una sequenza di Concetti (insomma ci permette di taggare ogni parola)
+ 2173  fstcompile --isymbols=$outputFolder/lex.txt  --osymbols=$outputFolder/lex.txt $outputFolder/CONCEPTtaggerFST.txt > $outputFolder/CONCEPTtagger.fst
+ 2174  echo "5 Compiled WFST that brings in input the words and gives in output the tag."
+ 2175  ./$trainFolder/4CONCEPTtaggerUnknownTOKENCreate.sh >$outputFolder/CONCEPTtaggerUnknownTokenFST.txt
+ 2176  echo "6 Defined the weighted finite state trasducer that brings in input the unknown words and gives in output the tag with equal weights: -log likelihood probabilities."
+ 2177  fstcompile --isymbols=$outputFolder/lex.txt --osymbols=$outputFolder/lex.txt $outputFolder/CONCEPTtaggerUnknownTokenFST.txt>$outputFolder/CONCEPTtaggerUnknownToken.fst
+ 2178  echo "7 Compiled WFST that brings in input the words and gives in output the tag."
+ 2179  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 2180  fstunion $outputFolder/CONCEPTtaggerUnknownToken.fst $outputFolder/CONCEPTtagger.fst>$outputFolder/finalCONCEPTtagger.fst
+ 2181  echo "8 Compiled WFST that brings in input the words and gives in output the tag."
+ 2182  fstclosure $outputFolder/finalCONCEPTtagger.fst>$outputFolder/finalCONCEPTtaggerC.fst
+ 2183  echo "9 Done the closure operation WFST that brings in input the words and gives in output the tag."
+ 2184  ./$trainFolder/5CONCEPTfarCREATE.sh $outputFolder/CONCEPTtrain.far
+ 2185  echo "10 Generated the archive of finite state machine of all the CONCEPT sentences."
+ 2186  ./$trainFolder/5CONCEPTfarCREATE.sh $outputFolder/CONCEPTtrain.far
+ 2187  ./$trainFolder/6CONCEPTlmCREATE.sh
+ 2188  mkdir -p $outputFolder
+ 2189  #Conto le occorrenze dei campioni appartenenti alle diverse classi(Concetti)
+ 2190  ./$trainFolder/1CONCEPTcountCreate.sh > $outputFolder/CONCEPT.counts
+ 2191  echo "1 Computed the occurrances of the CONCEPT."
+ 2192  #Conto le occorrenze del valore del campione dato che appartiene alla classe t_i (POS)
+ 2193  ./$trainFolder/2TOK_CONCEPTcountCreate.sh > $outputFolder/TOK_CONCEPT.counts
+ 2194  echo "2 Computed the joint occurrances of the CONCEPT and the TOKENS."
+ 2195  #Descrivo la macchina a stati finiti che passa dallo stato 0 allo stato 0 ad un ingresso di TOK e un uscita di CONCEPT 
+ 2196  #con peso della transizione pari al -log(probabilità di TOK w_i appartenente alla classe t_i POS)
+ 2197  ./$trainFolder/3CONCEPTtaggerWFSTCreate.sh >$outputFolder/CONCEPTtaggerFST.txt
+ 2198  echo "3 Defined the weighted finite state trasducer with weights computed as -log of joint occurrances token,tag over the occurances of the CONCEPT tag."
+ 2199  #Generiamo il lessico tramite ngramsymbols (appartiene al pacchetto openfst)
+ 2200  ngramsymbols < $dataFolder/$trainFileName >$outputFolder/lex.txt
+ 2201  echo "4 Created the lexicon in the output folder of the training set."
+ 2202  #Compiliamo il nostro trasduttore a stati finiti tramite il lessico e che ci permetterà di convertire la frase in 
+ 2203  #input in una sequenza di Concetti (insomma ci permette di taggare ogni parola)
+ 2204  fstcompile --isymbols=$outputFolder/lex.txt  --osymbols=$outputFolder/lex.txt $outputFolder/CONCEPTtaggerFST.txt > $outputFolder/CONCEPTtagger.fst
+ 2205  echo "5 Compiled WFST that brings in input the words and gives in output the tag."
+ 2206  ./$trainFolder/4CONCEPTtaggerUnknownTOKENCreate.sh >$outputFolder/CONCEPTtaggerUnknownTokenFST.txt
+ 2207  echo "6 Defined the weighted finite state trasducer that brings in input the unknown words and gives in output the tag with equal weights: -log likelihood probabilities."
+ 2208  fstcompile --isymbols=$outputFolder/lex.txt --osymbols=$outputFolder/lex.txt $outputFolder/CONCEPTtaggerUnknownTokenFST.txt>$outputFolder/CONCEPTtaggerUnknownToken.fst
+ 2209  echo "7 Compiled WFST that brings in input the words and gives in output the tag."
+ 2210  #A questo punto uniamo i due trasduttori cosicchè la macchina finale cerchi di tradurre anche i caratteri non noti
+ 2211  fstunion $outputFolder/CONCEPTtaggerUnknownToken.fst $outputFolder/CONCEPTtagger.fst>$outputFolder/finalCONCEPTtagger.fst
+ 2212  echo "8 Compiled WFST that brings in input the words and gives in output the tag."
+ 2213  fstclosure $outputFolder/finalCONCEPTtagger.fst>$outputFolder/finalCONCEPTtaggerC.fst
+ 2214  echo "9 Done the closure operation WFST that brings in input the words and gives in output the tag."
+ 2215  ./$trainFolder/5CONCEPTfarCREATE.sh $outputFolder/CONCEPTtrain.far
+ 2216  echo "10 Generated the archive of finite state machine of all the CONCEPT sentences."
+ 2217  ./$trainFolder/6CONCEPTlmCREATE.sh
+ 2218  echo "11 Finished to generated the language model of the concept with different order and smoothing method. In order to reduce the time you can edit the file 6CONCEPTlmCREATE.sh"
+ 2219  ./$testFolder/1SENTENCEfarCREATE.sh
+ 2220  trainFileName=NLSPARQL.train.data
+ 2221  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2222  testFileName=NLSPARQL.test.data
+ 2223  testFeatFileName=NLSPARQL.test.feats.txt
+ 2224  SPLTokenTxtName=SPLconcept
+ 2225  ConceptFarName=SPLconcept.far
+ 2226  SPLTokenTxtName=SPLtokenTest
+ 2227  testTokenFarName=SPLtokenTest.far
+ 2228  outputFolder=../output
+ 2229  tempFolder=$outputFolder/temp
+ 2230  trainFolder=train
+ 2231  testFolder=test
+ 2232  toolsTrainFolder=$trainFolder/tools
+ 2233  toolsTestFolder=$testFolder/tools
+ 2234  LMfolder=$outputFolder/LM
+ 2235  LMconceptFolder=$LMfolder/CONCEPT
+ 2236  LMposFolder=$LMfolder/POS
+ 2237  LMlemmaFolder=$LMfolder/LEMMA
+ 2238  FSTsentenceTESTfolder=$tempFolder/test
+ 2239  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2240  ConceptTaggedOutpuFolder=$TaggedOutpuFolder/CONCEPT
+ 2241  PosTaggedOutpuFolder=$TaggedOutpuFolder/POS
+ 2242  LemmaTaggedOutpuFolde=$TaggedOutpuFolder/LEMMA
+ 2243  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2244  ConceptOUTtoConllevalFolder=$OUTtoConllevalFolder/CONCEPT
+ 2245  PosOUTtoConllevalFolder=$OUTtoConllevalFolder/POS
+ 2246  LemmaOUTtoConllevalFolder=$OUTtoConllevalFolder/LEMMA
+ 2247  conllevalOutFolder=$outputFolder/conllevalOUT
+ 2248  plotFolder=$outputFolder/PLOT
+ 2249  dataFolder=../data
+ 2250  orderMin=$(cat classification.conf|grep ^orderMin|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2251  orderMax=$(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2252  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2253  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2254  ./$testFolder/1SENTENCEfarCREATE.sh
+ 2255  ./$testFolder/2EXTRACTfstSENTENCE.sh
+ 2256  ./$testFolder/3CONCEPTtaggingSENTENCEtest.sh
+ 2257  ./$testFolder/4ConceptOutConllevalCreate.sh
+ 2258  ./$testFolder/5ConceptEvalCreate.sh
+ 2259  trainFileName=NLSPARQL.train.data
+ 2260  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2261  testFileName=NLSPARQL.test.data
+ 2262  testFeatFileName=NLSPARQL.test.feats.txt
+ 2263  SPLTokenTxtName=SPLconcept
+ 2264  ConceptFarName=SPLconcept.far
+ 2265  SPLTokenTxtName=SPLtokenTest
+ 2266  testTokenFarName=SPLtokenTest.far
+ 2267  outputFolder=../output
+ 2268  tempFolder=$outputFolder/temp
+ 2269  trainFolder=train
+ 2270  testFolder=test
+ 2271  toolsTrainFolder=$trainFolder/tools
+ 2272  toolsTestFolder=$testFolder/tools
+ 2273  LMfolder=$outputFolder/LM
+ 2274  LMconceptFolder=$LMfolder/CONCEPT
+ 2275  LMposFolder=$LMfolder/POS
+ 2276  LMlemmaFolder=$LMfolder/LEMMA
+ 2277  FSTsentenceTESTfolder=$tempFolder/test
+ 2278  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2279  ConceptTaggedOutpuFolder=$TaggedOutpuFolder/CONCEPT
+ 2280  PosTaggedOutpuFolder=$TaggedOutpuFolder/POS
+ 2281  LemmaTaggedOutpuFolde=$TaggedOutpuFolder/LEMMA
+ 2282  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2283  ConceptOUTtoConllevalFolder=$OUTtoConllevalFolder/CONCEPT
+ 2284  PosOUTtoConllevalFolder=$OUTtoConllevalFolder/POS
+ 2285  LemmaOUTtoConllevalFolder=$OUTtoConllevalFolder/LEMMA
+ 2286  conllevalOutFolder=$outputFolder/conllevalOUT
+ 2287  plotFolder=$outputFolder/PLOT
+ 2288  dataFolder=../data
+ 2289  orderMin=$(cat classification.conf|grep ^orderMin|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2290  orderMax=$(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2291  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2292  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2293  ./$testFolder/5ConceptEvalCreate.sh 
+ 2294  ls test/
+ 2295  cd ..
+ 2296  cd scripts/
+ 2297  ./$testFolder/5ConceptEvalCreate.sh 
+ 2298  ls test/5ConceptEvalCreate.sh\  
+ 2299  ./$testFolder/5ConceptEvalCreate.sh
+ 2300  ls  ../output/OUTtoConlleval/CONCEPT/OUTorderSmooth3witten_bell.txt
+ 2301  ./$testFolder/4ConceptOutConllevalCreate.sh
+ 2302  ls $ConceptOUTtoConllevalFolder/OUTorderSmooth$order$method.txt
+ 2303  mkdir -p $ConceptConllevalOutFolder
+ 2304  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl $toolsEval/conlleval.pl -d '\t' < $ConceptOUTtoConllevalFolder/OUTorderSmooth$order$method.txt > $ConceptConllevalOutFolder/accuracyLMorderSmooth$order$method.txt;   done; done
+ 2305  trainFileName=NLSPARQL.train.data
+ 2306  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2307  testFileName=NLSPARQL.test.data
+ 2308  testFeatFileName=NLSPARQL.test.feats.txt
+ 2309  SPLTokenTxtName=SPLtokenTest
+ 2310  testTokenFarName=SPLtokenTest.far
+ 2311  outputFolder=../output
+ 2312  tempFolder=$outputFolder/temp
+ 2313  trainFolder=train
+ 2314  testFolder=test
+ 2315  toolsTestFolder=$testFolder/tools
+ 2316  toolsEval=../evalTools
+ 2317  LMfolder=$outputFolder/LM
+ 2318  LMconceptFolder=$LMfolder/CONCEPT
+ 2319  LMposFolder=$LMfolder/POS
+ 2320  LMlemmaFolder=$LMfolder/LEMMA
+ 2321  FSTsentenceTESTfolder=$tempFolder/test
+ 2322  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2323  ConceptTaggedOutpuFolder=$TaggedOutpuFolder/CONCEPT
+ 2324  PosTaggedOutpuFolder=$TaggedOutpuFolder/POS
+ 2325  LemmaTaggedOutpuFolde=$TaggedOutpuFolder/LEMMA
+ 2326  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2327  ConceptOUTtoConllevalFolder=$OUTtoConllevalFolder/CONCEPT
+ 2328  PosOUTtoConllevalFolder=$OUTtoConllevalFolder/POS
+ 2329  LemmaOUTtoConllevalFolder=$OUTtoConllevalFolder/LEMMA
+ 2330  ConllevalOutFolder=$outputFolder/conllevalOUT
+ 2331  ConceptConllevalOutFolder=$OUTtoConllevalFolder/CONCEPT
+ 2332  PosConllevalOutFolder=$OUTtoConllevalFolder/POS
+ 2333  LemmaConllevalOutFolder=$OUTtoConllevalFolder/LEMMA
+ 2334  plotFolder=$outputFolder/PLOT
+ 2335  dataFolder=../data
+ 2336  orderMin=$(cat classification.conf|grep ^orderMin|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2337  orderMax=$(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2338  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2339  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2340  mkdir -p $ConceptConllevalOutFolder
+ 2341  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl $toolsEval/conlleval.pl -d '\t' < $ConceptOUTtoConllevalFolder/OUTorderSmooth$order$method.txt > $ConceptConllevalOutFolder/accuracyLMorderSmooth$order$method.txt;   done; done
+ 2342  trainFileName=NLSPARQL.train.data
+ 2343  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2344  testFileName=NLSPARQL.test.data
+ 2345  testFeatFileName=NLSPARQL.test.feats.txt
+ 2346  SPLTokenTxtName=SPLtokenTest
+ 2347  testTokenFarName=SPLtokenTest.far
+ 2348  outputFolder=../output
+ 2349  tempFolder=$outputFolder/temp
+ 2350  trainFolder=train
+ 2351  testFolder=test
+ 2352  toolsTestFolder=$testFolder/tools
+ 2353  toolsEval=../evalTools
+ 2354  LMfolder=$outputFolder/LM
+ 2355  LMconceptFolder=$LMfolder/CONCEPT
+ 2356  LMposFolder=$LMfolder/POS
+ 2357  LMlemmaFolder=$LMfolder/LEMMA
+ 2358  FSTsentenceTESTfolder=$tempFolder/test
+ 2359  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2360  ConceptTaggedOutpuFolder=$TaggedOutpuFolder/CONCEPT
+ 2361  PosTaggedOutpuFolder=$TaggedOutpuFolder/POS
+ 2362  LemmaTaggedOutpuFolde=$TaggedOutpuFolder/LEMMA
+ 2363  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2364  ConceptOUTtoConllevalFolder=$OUTtoConllevalFolder/CONCEPT
+ 2365  PosOUTtoConllevalFolder=$OUTtoConllevalFolder/POS
+ 2366  LemmaOUTtoConllevalFolder=$OUTtoConllevalFolder/LEMMA
+ 2367  ConllevalOutFolder=$outputFolder/conllevalOUT
+ 2368  ConceptConllevalOutFolder=$ConllevalOutFolder/CONCEPT
+ 2369  PosConllevalOutFolder=$OUTtoConllevalFolder/POS
+ 2370  LemmaConllevalOutFolder=$OUTtoConllevalFolder/LEMMA
+ 2371  plotFolder=$outputFolder/PLOT
+ 2372  dataFolder=../data
+ 2373  orderMin=$(cat classification.conf|grep ^orderMin|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2374  orderMax=$(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2375  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2376  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2377  mkdir -p $ConceptConllevalOutFolder
+ 2378  for method in ${methodType[*]}; do   for order in $(seq $orderMin $orderMax);   do     perl $toolsEval/conlleval.pl -d '\t' < $ConceptOUTtoConllevalFolder/OUTorderSmooth$order$method.txt > $ConceptConllevalOutFolder/accuracyLMorderSmooth$order$method.txt;   done; done
+ 2379  ./$testFolder/6ConceptPlotCreate.sh
+ 2380  cd test/
+ 2381  ls -l
+ 2382  cd ..
+ 2383  ./runTrain.sh 
+ 2384  ./runtest.sh 
+ 2385  start=`date +%s`
+ 2386  stuff
+ 2387  end=`date +%s`
+ 2388  runtime=$((end-start))
+ 2389  echo $runtime
+ 2390  start=`date +%s`
+ 2391  echo " $((`date +%s`-start)) sec"
+ 2392  ./runTrain.sh 
+ 2393  ./LaunchTrainAndTest.sh 
+ 2394  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {print $9 $7 $5}
+ 2395  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {print $9 $7 $5}'
+ 2396  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {IFS='\t'; print $9 $7 $5}'
+ 2397  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {IFS='\t'; print $9,$7,$5}'
+ 2398  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {IFS='\t'; print $9,$7,$5}'>classificationTime.dat
+ 2399  gnuplot classificationTime.dat 
+ 2400  gnuplot
+ 2401  cat classificationTime.dat |wc -l
+ 2402  cat classificationTime.dat
+ 2403  seq 1 $(cat classificationTime.dat |wc -l)
+ 2404  seq 1 $(cat classificationTime.dat |wc -l)|paste - classificationTime.dat 
+ 2405  seq 1 $(cat classificationTime.dat |wc -l)|paste - classificationTime.dat >classificationTime.dat 
+ 2406  gnuplot
+ 2407  cat classificationTime.dat |tr ' ' '\t'
+ 2408  cat classificationTime.dat 
+ 2409  ls
+ 2410  cat classificationTime.dat 
+ 2411  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {IFS='\t'; print $9,$7,$5}'>classificationTime.dat
+ 2412  seq 1 $(cat classificationTime.dat |wc -l)|paste - classificationTime.dat >classificationTime.dat 
+ 2413* cat classifi
+ 2414  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {IFS='\t'; print $9,$7,$5}'
+ 2415  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {OFS="\t"; print $9,$7,$5}'
+ 2416  cat classificationTime.dat 
+ 2417  seq 1 $(cat classificationTime.dat |wc -l)|paste - classificationTime.dat 
+ 2418* cat classificationTime.dat |wc -l)
+ 2419  cat classificationTime.dat 
+ 2420  cat outputLaunchTrainAndTest.log |grep "test in"|awk '$5 {OFS="\t"; print $9,$7,$5}'>classificationTime.dat
+ 2421  cat classificationTime.dat 
+ 2422  seq 1 $(cat classificationTime.dat |wc -l)|paste - classificationTime.dat 
+ 2423  seq 1 $(cat classificationTime.dat |wc -l)|paste - classificationTime.dat >XclassificationTime.dat 
+ 2424  gnuplot
+ 2425  set title "Comparation of the performance with the different smoothing method"
+ 2426  set xlabel "LM order and smothing method"
+ 2427  set ylabel "Accuracy %"
+ 2428  set yrange [ 87 : 93. ] noreverse nowriteback
+ 2429  set auto x
+ 2430  set grid
+ 2431  #set yrange [87:93]
+ 2432  set style data histogram
+ 2433  set style histogram cluster gap 1
+ 2434  set style fill solid border -1
+ 2435  set boxwidth 0.9
+ 2436  set xtic rotate by -45
+ 2437  #set bmargin 10 
+ 2438  #plot 'classificationTime.dat
+ 2439  plot 'classificationTime.dat'   using 2:xtic(1) ti col
+ 2440  plot '../output/PLOT/CONCEPT/accuracy.dat' using 2:xtic(1) ti col,\
+ 2441  gnuplot
+ 2442  ./$testFolder/6ConceptPlotCreate.sh
+ 2443  set title "Comparation of the performance with the different smoothing method"
+ 2444  set xlabel "LM order and smothing method"
+ 2445  set ylabel "Accuracy %"
+ 2446  set yrange [ 87 : 93. ] noreverse nowriteback
+ 2447  set auto x
+ 2448  set grid
+ 2449  #set yrange [87:93]
+ 2450  set style data histogram
+ 2451  set style histogram cluster gap 1
+ 2452  set style fill solid border -1
+ 2453  set boxwidth 0.9
+ 2454  set xtic rotate by -45
+ 2455  #set bmargin 10 
+ 2456  #plot 'classificationTime.dat
+ 2457  plot 'classificationTime.dat'   using 2:xtic(1) ti col
+ 2458  plot [:6] [:]'../output/PLOT/CONCEPT/accuracy.dat' using 2:xtic(1) ti col,\
+ 2459  gnuplot
+ 2460  plot [:6] [:]'../output/PLOT/CONCEPT/accuracy.dat' using 2:xtic(1) ti col,\
+ 2461  ./$testFolder/6ConceptPlotCreate.sh
+ 2462  gnuplot
+ 2463  ./$testFolder/6ConceptPlotCreate.sh
+ 2464  rs
+ 2465  sudo apt-get install rs
+ 2466  trainFileName=NLSPARQL.train.data
+ 2467  trainFeatFileName=NLSPARQL.train.feats.txt
+ 2468  testFileName=NLSPARQL.test.data
+ 2469  testFeatFileName=NLSPARQL.test.feats.txt
+ 2470  SPLTokenTxtName=SPLtokenTest
+ 2471  testTokenFarName=SPLtokenTest.far
+ 2472  outputFolder=../output
+ 2473  tempFolder=$outputFolder/temp
+ 2474  trainFolder=train
+ 2475  testFolder=test
+ 2476  toolsTestFolder=$testFolder/tools
+ 2477  LMfolder=$outputFolder/LM
+ 2478  LMconceptFolder=$LMfolder/CONCEPT
+ 2479  LMposFolder=$LMfolder/POS
+ 2480  LMlemmaFolder=$LMfolder/LEMMA
+ 2481  FSTsentenceTESTfolder=$tempFolder/test
+ 2482  TaggedOutpuFolder=$outputFolder/TaggedOutput
+ 2483  ConceptTaggedOutpuFolder=$TaggedOutpuFolder/CONCEPT
+ 2484  PosTaggedOutpuFolder=$TaggedOutpuFolder/POS
+ 2485  LemmaTaggedOutpuFolde=$TaggedOutpuFolder/LEMMA
+ 2486  OUTtoConllevalFolder=$outputFolder/OUTtoConlleval
+ 2487  ConceptOUTtoConllevalFolder=$OUTtoConllevalFolder/CONCEPT
+ 2488  PosOUTtoConllevalFolder=$OUTtoConllevalFolder/POS
+ 2489  LemmaOUTtoConllevalFolder=$OUTtoConllevalFolder/LEMMA
+ 2490  ConllevalOutFolder=$outputFolder/conllevalOUT
+ 2491  ConceptConllevalOutFolder=$ConllevalOutFolder/CONCEPT
+ 2492  PosConllevalOutFolder=$ConllevalOutFolder/POS
+ 2493  LemmaConllevalOutFolder=$ConllevalOutFolder/LEMMA
+ 2494  plotFolder=$outputFolder/PLOT
+ 2495  ConceptPlotFolder=$plotFolder/CONCEPT
+ 2496  PosPlotFolder=$plotFolder/POS
+ 2497  LemmaPlotFolder=$plotFolder/LEMMA
+ 2498  dataFolder=../data
+ 2499  orderMin=$(cat classification.conf|grep ^orderMin|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2500  orderMax=$(cat classification.conf|grep ^orderMax|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2501  methodType=($(cat classification.conf|grep ^smoothing|awk '{print $2}'))
+ 2502  cutoffFreq=$(cat classification.conf|grep ^cutoffFreq|awk '{print $2}'|tr -sc [0-9] ' ') 
+ 2503  rs -c' ' -C' ' -T $ConceptPlotFolder/accuracy.dat
+ 2504  rs -c'\t' -C' ' -T $ConceptPlotFolder/accuracy.dat
+ 2505  rs -c"\t" -C"\t" -T $ConceptPlotFolder/accuracy.dat
+ 2506  cat $ConceptPlotFolder/accuracy.dat|rs -c$'\t' -C$'\t' -T 
+ 2507  cat $ConceptPlotFolder/accuracy.dat|rs -c$'\t' -C$'\t' -T >$ConceptPlotFolder/TrasposeAccuracy.dat
+ 2508  cat $ConceptPlotFolder/precision.dat|rs -c$'\t' -C$'\t' -T >$ConceptPlotFolder/TrasposePrecision.dat
+ 2509  cat $ConceptPlotFolder/recall.dat|rs -c$'\t' -C$'\t' -T >$ConceptPlotFolder/TrasposeRecall.dat
+ 2510  cat $ConceptPlotFolder/FB1.dat|rs -c$'\t' -C$'\t' -T >$ConceptPlotFolder/TrasposeFB1.dat
+ 2511  ./$testFolder/6ConceptPlotCreate.sh
+ 2512  cd ..
+ 2513  mv Pv1.2 Pv1.3
+ 2514  cd Pv1.2/scripts/
+ 2515  ls
+ 2516  history >history20170415.txt

@@ -1,0 +1,10 @@
+# Decide which feature you want to use for the classification
+#feature TOKEN POS LEMMA
+cat ../data/original/NLSPARQL.train.data|cut -f 2 >../data/original/tempConceptTrain
+cat ../data/original/NLSPARQL.test.data|cut -f 2 >../data/original/tempConceptTest
+cat ../data/original/NLSPARQL.train.feats.txt|cut -f 3 > ../data/original/tempTokenTrain
+cat ../data/original/NLSPARQL.test.feats.txt|cut -f 3 >../data/original/tempTokenTest
+paste ../data/original/tempTokenTrain ../data/original/tempConceptTrain |sed $'s/^\t*$//g'  > ../data/NLSPARQL.train.data
+paste ../data/original/tempTokenTest ../data/original/tempConceptTest |sed $'s/^\t*$//g' >  ../data/NLSPARQL.test.data
+# Run the following command 
+./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.LEMMAasTOKEN.log
