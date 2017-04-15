@@ -71,7 +71,7 @@ in terminal go into testOPENFST directory and execute the following:
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
 ## TODO
-* Insert requirement **gnuplot** - Command-line driven interactive plotting program
+
 * Generate the bar plot of the accuracy with different Language Model
 * Build a new lexicon with cutoff frequency 
 
