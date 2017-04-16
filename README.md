@@ -87,14 +87,17 @@ rm test.txt.gz
 Pv1.0 Initial version
 
 Pv1.1 
+
       * Done better structured folder
 
 Pv1.2 
+
       * Reorganized better the folder
 	  
       * Prepared the conlleval input files
 
 Pv1.3
+
       * Parametrized all the directory and put each folder name in a header of each files
 	  
       * Created the classification.conf in order to set the parameter of the train and test evaluation
@@ -104,12 +107,13 @@ Pv1.3
       * Generalised the concept of tagging for POS and LEMMA tagging
 	  
 Pv1.4
+
 	  * Created a launch script.
-      
+
 	  * Classification through POS and LEMMA. Worse performance than through WORD
-	  
+
 	  * Implemented the bar plot for comparation different model through different order.
-	  
+
 	  * Implemented the bar plot for comparation different order through different method.
 	  
 ## TODO
