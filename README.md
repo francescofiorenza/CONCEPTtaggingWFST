@@ -127,10 +127,13 @@ Pv1.4
 #### Examples:
 
 `cd P1v1.4_WORD/scripts`
+
 `./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.WORD.log`
 
 `cd P1v1.4_POS/scripts`
+
 `./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.POS.log`
 
-`cd P1v1.4_LEMMA/scripts
+`cd P1v1.4_LEMMA/scripts`
+
 `./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.LEMMA.log`
