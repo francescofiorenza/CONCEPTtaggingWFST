@@ -3,6 +3,8 @@ Develop Spoken Language Understanding (SLU) Module for Movie Domain using NL-SPA
 using  WFST method with Marcov model for tagging words (and possible movie name) that compose a sentence.
 # Installation
 ## Requirement
+* rc 
+* tee 
 * gawk - GNU awk, a pattern scanning and processing language
 * sed - The GNU sed stream editor
 * xdot - interactive viewer for Graphviz dot files
@@ -89,26 +91,42 @@ Pv1.1
 
 Pv1.2 
       * Reorganized better the folder
+	  
       * Prepared the conlleval input files
 
 Pv1.3
       * Parametrized all the directory and put each folder name in a header of each files
+	  
       * Created the classification.conf in order to set the parameter of the train and test evaluation
+	  
       * Defined the output of the simulation with the duration of the different step
+	  
       * Generalised the concept of tagging for POS and LEMMA tagging
+	  
+Pv1.4
+	  * Created a launch script.
       
+	  * Classification through POS and LEMMA. Worse performance than through WORD
+	  
+	  * Implemented the bar plot for comparation different model through different order.
+	  
+	  * Implemented the bar plot for comparation different order through different method.
+	  
 ## TODO
-* Generate the bar plot of the accuracy with different Language Model
-* Build a new lexicon with cutoff frequency 
-* Make the test of the classification of POS and LEMMA
-* Try to take into consideration the POS or the LEMMA as token and evaluate the performance
 
+* Entire plot that show the best method and order through different TOKEN.
+
+* Make the test of the classification of POS and LEMMA.
+
+* Build a new lexicon with cutoff frequency.
 
 #### Examples:
-`cd /P1/Pv1.1/scripts`
 
-`./runTrain.sh`
+`cd P1v1.4_WORD/scripts`
+`./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.WORD.log`
 
-`./runTest.sh`
+`cd P1v1.4_POS/scripts`
+`./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.POS.log`
 
-`perl conlleval.pl -d '\t' < ../output/out.txt > ../output/accuracy.txt`
+`cd P1v1.4_LEMMA/scripts
+`./LaunchTrainAndTest.sh 2>&1|tee outputLaunchTrainAndTest.LEMMA.log`
