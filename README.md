@@ -1,6 +1,6 @@
 # CONCEPTtaggingWFST
 Develop Spoken Language Understanding (SLU) Module for Movie Domain using NL-SPARQL Data Set
-using  WFST method with Marcov model for tagging words (and possible movie name) that compose a sentence.
+using  WFST method with Hidden Marcov Model for tagging words (in this case movie name) that compose a sentence.
 # Installation
 ## Requirement
 * rc 
