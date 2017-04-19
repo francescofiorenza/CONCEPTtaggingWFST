@@ -1,0 +1,6 @@
+Put the train set and the test set in the folder called original. 
+Should be called:
+NLSPARQL.test.data
+NLSPARQL.test.feats.txt
+NLSPARQL.train.data
+NLSPARQL.train.feats.txt
