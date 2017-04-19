@@ -66,14 +66,43 @@ in terminal go into testOPENFST directory and execute the following:
    
 ## Data for train and test
 <http://www.cnts.ua.ac.be/conll2000/chunking/>
+Download the training and test dataset:
+http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz
+http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+cd CONCEPTtaggingWST/Pv1.2/data
+wget http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz
+wget http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+gunzip train.txt.gz
+gunzip test.txt.gz
+rm train.txt.gz
+rm test.txt.gz
+
 
 ## Evaluation info
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
-## TODO
+## Version
+Pv1.0 Initial version
 
+Pv1.1 
+      * Done better structured folder
+
+Pv1.2 
+      * Reorganized better the folder
+      * Prepared the conlleval input files
+
+Pv1.3
+      * Parametrized all the directory and put each folder name in a header of each files
+      * Created the classification.conf in order to set the parameter of the train and test evaluation
+      * Defined the output of the simulation with the duration of the different step
+      * Generalised the concept of tagging for POS and LEMMA tagging
+      
+## TODO
 * Generate the bar plot of the accuracy with different Language Model
 * Build a new lexicon with cutoff frequency 
+* Make the test of the classification of POS and LEMMA
+* Try to take into consideration the POS or the LEMMA as token and evaluate the performance
+
 
 #### Examples:
 `cd /P1/Pv1.1/scripts`
