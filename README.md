@@ -3,6 +3,8 @@ Develop Spoken Language Understanding (SLU) Module for Movie Domain using NL-SPA
 using  WFST method with Marcov model for tagging words (and possible movie name) that compose a sentence.
 # Installation
 ## Requirement
+* rc 
+* tee 
 * gawk - GNU awk, a pattern scanning and processing language
 * sed - The GNU sed stream editor
 * xdot - interactive viewer for Graphviz dot files
@@ -66,20 +68,68 @@ in terminal go into testOPENFST directory and execute the following:
    
 ## Data for train and test
 <http://www.cnts.ua.ac.be/conll2000/chunking/>
+Download the training and test dataset:
+http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz
+http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+cd CONCEPTtaggingWST/Pv1.5/data/original
+wget http://www.cnts.ua.ac.be/conll2000/chunking/train.txt.gz
+wget http://www.cnts.ua.ac.be/conll2000/chunking/test.txt.gz
+gunzip train.txt.gz
+gunzip test.txt.gz
+rm train.txt.gz
+rm test.txt.gz
+mv train.txt NLSPARQL.train.data
+mv test.txt NLSPARQL.test.data
 
 ## Evaluation info
 <http://www.cnts.ua.ac.be/conll2000/chunking/output.html>
 
+## Version
+Pv1.0 Initial version
+
+Pv1.1 
+
+      * Done better structured folder
+
+Pv1.2 
+
+      * Reorganized better the folder
+	  
+      * Prepared the conlleval input files
+
+Pv1.3
+
+      * Parametrized all the directory and put each folder name in a header of each files
+	  
+      * Created the classification.conf in order to set the parameter of the train and test evaluation
+	  
+      * Defined the output of the simulation with the duration of the different step
+	  
+      * Generalised the concept of tagging for POS and LEMMA tagging
+	  
+Pv1.4
+
+	  * Created a launch script.
+
+	  * Classification through POS and LEMMA. Worse performance than through WORD
+
+	  * Implemented the bar plot for comparation different model through different order.
+
+	  * Implemented the bar plot for comparation different order through different method.
+Pv1.5
+
+     * Plot of the classification time need for different classifier.
+     * Developed the training procedure deleting the TOKEN that present a law frequency.
+	  
 ## TODO
 
-* Generate the bar plot of the accuracy with different Language Model
-* Build a new lexicon with cutoff frequency 
+* -
 
 #### Examples:
-`cd /P1/Pv1.1/scripts`
-
-`./runTrain.sh`
-
-`./runTest.sh`
-
-`perl conlleval.pl -d '\t' < ../output/out.txt > ../output/accuracy.txt`
+It is possible to launch the entire simulation that consist of a training and a testing phase for all the module by the follow command, it is also possible to comment some train and test module in the LauchSimulationP1.5.sh script.
+`cd P1v1.5`
+`./LaunchSimulationP1.5.sh`
+If you want to test just one module reach the script folder of it and launch the traint and test command:
+`cd P1v.1.5/P1v1.5_WORD/script`
+`./LaunchTrainAndTest.sh`
+to set the configuration open the classification.conf in each module folder located in the "script" folder. All the output will go in the "output" folder.
