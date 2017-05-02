@@ -127,9 +127,21 @@ Pv1.5
 
 #### Examples:
 It is possible to launch the entire simulation that consist of a training and a testing phase for all the module by the follow command, it is also possible to comment some train and test module in the LauchSimulationP1.5.sh script.
+
 `cd P1v1.5`
+
 `./LaunchSimulationP1.5.sh`
+
 If you want to test just one module reach the script folder of it and launch the traint and test command:
+
 `cd P1v.1.5/P1v1.5_WORD/script`
+
 `./LaunchTrainAndTest.sh`
+
 to set the configuration open the classification.conf in each module folder located in the "script" folder. All the output will go in the "output" folder.
+
+If you want to compute the baseline based on Majority classifier, ML classifier and MAP classifier just use the module Pv1.5_WORD_baseline
+
+`cd P1v.1.5/Pv1.5_WORD_baseline/script`
+
+`./LaunchTrainAndTest.sh`
